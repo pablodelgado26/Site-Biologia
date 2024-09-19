@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+<button onclick="animar(), animarMenu()" id="btn-menu">
+    <span class="linha"></span>
+    <span class="linha"></span>
+    <span class="linha"></span>
+</button>
+
+<script>
+    function animar(){
+        const btn = document.getElementById('btn-menu');
+        btn.classList.toggle('ativo');
+    }
+</script>
+<script>
+    function animarMenu(){
+        const menu = document.getElementById('menu-mobile');
+        menu.classList.toggle('abrir');
+        menu.addEventListener('click', animarMenu);
+    }
+</script>
+<header class="menu-home">
+    <nav>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="sobreNos.html">Sobre</a></li>
+        </ul>
+    </nav>
+    <h1>Home</h1>
+    <p>Seja bem-vindo ao site </p>
+    <div class="menu-materias">
+        <ul>
+            <li><a href="portugues.html">Português</a></li>
+            <li><a href="matematica.html">Matemática</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="geografia.html">Geografia</a></li>
+            <li><a href="biologia.html">Biologia</a></li>
+            <li><a href="fisica.html">Física</a></li>
+            <li><a href="quimica.html">Química</a></li>
+            <li><a href="artes.html">Artes</a></li>
+            <li><a href="filosofia.html">Filosofia</a></li>
+            <li><a href="sociologia.html">Sociologia</a></li>
+            <li><a href="edFisica.html">Ed. Física</a></li>
+            <li><a href="ingles.html">Inglês</a></li>
+        </ul>
+    </div>
+</header>
+    <nav class="menu-site">
+        <ul>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="carreiras.html">Carreiras</a></li>
+            <li><a href="dicas.html">Dicas</a></li>
+            <li><a href="simulados.html">Simulados</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+            <li><a href="videoAulas.html">Video-Aulas</a></li>
+        </ul>
+    </nav>
+    <main class="principaisNoticias">
+        <h2>Principais Notícias</h2>
+        <article>
+            <h3>Notícia 1</h3>
+            <p>Descrição da notícia 1</p>
+        </article>
+        <article>
+            <h3>Notícia 2</h3>
+            <p>Descrição da notícia 2</p>
+        </article>
+    </main>
+    <footer class="rodape">
+        <address class="informacao-rodape">
+        <p class="author-email">Email: <a href="mailto: pablo.j.abreu@aluno.senai.br" class="email-link">pablo.j.abreu@aluno.senai.br</a></p>
+    </address>
+    <p class="copy-info">&copy;2024 - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
