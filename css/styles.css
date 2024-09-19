@@ -1,0 +1,141 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Cabeçalho */
+.menu-home {
+    background-color: #d4001a; /* Cor vermelha do cabeçalho */
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-home h1 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.menu-home nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.menu-home nav ul li {
+    margin-right: 15px;
+}
+
+.menu-home nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu-home p {
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.menu-materias {
+    background-color: #b01724; /* Cor da lateral do menu */
+    padding: 20px;
+    width: 250px;
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+.menu-materias ul {
+    list-style-type: none;
+}
+
+.menu-materias ul li {
+    margin-bottom: 15px;
+}
+
+.menu-materias ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Menu principal */
+.menu-site {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-site ul {
+    list-style-type: none;
+}
+
+.menu-site ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-site ul li a {
+    color: #d4001a;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Notícias */
+.principaisNoticias {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.principaisNoticias h2 {
+    color: #308640; /* Cor verde */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.principaisNoticias article {
+    margin-bottom: 20px;
+}
+
+.principaisNoticias article h3 {
+    font-size: 22px;
+    color: #d4001a;
+}
+
+.principaisNoticias article p {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #b01724;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.rodape .informacao-rodape {
+    margin-bottom: 10px;
+}
+
+.rodape .author-email a {
+    color: white;
+    text-decoration: none;
+}
+
+.rodape .copy-info {
+    font-size: 14px;
+    margin-top: 10px;
+}
