@@ -7,11 +7,12 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
 }
 
 /* Cabeçalho */
 .menu-home {
-    background-color: #d4001a; /* Cor vermelha do cabeçalho */
+    background-color: #e42323; /* Cor vermelha do cabeçalho */
     color: white;
     padding: 10px;
     display: flex;
@@ -22,8 +23,23 @@ body {
 .menu-home h1 {
     margin-left: 20px;
     font-size: 24px;
+    background-color: #016d15; /* Cor verde */
+    padding: 15px;
+    width: 100%;
+    text-align: left;
 }
 
+.conteiner {
+    background-color: #016d15;
+    height: 200px;
+}
+.partehome h1{
+    text-align: left;
+    padding: 80px;
+    color: white;
+    font-size: 45
+    ;
+}
 .menu-home nav ul {
     list-style-type: none;
     display: flex;
@@ -35,7 +51,7 @@ body {
 }
 
 .menu-home nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 16px;
 }
@@ -52,6 +68,7 @@ body {
     position: absolute;
     top: 70px;
     right: 0;
+   
 }
 
 .menu-materias ul {
@@ -70,7 +87,7 @@ body {
 
 /* Menu principal */
 .menu-site {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     padding: 20px;
     text-align: center;
 }
@@ -82,13 +99,21 @@ body {
 .menu-site ul li {
     display: inline;
     margin-right: 20px;
+  
 }
 
 .menu-site ul li a {
-    color: #d4001a;
+    color: #3a3a3a;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
+    background-color: #d4d4d4;
+    padding: 10px 15px;
+    border-radius: 30px;
+}
+
+.menu-site ul li a:hover {
+    background-color: #ffffff;
 }
 
 /* Notícias */
@@ -96,34 +121,43 @@ body {
     padding: 20px;
     background-color: #ffffff;
     text-align: center;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
 }
 
 .principaisNoticias h2 {
-    color: #308640; /* Cor verde */
+    color: #030303; /* Cor verde */
     font-size: 28px;
     margin-bottom: 20px;
+    border-bottom: 2px solid #308640;
+    display: inline-block;
+    padding-bottom: 10px;
 }
 
 .principaisNoticias article {
     margin-bottom: 20px;
+    padding: 15px;
+    background-color: #cacaca;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.principaisNoticias article h3 {
-    font-size: 22px;
-    color: #d4001a;
-}
+
 
 .principaisNoticias article p {
-    color: #666;
+    color: #000000;
     font-size: 16px;
 }
 
 /* Rodapé */
 .rodape {
     background-color: #b01724;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .rodape .informacao-rodape {
