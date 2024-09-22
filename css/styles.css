@@ -1,178 +1,224 @@
 /* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
 }
 
 /* Cabeçalho */
 .menu-home {
-    background-color: #e42323; 
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
-    margin: 0;
+  background-color: #e42323;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  margin: 0;
 }
 
 .menu-home h1 {
-    margin-left: 20px;
-    font-size: 24px;
-    background-color: #016d15; 
-    width: 100%;
-    text-align: left;
+  margin-left: 20px;
+  font-size: 24px;
+  background-color: #016d15;
+  width: 100%;
+  text-align: left;
 }
 
 .conteiner {
-    background-color: #016d15;
-    height: 200px;
+  background-color: #016d15;
+  height: 200px;
 }
-.partehome h1{
-    text-align: left;
-    padding: 80px;
-    color: white;
-    font-size: 45;
-    display: flex;
+.partehome h1 {
+  text-align: left;
+  padding: 80px;
+  color: white;
+  font-size: 45;
+  display: flex;
 }
 .menu-home nav ul {
-    list-style-type: none;
-    display: flex;
-    margin-right: 20px;
+  list-style-type: none;
+  display: flex;
+  margin-right: 20px;
 }
 
 .menu-home nav ul li {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 
 .menu-home nav ul li a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .menu-home p {
-    margin-left: 20px;
-    font-size: 14px;
+  margin-left: 20px;
+  font-size: 14px;
 }
 
-.menu-materias {
-    background-color: #b01724; /* Cor da lateral do menu */
-    padding: 20px;
-    width: 250px;
-    position: absolute;
-    top: 70px;
-    right: 0;
-   
-}
 
-.menu-materias ul {
-    list-style-type: none;
-}
-
-.menu-materias ul li {
-    margin-bottom: 15px;
-}
-
-.menu-materias ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-}
 
 /* Menu principal */
 .menu-site {
-    background-color: #ffffff;
-    padding: 20px;
-    text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
 }
 
 .menu-site ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .menu-site ul li {
-    display: inline;
-    margin-right: 20px;
-  
+  display: inline;
+  margin-right: 20px;
 }
 
 .menu-site ul li a {
-    color: #3a3a3a;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #d4d4d4;
-    padding: 10px 15px;
-    border-radius: 30px;
+  color: #3a3a3a;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #d4d4d4;
+  padding: 10px 15px;
+  border-radius: 30px;
 }
 
 .menu-site ul li a:hover {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 /* Notícias */
 .principaisNoticias {
-    padding: 20px;
-    background-color: #ffffff;
-    text-align: center;
-    margin: 20px auto;
-    max-width: 1200px;
-    border-radius: 8px;
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1200px;
+  border-radius: 8px;
 }
 
 .principaisNoticias h2 {
-    color: #030303; /* Cor verde */
-    font-size: 28px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #308640;
-    display: inline-block;
-    padding-bottom: 10px;
+  color: #030303; /* Cor verde */
+  font-size: 28px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #308640;
+  display: inline-block;
+  padding-bottom: 10px;
 }
 
 .principaisNoticias article {
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #cacaca;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #cacaca;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-
-
 .principaisNoticias article p {
-    color: #000000;
-    font-size: 16px;
+  color: #000000;
+  font-size: 16px;
 }
 
 /* Rodapé */
 .rodape {
-    background-color: #b01724;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+  background-color: #b01724;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .rodape .informacao-rodape {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .rodape .author-email a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .rodape .copy-info {
-    font-size: 14px;
-    margin-top: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* menu com JS */
+
+.menu-materias ul {
+  background-color: #0000008c;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  top: 127px;
+  left: 0;
+  width: 100%;
+  height: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.menu-materias.abrir ul {
+  visibility: visible;
+  height: calc(411vh - 127px);
+}
+
+.menu-materias ul li:hover {
+  background-color: #000000c4;
+}
+
+.menu-materias ul li {
+  display: block;
+  padding: 20px 30px;
+  font-size: 16px;
+}
+
+.menu-materias ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+#btn-menu {
+  width: 45px;
+  height: 45px;
+  border: 0px solid #313131;
+  background: transparent;
+  border-radius: 10px;
+  position: absolute;
+  right: 10px;
+  top: 25px;
+  cursor: pointer;
+}
+
+.linha {
+  width: 35px;
+  height: 3px;
+  background-color: #000000;
+  display: block;
+  margin: 10px auto;
+  position: relative;
+  transform-origin: center;
+  transition: 0.2s;
+}
+#btn-menu.ativo .linha:nth-child(1) {
+  transform: translateY(12px) rotate(-45deg);
+  background-color: #000000;
+}
+#btn-menu.ativo .linha:nth-child(3) {
+  transform: translateY(-15px) rotate(45deg);
+  background-color: #000000;
+}
+#btn-menu.ativo .linha:nth-child(2) {
+  width: 0;
+}
+#btn-menu.ativo {
+  border: 0px solid #000000;
 }
