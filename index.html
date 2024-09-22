@@ -8,50 +8,61 @@
 
 </head>
 <body>
-<button onclick="animar(), animarMenu()" id="btn-menu">
-    <span class="linha"></span>
-    <span class="linha"></span>
-    <span class="linha"></span>
-</button>
+    <button onclick="animar(), animarMenu()" id="btn-menu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+    </button>
+    
+    <script>
+        function animar(){
+            const btn = document.getElementById('btn-menu');
+            btn.classList.toggle('ativo');
+        }
+    </script>
+    <script>
+        function animarMenu(){
+            const menu = document.getElementById('menu-materias');
+            menu.classList.toggle('abrir');
+            menu.addEventListener('click', animarMenu);
+        }
+    </script>
 
-<script>
-    function animar(){
-        const btn = document.getElementById('btn-menu');
-        btn.classList.toggle('ativo');
-    }
-</script>
-<script>
-    function animarMenu(){
-        const menu = document.getElementById('menu-mobile');
-        menu.classList.toggle('abrir');
-        menu.addEventListener('click', animarMenu);
-    }
-</script>
+
+</body>
+
+    <header>
+
+        <nav class="menu-materias" id="menu-materias"> 
+                <ul>
+                    <li><a href="portugues.html">Português</a></li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="geografia.html">Geografia</a></li>
+                    <li><a href="biologia.html">Biologia</a></li>
+                    <li><a href="fisica.html">Física</a></li>
+                    <li><a href="quimica.html">Química</a></li>
+                    <li><a href="artes.html">Artes</a></li>
+                    <li><a href="filosofia.html">Filosofia</a></li>
+                    <li><a href="sociologia.html">Sociologia</a></li>
+                    <li><a href="edFisica.html">Ed. Física</a></li>
+                    <li><a href="ingles.html">Inglês</a></li>
+                    </ul>
+            </nav>
+    </div>
+    </header>
 <header class="menu-home">
+    <img src="img/logosesi.png" alt="SESI" class="logosesi">
+    <img src="img/logosenai.png" alt="SENAI" class="logosenai">
     <nav>
-        <ul>
+        <ul class="home-sobrenos">
             <li><a href="index.html">Home</a></li>
             <li><a href="pages/sobreNos.html">Sobre</a></li>
         </ul>
     </nav>
-    
-    <div class="menu-materias">
-        <ul>
-            <li><a href="portugues.html">Português</a></li>
-            <li><a href="matematica.html">Matemática</a></li>
-            <li><a href="historia.html">História</a></li>
-            <li><a href="geografia.html">Geografia</a></li>
-            <li><a href="biologia.html">Biologia</a></li>
-            <li><a href="fisica.html">Física</a></li>
-            <li><a href="quimica.html">Química</a></li>
-            <li><a href="artes.html">Artes</a></li>
-            <li><a href="filosofia.html">Filosofia</a></li>
-            <li><a href="sociologia.html">Sociologia</a></li>
-            <li><a href="edFisica.html">Ed. Física</a></li>
-            <li><a href="ingles.html">Inglês</a></li>
-        </ul>
     </div>
 </header>
+
  <div class="partehome">
     <div class="conteiner">
     <h1>Home - Biologia</h1>

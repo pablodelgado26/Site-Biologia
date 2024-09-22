@@ -3,19 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Sobre Nós</title>
 </head>
 <body>
-<header class="menu-home">
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="sobreNos.html">Sobre</a></li>
-        </ul>
-    </nav>
-    <h1>Home</h1>
-    <p>Seja bem-vindo ao site </p>
-</header>
+    <button onclick="animar(), animarMenu()" id="btn-menu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+    </button>
+    
+    <script>
+        function animar(){
+            const btn = document.getElementById('btn-menu');
+            btn.classList.toggle('ativo');
+        }
+    </script>
+    <script>
+        function animarMenu(){
+            const menu = document.getElementById('menu-materias');
+            menu.classList.toggle('abrir');
+            menu.addEventListener('click', animarMenu);
+        }
+    </script>
+
+
+</body>
+
+    <header>
+
+        <nav class="menu-materias" id="menu-materias"> 
+                <ul>
+                    <li><a href="portugues.html">Português</a></li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="geografia.html">Geografia</a></li>
+                    <li><a href="biologia.html">Biologia</a></li>
+                    <li><a href="fisica.html">Física</a></li>
+                    <li><a href="quimica.html">Química</a></li>
+                    <li><a href="artes.html">Artes</a></li>
+                    <li><a href="filosofia.html">Filosofia</a></li>
+                    <li><a href="sociologia.html">Sociologia</a></li>
+                    <li><a href="edFisica.html">Ed. Física</a></li>
+                    <li><a href="ingles.html">Inglês</a></li>
+                    </ul>
+            </nav>
+    </div>
+    </header>
+    <header class="menu-home">
+        <img src="../img/logosesi.png" alt="SESI" class="logosesi">
+        <img src="../img/logosenai.png" alt="SENAI" class="logosenai">
+        <nav>
+            <ul class="home-sobrenos">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="sobreNos.html">Sobre</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+ <div class="partehome">
+    <div class="conteiner">
+    <h1>Sobre Nós - Biologia</h1>
+</div>
+   </div>
     <nav class="menu-site">
         <ul>
             <li><a href="sobre.html">Sobre</a></li>
@@ -24,70 +75,54 @@
             <li><a href="simulados.html">Simulados</a></li>
             <li><a href="noticias.html">Noticias</a></li>
             <li><a href="videoAulas.html">Video-Aulas</a></li>
-
         </ul>
     </nav>
-</head>
-<body>
 
-    <!-- Cabeçalho -->
-    <header>
-        <h1>Sobre Nós</h1>
-    </header>
-
-    <!-- Conteúdo Principal -->
-    <div class="container">
-        <!-- Seção de Descrição da Empresa -->
-        <div class="section">
-            <h2>Quem Somos</h2>
+    <main class="quemSomos">
+        <h2>Quem Somos</h2>
+        <article>
+            
             <p>Somos uma empresa dedicada a oferecer as melhores soluções em tecnologia e inovação. Com uma equipe qualificada e comprometida, buscamos sempre atender às necessidades dos nossos clientes e superar suas expectativas.</p>
-        </div>
-
-        <!-- Seção da Missão e Valores -->
-        <div class="section">
-            <h2>Missão e Valores</h2>
-            <p>Nossa missão é transformar ideias em realidade, oferecendo serviços de qualidade e confiança. Valorizamos a transparência, a ética e o respeito em todas as nossas relações, buscando sempre o crescimento sustentável e a excelência em tudo o que fazemos.</p>
-        </div>
-
+        </article>
         <!-- Seção da Equipe -->
         <div class="section">
             <h2>Conheça a Nossa Equipe</h2>
             <div class="team">
                 <div class="team-member">
-                    <img src="https://via.placeholder.com/150" alt="Foto de João Silva">
-                    <h3>João Silva</h3>
-                    <p>CEO & Fundador</p>
+                    <img src="../img/Ana.jpg" alt="Ana Clara Micheletto">
+                    <h3>Ana Clara Micheletto</h3>
+                    <p>Desenvolvedora</p>
                 </div>
                 <div class="team-member">
-                    <img src="https://via.placeholder.com/150" alt="Foto de Maria Oliveira">
-                    <h3>Maria Oliveira</h3>
-                    <p>Diretora de Operações</p>
+                    <img src="../img/Gabriela.jpg" alt="Gabriela Moleta">
+                    <h3>Gabriela Moleta</h3>
+                    <p>Desenvolvedora</p>
                 </div>
                 <div class="team-member">
-                    <img src="https://via.placeholder.com/150" alt="Foto de Pedro Souza">
-                    <h3>Pedro Souza</h3>
-                    <p>Gerente de Projetos</p>
+                    <img src="../img/Nicole.jpg" alt="Nicole Cau">
+                    <h3>Nicole Cau</h3>
+                    <p>Desenvolvedora</p>
                 </div>
                 <div class="team-member">
-                    <img src="https://via.placeholder.com/150" alt="Foto de Ana Costa">
-                    <h3>Ana Costa</h3>
-                    <p>Coordenadora de Marketing</p>
+                    <img src="../img/Pablo.jpg" alt="Pablo Delgado">
+                    <h3>Pablo Delgado</h3>
+                    <p>Product Owner</p>
                 </div>
                 <div class="team-member">
-                    <img src="https://via.placeholder.com/150" alt="Foto de Carlos Mendes">
-                    <h3>Carlos Mendes</h3>
-                    <p>Desenvolvedor Senior</p>
+                    <img src="../img/Sophia.jpg" alt="Sophia Balico">
+                    <h3>Sophia Balico</h3>
+                    <p>Scrum Master</p>
                 </div>
             </div>
         </div>
     </div>
-
-    <!-- Rodapé -->
-    <footer>
-        <p>&copy; 2024 Nossa Empresa. Todos os direitos reservados.</p>
+</main>
+    <footer class="rodape">
+        <address class="informacao-rodape">
+        <p class="author-email">Email: <a href="mailto: pablo.j.abreu@aluno.senai.br" class="email-link">pablo.j.abreu@aluno.senai.br</a></p>
+    </address>
+    <p class="copy-info">&copy;2024 - Todos os direitos reservados</p>
     </footer>
 
-</body>
-</html>
 </body>
 </html>
