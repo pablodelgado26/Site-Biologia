@@ -12,19 +12,19 @@ body {
 
 /* Cabeçalho */
 .menu-home {
-    background-color: #e42323; /* Cor vermelha do cabeçalho */
+    background-color: #e42323; 
     color: white;
-    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 70px;
+    margin: 0;
 }
 
 .menu-home h1 {
     margin-left: 20px;
     font-size: 24px;
-    background-color: #016d15; /* Cor verde */
-    padding: 15px;
+    background-color: #016d15; 
     width: 100%;
     text-align: left;
 }
@@ -37,8 +37,8 @@ body {
     text-align: left;
     padding: 80px;
     color: white;
-    font-size: 45
-    ;
+    font-size: 45;
+    display: flex;
 }
 .menu-home nav ul {
     list-style-type: none;
@@ -158,6 +158,9 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .rodape .informacao-rodape {
