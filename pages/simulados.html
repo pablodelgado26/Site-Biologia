@@ -3,29 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Simulados</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-<header class="menu-home">
-    <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="sobreNos.html">Sobre</a></li>
-        </ul>
-    </nav>
-    <h1>Home</h1>
-    <p>Seja bem-vindo ao site </p>
-</header>
-    <nav class="menu-site">
-        <ul>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="carreiras.html">Carreiras</a></li>
-            <li><a href="dicas.html">Dicas</a></li>
-            <li><a href="simulados.html">Simulados</a></li>
-            <li><a href="noticias.html">Noticias</a></li>
-            <li><a href="videoAulas.html">Video-Aulas</a></li>
-
-        </ul>
-    </nav>
+    <body>
+        <button onclick="animar(), animarMenu()" id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+        
+        <script>
+            function animar(){
+                const btn = document.getElementById('btn-menu');
+                btn.classList.toggle('ativo');
+            }
+        </script>
+        <script>
+            function animarMenu(){
+                const menu = document.getElementById('menu-materias');
+                menu.classList.toggle('abrir');
+                menu.addEventListener('click', animarMenu);
+            }
+        </script>
+    
+    
+    </body>
+    
+        <header>
+    
+            <nav class="menu-materias" id="menu-materias"> 
+                    <ul>
+                        <li><a href="portugues.html">Português</a></li>
+                        <li><a href="matematica.html">Matemática</a></li>
+                        <li><a href="historia.html">História</a></li>
+                        <li><a href="geografia.html">Geografia</a></li>
+                        <li><a href="biologia.html">Biologia</a></li>
+                        <li><a href="fisica.html">Física</a></li>
+                        <li><a href="quimica.html">Química</a></li>
+                        <li><a href="artes.html">Artes</a></li>
+                        <li><a href="filosofia.html">Filosofia</a></li>
+                        <li><a href="sociologia.html">Sociologia</a></li>
+                        <li><a href="edFisica.html">Ed. Física</a></li>
+                        <li><a href="ingles.html">Inglês</a></li>
+                        </ul>
+                </nav>
+        </div>
+        </header>
+        <header class="menu-home">
+            <img src="../img/logosesi.png" alt="SESI" class="logosesi">
+            <img src="../img/logosenai.png" alt="SENAI" class="logosenai">
+            <nav>
+                <ul class="home-sobrenos">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="sobreNos.html">Sobre</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+    
+     <div class="partehome">
+        <div class="conteiner">
+        <h1>Sobre Nós - Biologia</h1>
+    </div>
+       </div>
+    
+        <nav class="menu-site">
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="carreiras.html">Carreiras</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="simulados.html">Simulados</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="videoAulas.html">Video-Aulas</a></li>
+            </ul>
+        </nav>
+        <footer class="rodape">
+            <address class="informacao-rodape">
+            <p class="author-email">Email: <a href="mailto: pablo.j.abreu@aluno.senai.br" class="email-link">pablo.j.abreu@aluno.senai.br</a></p>
+        </address>
+        <p class="copy-info">&copy;2024 - Todos os direitos reservados</p>
+    
+        </footer>
+    
 </body>
 </html>
