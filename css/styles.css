@@ -154,71 +154,73 @@ body {
 
 /* menu com JS */
 
-.menu-materias ul {
-  background-color: #0000008c;
-  backdrop-filter: blur(10px);
-  position: absolute;
-  top: 127px;
-  left: 0;
-  width: 100%;
-  height: 0;
-  visibility: hidden;
-  transition: 0.5s;
-  overflow: hidden;
-}
-
-.menu-materias.abrir ul {
-  visibility: visible;
-  height: calc(411vh - 127px);
-}
-
-.menu-materias ul li:hover {
-  background-color: #000000c4;
-}
-
-.menu-materias ul li {
-  display: block;
-  padding: 20px 30px;
-  font-size: 16px;
-}
-
-.menu-materias ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-#btn-menu {
-  width: 45px;
-  height: 45px;
-  border: 0px solid #313131;
-  background: transparent;
-  border-radius: 10px;
-  position: absolute;
-  right: 10px;
-  top: 25px;
-  cursor: pointer;
-}
-
-.linha {
-  width: 35px;
-  height: 3px;
-  background-color: #000000;
-  display: block;
-  margin: 10px auto;
-  position: relative;
-  transform-origin: center;
-  transition: 0.2s;
-}
-#btn-menu.ativo .linha:nth-child(1) {
-  transform: translateY(12px) rotate(-45deg);
-  background-color: #000000;
-}
-#btn-menu.ativo .linha:nth-child(3) {
-  transform: translateY(-15px) rotate(45deg);
-  background-color: #000000;
-}
-#btn-menu.ativo .linha:nth-child(2) {
-  width: 0;
-}
-#btn-menu.ativo {
-  border: 0px solid #000000;
-}
+.menu-materias ul{
+    background-color: #ff0000;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 90px;
+    left: 70%;
+    width: 405px;
+    height: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    overflow: hidden;
+    margin-right: 0;
+  }
+  
+  .menu-materias.abrir ul {
+    visibility: visible;
+    height: calc(72vh - 7px);
+  }
+  
+    .menu-materias ul li:hover{
+      background-color: #000000c4;
+      }
+    
+    .menu-materias ul li {
+      display: block;
+      padding: 10px 30px;
+      font-size: 16px ;
+      text-align: center;
+    }
+  
+    .menu-materias ul li a{
+      color: #ffffff;
+      text-decoration: none;
+    }
+    #btn-menu{
+      width: 45px;
+      height: 45px;
+      border: 0px solid #ff0000;
+      background: transparent;
+      border-radius: 10px;
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      cursor: pointer;
+    }
+  
+    .linha{
+      width: 40px;
+      height: 3px;
+      background-color: #000000;
+      display: block;
+      margin: 10px auto;
+      position: relative;
+      transform-origin: center;
+      transition: .2s;
+    }
+    #btn-menu.ativo .linha:nth-child(1){
+      transform: translateY(12px) rotate(-45deg);
+      background-color: #000000;
+    }
+    #btn-menu.ativo .linha:nth-child(3){
+      transform: translateY(-15px) rotate(45deg);
+      background-color: #000000;
+    }
+    #btn-menu.ativo .linha:nth-child(2){
+      width: 0;
+    }
+    #btn-menu.ativo{
+      border: 0px solid #000000;
+    }
