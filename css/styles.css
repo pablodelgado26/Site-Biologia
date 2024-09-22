@@ -164,7 +164,9 @@ body {
     backdrop-filter: blur(10px);
     position: absolute;
     top: 90px;
+
     left: 73%;
+
     width: 405px;
     height: 0;
     visibility: hidden;
@@ -225,6 +227,7 @@ body {
     }
     #btn-menu.ativo .linha:nth-child(2){
       width: 0;
+
       height: 4px;
     }
     #btn-menu.ativo{
