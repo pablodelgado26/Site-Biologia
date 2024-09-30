@@ -11,93 +11,6 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Cabeçalho */
-.menu-home {
-  background-color: #e42323;
-  color: white;
-  display: flex;
-  align-items: center;
-  height: 90px;
-  margin: 0;
-  padding: 10px 20px;
-}
-
-.logosesi {
-  margin-left: 20px;
-}
-
-.logosenai {
-  margin-left: 40px;
-}
-
-.home-sobrenos {
-  margin-left: 750px;
-  font-size: 20px;
-}
-
-
-.menu-home nav ul {
-  list-style-type: none;
-  display: flex;
-  margin-right: 20px;
-}
-
-.menu-home nav ul li {
-  margin-right: 15px;
-}
-
-.menu-home nav ul li a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-size: 16px;
-}
-
-
-
-
-.conteiner {
-  background-color: #016d15;
-  height: 200px;
-}
-.partehome h1 {
-  text-align: left;
-  padding: 80px;
-  color: white;
-  font-size: 45;
-  display: flex;
-}
-
-
-/* Menu principal */
-.menu-site {
-  background-color: #ffffff;
-  padding: 20px;
-  text-align: center;
-}
-
-.menu-site ul {
-  list-style-type: none;
-}
-
-.menu-site ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-.menu-site ul li a {
-  color: #3a3a3a;
-  text-decoration: none;
-  font-size: 16px;
-  font-weight: bold;
-  background-color: #d4d4d4;
-  padding: 10px 15px;
-  border-radius: 30px;
-}
-
-.menu-site ul li a:hover {
-  background-color: #ffffff;
-}
-
 /* Notícias */
 .principaisNoticias {
   padding: 20px;
@@ -130,32 +43,6 @@ body {
   font-size: 16px;
 }
 
-/* Rodapé */
-.rodape {
-  background-color: #b01724;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding: 20px;
-  display: flex;
-  justify-content: space-around;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.rodape .informacao-rodape {
-  margin-bottom: 10px;
-}
-
-.rodape .author-email a {
-  color: white;
-  text-decoration: none;
-}
-
-.rodape .copy-info {
-  font-size: 14px;
-  margin-top: 10px;
-}
 
 /* menu com JS */
 
@@ -282,6 +169,8 @@ body {
       width: 150px;
       height: 150px;
     }
+
+ /* Parte padrão */
 
     .sociologia-header {
       display: flex;
@@ -441,14 +330,6 @@ body {
       justify-content: center;
     }
     
-    .img-content {
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      border: 5px solid #9a1915;
-      
-    }
-    
     .img {
       display: flex;
       flex-direction: column;
@@ -458,15 +339,7 @@ body {
       height: 50px;
       box-sizing: border-box;
     }
-    
-    .alinhamento{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      text-align: center;
-      gap: 200px;
-      padding: 100px;
-    }
+
     
     .icones {
       background-color: #e30613;
@@ -531,15 +404,6 @@ body {
       font-weight: 700;
       font-style: normal;
     }
-    
-    .introducao {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 30px;
-      margin-top: 30px;
-    }
-    
     #intro-content {
       max-width: 60%;
       margin-bottom: 50px;
@@ -551,61 +415,6 @@ body {
       align-items: center;
     }
     
-    #img-intro {
-      height: 300px;
-      width: 300px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-left: 20px;
-      margin-right: 140px;
-      margin-top: 110px;
-    }
-    
-    #intro-1 {
-      margin-top: 60px;
-      margin-left: 70px;
-    }
-    
-    #intro-2 {
-      margin-left: 70px;
-      margin-top: 45px;
-    }
-    
-    
-    .titulo-intro {
-      font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 700;
-      font-style: normal;
-      font-size: xx-large;
-      color: #000000;
-      display: flex;
-      white-space: nowrap;
-    }
-    
-    #line-text-1 {
-      height: 5px;
-      width: 68%;
-      background-color: #9A1915;
-      margin-left: 1px;
-    }
-    
-    #line-text-2 {
-      height: 5px;
-      width: 50%;
-      background-color: #9A1915;
-      margin-left: 1px;
-    }
-    
-    
-    .text-intro {
-      font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 400;
-      font-style: normal;
-      margin-top: 30px;
-      font-size: large;
-    }
     
     .imagem-icones {
       margin-left: 43%;
@@ -684,16 +493,7 @@ body {
       color: white;
     }
     
-    .main-content{
-      justify-content: center;
-      display: flex;
-    }
-    
-    .section-img {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
+
     
     .img {
       width: 25%;
@@ -701,30 +501,3 @@ body {
       align-items: center;
     }
     
-    .img:nth-child(4n+1) {
-      margin-left: 0;
-    }
-    
-    .img:nth-child(4n) {
-      margin-right: 0;
-    }
-    
-    .img-text {
-      font-family: "Montserrat", sans-serif;
-      font-weight: 600;
-      font-size: x-large;
-      text-align: center;
-      color: #000000;
-    }
-    
-    .principaisTopicos {
-      margin-left: 4%;
-      margin-bottom: 5%;
-    }
-    
-    #line-text-3 {
-      height: 5px;
-      width: 21%;
-      background-color: #9A1915;
-      margin-left: 1px;
-    }
