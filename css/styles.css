@@ -271,6 +271,18 @@ body {
       filter: brightness(0.6);
     
     }
+    
+  .titulo {
+  position: absolute; 
+  top: 50%; 
+  left: 300px;
+  transform: translate(-50%, -50%); 
+  color: white; 
+  font-size: 50px; 
+  font-weight: bold; 
+    
+    }
+    
     h1 {
       font-size: 48px;
       font-weight: bold;
