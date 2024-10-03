@@ -521,13 +521,17 @@
 }
 
 .dica img {
-    width: 40%;
-    margin-right: 20px;
+    width: 100%;
+    margin-right: 0 0 20px 0;
 }
 
 .dica-content {
-    width: 60%;
+    width: 100%;
 }
 
+.dica-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 
