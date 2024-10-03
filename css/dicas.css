@@ -1,0 +1,43 @@
+/* Conteúdo principal - Dicas */
+.principaisNoticias {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.principaisNoticias img {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.principaisNoticias h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.principaisNoticias p {
+    margin-bottom: 30px;
+    color: #444;
+    text-align: left;
+}
+
+.principaisNoticias .dica {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.dica img {
+    width: 100%;
+    margin-right: 0 0 20px 0;
+}
+
+.dica-content {
+    width: 100%;
+}
+
+.dica-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
