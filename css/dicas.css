@@ -1,0 +1,533 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* Notícias */
+  .principaisNoticias {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 8px;
+  }
+  
+  .principaisNoticias h2 {
+    color: #030303; 
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #308640;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+  
+  .principaisNoticias article {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #cacaca;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .principaisNoticias article p {
+    color: #000000;
+    font-size: 16px;
+  }
+  
+  
+  /* menu com JS */
+  
+  .menu-materias ul{
+      background-color: #ff0000;
+      backdrop-filter: blur(10px);
+      position: absolute;
+      top: 82px;
+      z-index: 9999;
+      left: 70%;
+      width: 405px;
+      height: 0;
+      visibility: hidden;
+      transition: 0.5s;
+      overflow: hidden;
+      margin-right: 0;
+    }
+    
+    .menu-materias.abrir ul {
+      visibility: visible;
+      height: calc(72vh - 7px);
+    }
+    
+      .menu-materias ul li:hover{
+        background-color: #000000c4;
+        }
+      
+      .menu-materias ul li {
+        display: block;
+        padding: 10px 30px;
+        font-size: 16px ;
+        text-align: center;
+      }
+    
+      .menu-materias ul li a{
+        color: #ffffff;
+        text-decoration: none;
+      }
+      #btn-menu{
+        width: 45px;
+        height: 45px;
+        border: 0px solid #ff0000;
+        background: transparent;
+        border-radius: 10px;
+        position: absolute;
+        right: 30px;
+        top: 20px;
+        cursor: pointer;
+      }
+    
+      .linha{
+        width: 40px;
+        height: 3px;
+        background-color: #000000;
+        display: block;
+        margin: 10px auto;
+        position: relative;
+        transform-origin: center;
+        transition: .2s;
+      }
+      #btn-menu.ativo .linha:nth-child(1){
+        transform: translateY(12px) rotate(-45deg);
+        background-color: #000000;
+      }
+      #btn-menu.ativo .linha:nth-child(3){
+        transform: translateY(-15px) rotate(45deg);
+        background-color: #000000;
+      }
+      #btn-menu.ativo .linha:nth-child(2){
+        width: 0;
+  
+        height: 4px;
+      }
+      #btn-menu.ativo{
+        border: 0px solid #000000;
+      }
+  
+      /* personalização do sobreNós */
+  
+      .quemSomos {
+        padding: 20px;
+        background-color: #ffffff;
+        text-align: center;
+        margin: 20px auto;
+        max-width: 1200px;
+        border-radius: 8px;
+      }
+      
+      .quemSomos h2 {
+        color: #030303; 
+        font-size: 28px;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #308640;
+        display: inline-block;
+        padding-bottom: 10px;
+      }
+      
+      .quemSomos article {
+        margin-bottom: 20px;
+        padding: 15px;
+        background-color: #cacaca;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 0px 0px 50px 0px;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+      
+      .quemSomos article p {
+        color: #000000;
+        font-size: 20px;
+      }
+  
+      .team {
+        display: flex;
+        justify-content: space-around;
+        margin: 0px 0px 50px 0px;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+      
+      .team-member img {
+        width: 150px;
+        height: 150px;
+      }
+  
+   /* Parte padrão */
+  
+      .sociologia-header {
+        display: flex;
+        color: #ffffffff;
+        justify-content: space-between;
+        background-color: #e30613;
+        padding: 1rem 0;
+      }
+      
+      .logo-header {
+        margin: 0 30px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #e30613;
+      }
+      
+      .section-img {
+        align-items: center;
+        justify-content: space-between;
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .img-content {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        border: 5px solid #9A1915;
+      }
+      
+      .header-nav {
+        list-style: none;
+        margin: 0 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+      }
+      
+      .links {
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        gap: 60px;
+        margin-right: 50px;
+      
+      }
+      
+      .links a {
+        display: flex;
+        color: #ffffff;
+        font-size: 1.3rem;
+        border-bottom: 3px solid transparent;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+      }
+      
+      .vertical-line {
+        height: 50px;
+        width: 3px;
+        background-color: #ffff;
+        margin: 0 20px;
+        margin-right: 20px;
+      }
+      
+      
+      
+      .logo-header {
+        margin: 0 40px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #e30613;
+        height: 50px;
+      }
+      
+      
+      #icones-header {
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+        color: #ffffffff;
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin-right: 5px;
+      }
+      
+      #sesi-logo {
+        margin: 0 40px;
+      }
+      
+      .banner {
+        padding: 0;
+        width: 100%;
+        height: 600px;
+        filter: brightness(0.6);
+      
+      }
+      
+    .titulo {
+    position: absolute; 
+    top: 50%; 
+    left: 300px;
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 50px; 
+    font-weight: bold; 
+      
+      }
+      
+      h1 {
+        font-size: 48px;
+        font-weight: bold;
+        text-align: left;
+        color: white;
+        margin-right: 950px;
+      }
+      
+      #line {
+        height: 5px;
+        margin: 20px auto;
+        width: 20%;
+        background-color: #9A1915;
+      }
+      
+      .img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        height: 50px;
+        box-sizing: border-box;
+      }
+      
+      #sesi-logo {
+        margin-left: 10px;
+        margin-right: 30px;
+      }
+      
+      .header-nav .nav-list {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        height: 50px;
+        box-sizing: border-box;
+      }
+  
+      
+      .icones {
+        background-color: #e30613;
+      }
+      
+      .topics-header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      
+      .aba-text {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        justify-content: space-between;
+        padding-left: 50px ;
+      }
+      .aba-text-dicas{
+        color: rgb(0, 0, 0);
+        padding-left: 70px;
+      
+      }
+      
+      .aba-item {
+        background-color: #e0e0e0;
+        border: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 20px;
+        font-size: 16px;
+        color: #333;
+        cursor: pointer;
+        outline: none;
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .aba-text-check {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding-left: 70px;
+      }
+      
+      .aba-item-check {
+        background-color: #9A1915;
+        border: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 20px;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+        width: 250px;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      }
+      #intro-content {
+        max-width: 60%;
+        margin-bottom: 50px;
+      }
+      
+      .img-introducao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      
+      .imagem-icones {
+        margin-left: 43%;
+        display: inline-block;
+      }
+      
+      .footer-text {
+        background-color: #9a1915;
+        color: white;
+      
+      }
+      
+      .header-nav .nav-link {
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+        margin: 6px;
+        color: #ffffffff;
+      }
+      
+      .footer {
+        background-color: #9a1915;
+        color: white;
+        margin-top: 50px;
+      }
+      
+      .footer .icones {
+        background-color: #e30613;
+      }
+      
+      .senai {
+        width: 20%;
+        display: inline-block;
+        text-align: center;
+        padding: 30px 0 20px 0;
+        margin-left: 29%;
+      }
+      
+      .senai h3 {
+        text-align: left;
+      }
+      
+      .senai p {
+        text-align: left;
+      }
+      
+      .sesi {
+        width: 20%;
+        display: inline-block;
+        margin-left: 3%;
+        text-align: center;
+        padding: 0 0 20px 0px;
+      }
+      
+      .sesi h3 {
+        text-align: left;
+      }
+      
+      .sesi p {
+        text-align: left;
+      }
+      
+      .footer .icones img {
+        display: inline-block;
+        margin-left: 25px;
+      }
+      
+      .icones {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .footer-text {
+        background-color: #9a1915;
+        color: white;
+      }
+      
+  
+      
+      .img {
+        width: 25%;
+        margin-bottom: 300px;
+        align-items: center;
+      }
+      
+
+/* Conteúdo principal - Dicas */
+.principaisNoticias {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.principaisNoticias img {
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+.principaisNoticias h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.principaisNoticias p {
+    margin-bottom: 30px;
+    color: #444;
+    text-align: left;
+}
+
+.principaisNoticias .dica {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.dica img {
+    width: 40%;
+    margin-right: 20px;
+}
+
+.dica-content {
+    width: 60%;
+}
+
+
+
