@@ -30,8 +30,10 @@
 }
 
 .dica img {
-    width: 100%;
+    width: 200%;
     margin-right: 0 0 20px 0;
+    height: auto;
+   
 }
 
 .dica-content {
@@ -43,3 +45,13 @@
     flex-direction: row-reverse;
 }
 
+
+.dica .imagem-dica05 {
+    width: 400px;
+    height: 300px;
+}
+
+.dica-reverse .imagem-dica04 {
+    width: 400px;
+    height: 300px;
+}
