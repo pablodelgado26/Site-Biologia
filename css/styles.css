@@ -332,6 +332,7 @@ body {
     
     .icones {
       background-color: #e30613;
+      height: 40px;
     }
     
     .topics-header {
@@ -439,7 +440,7 @@ body {
       display: inline-block;
       text-align: center;
       padding: 30px 0 20px 0;
-      margin-left: 29%;
+      margin-left: 25%;
     }
     
     .senai h3 {
@@ -468,7 +469,7 @@ body {
     
     .footer .icones img {
       display: inline-block;
-      margin-left: 25px;
+      margin-left: 25px;;
     }
     
     .icones {
