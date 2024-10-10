@@ -349,7 +349,7 @@ body {
       color: rgb(0, 0, 0);
       text-align: center;
       justify-content: space-between;
-      padding-left: 50px ;
+      padding-left: 60px ;
       text-decoration: none;
     }
     .aba-text-dicas{
@@ -357,6 +357,13 @@ body {
       padding-left: 70px;
       text-decoration: none;
     
+    }
+
+    .aba-text-noticias{
+      color: rgb(0, 0, 0);
+      padding-left: 30px;
+      text-decoration: none;
+
     }
     
     .aba-item {
