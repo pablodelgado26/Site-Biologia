@@ -44,7 +44,6 @@ body {
 
 
 /* menu com JS */
-
 .menu-materias ul{
     background-color: #ff0000;
     backdrop-filter: blur(10px);
@@ -119,8 +118,8 @@ body {
       border: 0px solid #000000;
     }
 
+    
     /* personalização do sobreNós */
-
     .quemSomos {
       padding: 20px;
       background-color: #ffffff;
@@ -168,8 +167,8 @@ body {
       height: 150px;
     }
 
- /* Parte padrão */
 
+    /* Parte padrão */
     .sociologia-header {
       display: flex;
       color: #ffffffff;
@@ -237,8 +236,6 @@ body {
       margin-right: 20px;
     }
     
-    
-    
     .logo-header {
       margin: 0 40px;
       display: flex;
@@ -271,14 +268,14 @@ body {
     
     }
     
-  .titulo {
-  position: absolute; 
-  top: 30%; 
-  left: 300px;
-  transform: translate(-50%, -50%); 
-  color: white; 
-  font-size: 50px; 
-  font-weight: bold; 
+   .titulo {
+      position: absolute; 
+      top: 30%; 
+      left: 300px;
+      transform: translate(-50%, -50%); 
+      color: white; 
+      font-size: 50px; 
+      font-weight: bold; 
     
     }
     
@@ -346,10 +343,12 @@ body {
       text-align: center;
       justify-content: space-between;
       padding-left: 50px ;
+      text-decoration: none;
     }
     .aba-text-dicas{
       color: rgb(0, 0, 0);
       padding-left: 70px;
+      text-decoration: none;
     
     }
     
@@ -376,10 +375,11 @@ body {
       color: rgb(255, 255, 255);
       text-align: center;
       padding-left: 70px;
+      text-decoration: none;
     }
     
     .aba-item-check {
-      background-color: #9A1915;
+      background-color: #308640;
       border: none;
       padding: 10px 20px;
       margin: 0 10px;
@@ -482,8 +482,6 @@ body {
       color: white;
     }
     
-
-    
     .img {
       width: 25%;
       margin-bottom: 300px;
@@ -491,7 +489,7 @@ body {
     }
    
 
-/* Conteúdo principal - Dicas */
+    /* Conteúdo principal - Dicas */
 .principaisNoticias {
     max-width: 1200px;
     margin: 40px auto;
@@ -536,7 +534,6 @@ body {
     flex-direction: row-reverse;
 }
 
-
 .dica .imagem-dica05 {
     width: 400px;
     height: 300px;
@@ -563,7 +560,6 @@ body {
   width: 400px;
   height: 300px;
 }
-
 
 .icones {
   display: flex;

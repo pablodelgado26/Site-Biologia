@@ -382,10 +382,12 @@ body {
       color: rgb(255, 255, 255);
       text-align: center;
       padding-left: 70px;
+      text-decoration: none;
+  
     }
     
     .aba-item-check {
-      background-color: #9A1915;
+      background-color: #308640;
       border: none;
       padding: 10px 20px;
       margin: 0 10px;
