@@ -12,13 +12,13 @@ body {
 
 /* Notícias */
 .principaisNoticias {
-  padding: 20px;
-  background-color: #ffffff;
-  text-align: center;
-  margin: 20px auto;
-  max-width: 1200px;
-  border-radius: 8px;
-}
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1800px;
+    border-radius: 8px;
+  }
 
 .principaisNoticias h2 {
   color: #030303; 
