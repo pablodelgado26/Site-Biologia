@@ -569,3 +569,8 @@ body {
   align-items: center;
   margin-left: -135px;
  }
+
+ .dica .imagem-dica01 {
+  width: 500px;
+  height: 300px;
+}
