@@ -564,6 +564,7 @@ body {
   height: 300px;
 }
 
+
 .icones {
   display: flex;
   justify-content: center;
@@ -572,4 +573,3 @@ body {
   align-items: center;
   margin-left: -135px;
  }
-
