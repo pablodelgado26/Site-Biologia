@@ -349,12 +349,12 @@ body {
       color: rgb(0, 0, 0);
       text-align: center;
       justify-content: space-between;
-      padding-left: 60px ;
+      padding-left: 50px ;
       text-decoration: none;
     }
     .aba-text-dicas{
       color: rgb(0, 0, 0);
-      padding-left: 70px;
+      padding-left: 65px;
       text-decoration: none;
     
     }
@@ -388,7 +388,7 @@ body {
     .aba-text-check {
       color: rgb(255, 255, 255);
       text-align: center;
-      padding-left: 63px;
+      padding-left: 40px;
       text-decoration: none;
   
     }
@@ -407,6 +407,7 @@ body {
       font-optical-sizing: auto;
       font-weight: 700;
       font-style: normal;
+      padding-left: 40px;
     }
     #intro-content {
       max-width: 60%;
