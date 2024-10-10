@@ -168,8 +168,8 @@ body {
       height: 150px;
     }
 
- /* Parte padrão */
-
+    
+    /* Parte padrão */
     .sociologia-header {
       display: flex;
       color: #ffffffff;
@@ -237,8 +237,6 @@ body {
       margin-right: 20px;
     }
     
-    
-    
     .logo-header {
       margin: 0 40px;
       display: flex;
@@ -271,14 +269,14 @@ body {
     
     }
     
-  .titulo {
-  position: absolute; 
-  top: 30%; 
-  left: 300px;
-  transform: translate(-50%, -50%); 
-  color: white; 
-  font-size: 50px; 
-  font-weight: bold; 
+   .titulo {
+      position: absolute; 
+      top: 30%; 
+      left: 300px;
+      transform: translate(-50%, -50%); 
+      color: white; 
+      font-size: 50px; 
+      font-weight: bold; 
     
     }
     
@@ -485,8 +483,6 @@ body {
       color: white;
     }
     
-
-    
     .img {
       width: 25%;
       margin-bottom: 300px;
@@ -494,7 +490,7 @@ body {
     }
    
 
-/* Conteúdo principal - Dicas */
+    /* Conteúdo principal - Dicas */
 .principaisNoticias {
     max-width: 1200px;
     margin: 40px auto;
@@ -538,7 +534,6 @@ body {
     display: flex;
     flex-direction: row-reverse;
 }
-
 
 .dica .imagem-dica05 {
     width: 400px;
