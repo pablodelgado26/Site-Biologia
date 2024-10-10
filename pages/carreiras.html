@@ -8,29 +8,109 @@
 
 </head>
 <body>
-    <button onclick="animar(), animarMenu()" id="btn-menu">
-        <span class="linha"></span>
-        <span class="linha"></span>
-        <span class="linha"></span>
-    </button>
+
+    <body>
+        <button onclick="animar(), animarMenu()" id="btn-menu">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+        
+        <script>
+            function animar(){
+                const btn = document.getElementById('btn-menu');
+                btn.classList.toggle('ativo');
+            }
+        </script>
+        <script>
+            function animarMenu(){
+                const menu = document.getElementById('menu-materias');
+                menu.classList.toggle('abrir');
+                menu.addEventListener('click', animarMenu);
+            }
+        </script>
     
-    <script>
-        function animar(){
-            const btn = document.getElementById('btn-menu');
-            btn.classList.toggle('ativo');
-        }
-    </script>
-    <script>
-        function animarMenu(){
-            const menu = document.getElementById('menu-materias');
-            menu.classList.toggle('abrir');
-            menu.addEventListener('click', animarMenu);
-        }
-    </script>
+    
+    </body>
+    
+        <header>
+    
+            <nav class="menu-materias" id="menu-materias"> 
+                    <ul>
+                        <li><a href="portugues.html">Português</a></li>
+                        <li><a href="matematica.html">Matemática</a></li>
+                        <li><a href="historia.html">História</a></li>
+                        <li><a href="geografia.html">Geografia</a></li>
+                        <li><a href="biologia.html">Biologia</a></li>
+                        <li><a href="fisica.html">Física</a></li>
+                        <li><a href="quimica.html">Química</a></li>
+                        <li><a href="artes.html">Artes</a></li>
+                        <li><a href="filosofia.html">Filosofia</a></li>
+                        <li><a href="sociologia.html">Sociologia</a></li>
+                        <li><a href="edFisica.html">Ed. Física</a></li>
+                        <li><a href="ingles.html">Inglês</a></li>
+                        </ul>
+                </nav>
 
-    <header>
+        </div>
+        </header>
+        <header class="menu-home">
+            <img src="../img/logosesi.png" alt="SESI" class="logosesi">
+            <img src="../img/logosenai.png" alt="SENAI" class="logosenai">
+            <nav>
+                <ul class="home-sobrenos">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="sobreNos.html">Sobre</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+    
+     <div class="partehome">
+        <div class="conteiner">
+        <h1>Carreiras - Biologia</h1>
+    </div>
+       </div>
+    
+        <nav class="menu-site">
+            <ul>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="carreiras.html">Carreiras</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="simulados.html">Simulados</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="videoAulas.html">Video-Aulas</a></li>
+            </ul>
+        </nav>
+        <!DOCTYPE html>
+        <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>Minha Página Inicial</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <header>
+                <h1 class="bemvindo">Bem-vindo à Minha Página!</h1>
 
-        <nav class="menu-materias" id="menu-materias"> 
+                <nav>
+            
+            </header>
+        
+            <section id="sobre">
+                <h2>Carreias</h2>
+                <p>Estamos juntos desenvolvendo a aba carreiras, que tem como princípio as partes:
+                    Biólogo: Estudam organismos vivos, seus processos, e suas interações com o meio ambiente.
+                    Biómédico: Realizam pesquisas para desenvolver tratamentos.
+                    Zoólogo: Estudam os animais, seu comportamento e habitats contribuindo para a vida selvagem.
+                </p>
+            </section>
+        
+            <section id="servicos">
+                <h2>Nossos Serviços</h2>
+
                 <ul>
                     <li><a href="portugues.html">Português</a></li>
                     <li><a href="matematica.html">Matemática</a></li>
@@ -53,6 +133,7 @@
             <img id="senai-logo" src="../img/image.png" alt="logo-header SENAI">
         </div>
         
+
         <div class="vertical-line"></div>
 
         <nav class="header-nav">
@@ -134,5 +215,6 @@
         </div>
   
       </footer>
+
 </body>
 </html>
