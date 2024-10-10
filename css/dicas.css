@@ -563,8 +563,9 @@ body {
 
 .icones {
   display: flex;
-
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 3,5vh; /* Altura total da tela para centralização vertical */
-}
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
+  align-items: center;
+  margin-left: -135px;
+ }
