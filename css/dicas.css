@@ -44,7 +44,6 @@ body {
 
 
 /* menu com JS */
-
 .menu-materias ul{
     background-color: #ff0000;
     backdrop-filter: blur(10px);
@@ -119,8 +118,8 @@ body {
       border: 0px solid #000000;
     }
 
+    
     /* personalização do sobreNós */
-
     .quemSomos {
       padding: 20px;
       background-color: #ffffff;
@@ -168,7 +167,7 @@ body {
       height: 150px;
     }
 
-    
+
     /* Parte padrão */
     .sociologia-header {
       display: flex;
