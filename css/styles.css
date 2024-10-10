@@ -17,8 +17,9 @@ body {
   background-color: #ffffff;
   text-align: center;
   margin: 20px auto;
-  max-width: 1200px;
+  max-width: 1800px;
   border-radius: 8px;
+  height: 32rem;
 }
 
 .principaisNoticias h2 {
@@ -32,10 +33,11 @@ body {
 
 .principaisNoticias article {
   margin-bottom: 20px;
-  padding: 15px;
+  padding: 30px;
   background-color: #cacaca;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 .principaisNoticias article p {
@@ -340,6 +342,7 @@ body {
       justify-content: space-between;
       margin-top: 40px;
       margin-bottom: 40px;
+      
     }
     
     .aba-text {
@@ -347,10 +350,12 @@ body {
       text-align: center;
       justify-content: space-between;
       padding-left: 50px ;
+      text-decoration: none;
     }
     .aba-text-dicas{
       color: rgb(0, 0, 0);
       padding-left: 70px;
+      text-decoration: none;
     
     }
     
@@ -490,4 +495,11 @@ body {
       margin-bottom: 300px;
       align-items: center;
     }
-   
+
+    .team{
+      display: flex;
+      justify-content: space-around;
+      margin: 0px 0px 50px 0px;
+      margin-left: 100px;
+      margin-right: 100px;
+  }
