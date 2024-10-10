@@ -54,79 +54,7 @@
 
         </div>
         </header>
-        <header class="menu-home">
-            <img src="../img/logosesi.png" alt="SESI" class="logosesi">
-            <img src="../img/logosenai.png" alt="SENAI" class="logosenai">
-            <nav>
-                <ul class="home-sobrenos">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="sobreNos.html">Sobre</a></li>
-                </ul>
-            </nav>
-            </div>
-        </header>
-    
-     <div class="partehome">
-        <div class="conteiner">
-        <h1>Carreiras - Biologia</h1>
-    </div>
-       </div>
-    
-        <nav class="menu-site">
-            <ul>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="carreiras.html">Carreiras</a></li>
-                <li><a href="dicas.html">Dicas</a></li>
-                <li><a href="simulados.html">Simulados</a></li>
-                <li><a href="noticias.html">Noticias</a></li>
-                <li><a href="videoAulas.html">Video-Aulas</a></li>
-            </ul>
-        </nav>
-        <!DOCTYPE html>
-        <html lang="pt-BR">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <title>Minha Página Inicial</title>
-            <link rel="stylesheet" href="styles.css">
-        </head>
-        <body>
-            <header>
-                <h1 class="bemvindo">Bem-vindo à Minha Página!</h1>
 
-                <nav>
-            
-            </header>
-        
-            <section id="sobre">
-                <h2>Carreias</h2>
-                <p>Estamos juntos desenvolvendo a aba carreiras, que tem como princípio as partes:
-                    Biólogo: Estudam organismos vivos, seus processos, e suas interações com o meio ambiente.
-                    Biómédico: Realizam pesquisas para desenvolver tratamentos.
-                    Zoólogo: Estudam os animais, seu comportamento e habitats contribuindo para a vida selvagem.
-                </p>
-            </section>
-        
-            <section id="servicos">
-                <h2>Nossos Serviços</h2>
-
-                <ul>
-                    <li><a href="portugues.html">Português</a></li>
-                    <li><a href="matematica.html">Matemática</a></li>
-                    <li><a href="historia.html">História</a></li>
-                    <li><a href="geografia.html">Geografia</a></li>
-                    <li><a href="biologia.html">Biologia</a></li>
-                    <li><a href="fisica.html">Física</a></li>
-                    <li><a href="quimica.html">Química</a></li>
-                    <li><a href="artes.html">Artes</a></li>
-                    <li><a href="filosofia.html">Filosofia</a></li>
-                    <li><a href="sociologia.html">Sociologia</a></li>
-                    <li><a href="edFisica.html">Ed. Física</a></li>
-                    <li><a href="ingles.html">Inglês</a></li>
-                    </ul>
-            </nav>
-    </header>
     <header class="sociologia-header">
         <div class="logo-header">
             <img id="sesi-logo" src="../img/sesiii.jpeg" alt="logo-header SESI">
@@ -176,17 +104,78 @@
   
     
       <main class="principaisNoticias">
-
+        <!DOCTYPE html>
+        <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Carreiras em Biologia</title>
+            <style>
+                /* Estilo geral da aba */
+                .tab-carreiras {
+                    background-color: #c22e1b; /* Verde, representando a natureza */
+                    color: white;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    text-align: center;
+                    font-family: Arial, sans-serif;
+                    transition: background-color 0.3s;
+                    cursor: pointer;
+                    margin-bottom: 10px;
+                }
         
-
-
-
-
-
-
-
-
-
+                /* Efeito ao passar o mouse */
+                .tab-carreiras:hover {
+                    background-color: #b41818; /* Verde mais escuro */
+                }
+        
+                /* Estilo para o conteúdo da aba */
+                .content-carreiras {
+                    display: none; /* Escondido por padrão */
+                    padding: 20px;
+                    background-color: #f0f8e1; /* Fundo claro */
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    font-family: Arial, sans-serif;
+                }
+        
+                /* Classe ativa para exibir o conteúdo */
+                .active {
+                    display: block; /* Exibe quando ativa */
+                }
+        
+                /* Estilo para a imagem */
+                .bio-image {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 5px;
+                    margin-bottom: 15px;
+                }
+            </style>
+        </head>
+        <body>
+        
+            <div class="tab-carreiras" onclick="toggleContent()">Carreiras em Biologia</div>
+            <div class="content-carreiras" id="carreirasContent">
+                <img src="https://via.placeholder.com/400x200.png?text=Imagem+de+Biologia" alt="Imagem de Biologia" class="bio-image">
+                <h2>Oportunidades de Carreira em Biologia</h2>
+                <p>Explore as diversas oportunidades disponíveis na área de Biologia.</p>
+                <ul>
+                    <li>Biomédico</li>
+                    <li>Biólogo</li>
+                    <li>zoólogo</li>
+                    
+                </ul>
+            </div>
+        
+            <script>
+                function toggleContent() {
+                    const content = document.getElementById('carreirasContent');
+                    content.classList.toggle('active');
+                }
+            </script>
+        
+       
       </main>
 
     <footer class="footer">
