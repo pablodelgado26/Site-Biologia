@@ -69,7 +69,7 @@ body {
   }
   
     .menu-materias ul li:hover{
-      background-color: #000000c4;
+      background-color: #800000c4;
       }
     
     .menu-materias ul li {
@@ -351,6 +351,7 @@ body {
       justify-content: space-between;
       padding-left: 50px ;
       text-decoration: none;
+      
     }
     .aba-text-dicas{
       color: rgb(0, 0, 0);
@@ -523,3 +524,104 @@ body {
     margin-left: -135px;
    }
   
+   /* teste */
+
+   .aba-text01 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 70px ;
+    text-decoration: none;
+  }
+  
+  .aba-item01 {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .aba-text-check01 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 70px;
+    text-decoration: none;
+  }
+  
+  .aba-item-check01 {
+    background-color: #308640;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    width: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .aba-text02 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 56px ;
+    text-decoration: none;
+  }
+  
+  .aba-item02 {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .aba-text-check02 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 56px;
+    text-decoration: none;
+  }
+  
+  .aba-item-check02 {
+    background-color: #308640;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    width: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
