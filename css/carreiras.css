@@ -451,17 +451,21 @@
     margin-left: -135px;
    }
 
-   .career-card .img1 {
-    width: 500px;
-    height: 300px;
-    text-align: left;
-    }
 
-    .career-card .img2 {
-    width: 500px;
-    height: 300px;
-    }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
 
+/* Notícias */
+.principaisNoticias {
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 1800px;
+  border-radius: 8px;
+}
     .career-card .img3 {
     width: 500px;
     height: 300px;
@@ -675,3 +679,4 @@
     padding-left: 60px;
     text-decoration: none;
   }
+
