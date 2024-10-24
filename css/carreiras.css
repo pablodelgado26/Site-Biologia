@@ -513,14 +513,14 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    padding-left: 40px;
+    padding-left: 14px;
   }
 
   .aba-text04 {
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 50px ;
+    padding-left: 55px ;
     text-decoration: none;
   }
 
@@ -650,7 +650,7 @@ body {
   .aba-text-check03 {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-left: 50px;
+    padding-left: 48px;
     text-decoration: none;
   
   }
@@ -676,7 +676,7 @@ body {
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 60px;
+    padding-left: 75px;
     text-decoration: none;
   }
 
@@ -702,7 +702,7 @@ body {
   .aba-text-check05 {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-left: 50px;
+    padding-left: 48px;
     text-decoration: none;
   
   }
@@ -721,7 +721,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    padding-left: 48px;
+    padding-left: 32px;
   }
   
   .aba-text05 {
@@ -773,14 +773,14 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    padding-left: 48px;
+    padding-left: 24px;
   }
   
   .aba-text06 {
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 60px;
+    padding-left: 55px;
     text-decoration: none;
   }
 
