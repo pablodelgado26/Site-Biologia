@@ -3,65 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <title>Video Aula</title>
+    <link rel="stylesheet" href="../css/carreiras.css">
 
 </head>
 <body>
+    <button onclick="animar(), animarMenu()" id="btn-menu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+    </button>
+    
+    <script>
+        function animar(){
+            const btn = document.getElementById('btn-menu');
+            btn.classList.toggle('ativo');
+        }
+    </script>
+    <script>
+        function animarMenu(){
+            const menu = document.getElementById('menu-materias');
+            menu.classList.toggle('abrir');
+            menu.addEventListener('click', animarMenu);
+        }
+    </script>
 
-    <body>
-        <button onclick="animar(), animarMenu()" id="btn-menu">
-            <span class="linha"></span>
-            <span class="linha"></span>
-            <span class="linha"></span>
-        </button>
-        
-        <script>
-            function animar(){
-                const btn = document.getElementById('btn-menu');
-                btn.classList.toggle('ativo');
-            }
-        </script>
-        <script>
-            function animarMenu(){
-                const menu = document.getElementById('menu-materias');
-                menu.classList.toggle('abrir');
-                menu.addEventListener('click', animarMenu);
-            }
-        </script>
-    
-    
-    </body>
-    
-        <header>
-    
-            <nav class="menu-materias" id="menu-materias"> 
-                    <ul>
-                        <li><a href="portugues.html">Português</a></li>
-                        <li><a href="matematica.html">Matemática</a></li>
-                        <li><a href="historia.html">História</a></li>
-                        <li><a href="geografia.html">Geografia</a></li>
-                        <li><a href="biologia.html">Biologia</a></li>
-                        <li><a href="fisica.html">Física</a></li>
-                        <li><a href="quimica.html">Química</a></li>
-                        <li><a href="artes.html">Artes</a></li>
-                        <li><a href="filosofia.html">Filosofia</a></li>
-                        <li><a href="sociologia.html">Sociologia</a></li>
-                        <li><a href="edFisica.html">Ed. Física</a></li>
-                        <li><a href="ingles.html">Inglês</a></li>
-                        </ul>
-                </nav>
+    <header>
 
-        </div>
-        </header>
-
+        <nav class="menu-materias" id="menu-materias"> 
+                <ul>
+                    <li><a href="portugues.html">Português</a></li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="geografia.html">Geografia</a></li>
+                    <li><a href="biologia.html">Biologia</a></li>
+                    <li><a href="fisica.html">Física</a></li>
+                    <li><a href="quimica.html">Química</a></li>
+                    <li><a href="artes.html">Artes</a></li>
+                    <li><a href="filosofia.html">Filosofia</a></li>
+                    <li><a href="sociologia.html">Sociologia</a></li>
+                    <li><a href="edFisica.html">Ed. Física</a></li>
+                    <li><a href="ingles.html">Inglês</a></li>
+                    </ul>
+            </nav>
+    </header>
     <header class="sociologia-header">
         <div class="logo-header">
             <img id="sesi-logo" src="../img/sesiii.jpeg" alt="logo-header SESI">
             <img id="senai-logo" src="../img/image.png" alt="logo-header SENAI">
         </div>
         
-
         <div class="vertical-line"></div>
 
         <nav class="header-nav">
@@ -74,36 +65,70 @@
               <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
             </div>
         </nav>
-
     </header>
 
     <section class="header-banner">
       <img class="banner" src="../img/imagem home.jpg" alt= "Banner Biologia">
-      <div class="titulo">Carreiras - Biologia</div>
+      <div class="titulo">Video Aula - Biologia</div>
     </section>
     <section class="topics-header">
-        <div class="aba-item">
-          <a href="sobre.html" class="aba-text">SOBRE</a>
+        <div class="aba-item01">
+          <a href="sobre.html" class="aba-text01">SOBRE</a>
         </div>
-        <div class="aba-item-check">
-          <a href="carreiras.html" class="aba-text-check">CARREIRAS</a>
+        <div class="aba-item-check02">
+          <a href="carreiras.html" class="aba-text-check02">CARREIRAS</a>
         </div>
-        <div class="aba-item">
-          <a href="dicas.html" class="aba-text-dicas">DICAS</a>
+        <div class="aba-item03">
+          <a href="dicas.html" class="aba-text-dicas03">DICAS</a>
         </div>
-        <div class="aba-item">
-          <a href="simulados.html" class="aba-text">SIMULADOS</a>
+        <div class="aba-item04">
+          <a href="simulados.html" class="aba-text04">SIMULADOS</a>
         </div>
-        <div class="aba-item">
-          <a href="noticias.html" class="aba-text">NOTÍCIAS</a>
+        <div class="aba-item05">
+          <a href="noticias.html" class="aba-text05">NOTÍCIAS</a>
         </div>
-        <div class="aba-item">
-          <a href="videoAulas.html" class="aba-text">VÍDEO-AULA</a>
+        <div class="aba-item06">
+          <a href="videoAulas.html" class="aba-text06">VÍDEO-AULA</a>
         </div>
     </section>
   
     
       <main class="principaisNoticias">
+
+
+<!-- CABEÇALHO -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carreiras - SESI SENAI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Seção de Carreiras -->
+    <section class="careers">
+        <h2>Carreiras</h2>
+        <div class="careers-grid">
+            <div class="career-card">
+              <h3>Biólogo</h3>
+                <p>Biólogos estudam organismos vivos, seus processos, e suas interações com o meio ambiente...</p>
+                <img class="img1" src="../img/carreiras-img.01.jpeg" alt="Biólogo">
+            </div>
+            <div class="career-card">
+              <h3>Biomédico</h3>
+                <p>Biomédicos realizam pesquisas e testes laboratoriais para entender doenças e desenvolver tratamentos...</p>
+                <img class="img2" src="../img/carreiras-img.02.jpeg" alt="Biomédico">
+            </div>
+            <div class="career-card">
+              <h3>Zoólogo</h3>
+              <p>Zoológicos estudam animais, seu comportamento e habitats, contribuindo para a conservação e manejo da vida selvagem...</p>
+                <img class="img3" src="../img/carreiras-img.03.jpeg" alt="Zoólogo">
+            </div>
+        </div>
+    </section>
+
       </main>
 
     <footer class="footer">
@@ -132,6 +157,5 @@
         </div>
   
       </footer>
-
 </body>
 </html>
