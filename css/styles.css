@@ -409,6 +409,7 @@ body {
       font-style: normal;
       padding-left: 40px;
     }
+
     #intro-content {
       max-width: 60%;
       margin-bottom: 50px;
@@ -522,6 +523,129 @@ body {
     align-items: center;
     margin-left: -135px;
    }
+
+   .aba-item {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .aba-text-check {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left: 40px;
+    text-decoration: none;
+
+  }
+  
+  .aba-item-check {
+    background-color: #308640;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    width: 250px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-left: 40px;
+  }
+
+  /* parte simulado main */
+
+  .simulado {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1800px;
+    border-radius: 8px;
+    height: 100%;
+  }
+  
+  .simulado h2 {
+    color: #030303; 
+    font-size: 28px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #308640;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+
+  .inicio .basico {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 30px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+  }
+
+  .basico {
+    width: 400px;
+    height: 250px;
+  }
+
+  .inicio .medio {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 30px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+  }
+
+  .medio {
+    width: 400px;
+    height: 250px;
+  }
+
+  .inicio .avancado {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 30px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+  }
+
+  .avancado {
+    width: 400px;
+    height: 250px;
+  }
+
+  .inicio .final {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 30px 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+  }
+
+  .final {
+    width: 400px;
+    height: 250px;
+  }
+
+  
    @media (min-width: 768px) and (max-width: 1023px){
     
    }
