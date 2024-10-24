@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="stylesheet" href="../css/simulados.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/simulados.css">
+
 
 </head>
-
 <body>
+
   <button onclick="animar(), animarMenu()" id="btn-menu">
     <span class="linha"></span>
     <span class="linha"></span>
@@ -83,9 +83,6 @@
     <div class="aba-item">
       <a href="dicas.html" class="aba-text-dicas">DICAS</a>
     </div>
-    <div class="aba-item">
-      <a href="estagio.html" class="aba-text">ESTÁGIOS</a>
-    </div>
     <div class="aba-item-check">
       <a href="simulados.html" class="aba-text-check">SIMULADOS</a>
     </div>
@@ -102,20 +99,147 @@
     <h2>Simulados</h2>
     <br><br><br>
     <div class="inicio" style="display: flex; align-items: center;">
-      <img class="basico" src="../img/imagem01simulado.jpeg" alt="basico" style="width: 150px; height: auto; margin-right: 20px;">
+      <img class="basico" src="../img/imagem01simulado.jpeg" alt="basico">
         <div class="card-1">
       <h3 style="text-align: left;">Simulado de Nível Básico</h3>
+
+
       <p style="font-size: 20px; text-align: justify">Lorem Ipsum is simply dummy text of the printing and
         typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
     </div>
     </div>
 
     <div class="inicio" style="display: flex; align-items: center;">
-      <img class="medio" src="../img/imagem02simulado.jpeg" alt="medio" style="width: 150px; height: auto; margin-right: 20px;">
+      <img class="medio" src="../img/imagem02simulado.jpeg" alt="medio">
         <div class="card-1">
       <h3 style="text-align: left;">Simulado de Nível Intermediário</h3>
+
       <p style="font-size: 20px; text-align: justify">Lorem Ipsum is simply dummy text of the printing and
         typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+
+    <button onclick="animar(), animarMenu()" id="btn-menu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+    </button>
+    
+    <script>
+        function animar(){
+            const btn = document.getElementById('btn-menu');
+            btn.classList.toggle('ativo');
+        }
+    </script>
+    <script>
+        function animarMenu(){
+            const menu = document.getElementById('menu-materias');
+            menu.classList.toggle('abrir');
+            menu.addEventListener('click', animarMenu);
+        }
+    </script>
+
+    <header>
+
+        <nav class="menu-materias" id="menu-materias"> 
+                <ul>
+                    <li><a href="portugues.html">Português</a></li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="geografia.html">Geografia</a></li>
+                    <li><a href="biologia.html">Biologia</a></li>
+                    <li><a href="fisica.html">Física</a></li>
+                    <li><a href="quimica.html">Química</a></li>
+                    <li><a href="artes.html">Artes</a></li>
+                    <li><a href="filosofia.html">Filosofia</a></li>
+                    <li><a href="sociologia.html">Sociologia</a></li>
+                    <li><a href="edFisica.html">Ed. Física</a></li>
+                    <li><a href="ingles.html">Inglês</a></li>
+                    </ul>
+            </nav>
+    </header>
+    <header class="sociologia-header">
+        <div class="logo-header">
+            <img id="sesi-logo" src="../img/sesiii.jpeg" alt="logo-header SESI">
+            <img id="senai-logo" src="../img/image.png" alt="logo-header SENAI">
+        </div>
+        
+        <div class="vertical-line"></div>
+
+        <nav class="header-nav">
+            <ul class="links">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../pages/sobreNos.html" class="nav-link">Sobre Nós</a></li>
+                <li><a href="../pages/cadastre-se.html" class="nav-link">Cadastre-se</a></li>
+            </ul>
+            <div id="icones-header">
+              <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="header-banner">
+      <img class="banner" src="../img/imagem home.jpg" alt= "Banner Biologia">
+      <div class="titulo">Simulados - Biologia</div>
+    </section>
+    <section class="topics-header">
+        <div class="aba-item01">
+          <a href="sobre.html" class="aba-text01">SOBRE</a>
+        </div>
+        <div class="aba-item02">
+          <a href="carreiras.html" class="aba-text02">CARREIRAS</a>
+        </div>
+        <div class="aba-item03">
+          <a href="dicas.html" class="aba-text-dicas03">DICAS</a>
+        </div>
+        <div class="aba-item-check04">
+          <a href="simulados.html" class="aba-text-check04">SIMULADOS</a>
+        </div>
+        <div class="aba-item05">
+          <a href="noticias.html" class="aba-text05">NOTÍCIAS</a>
+        </div>
+        <div class="aba-item06">
+          <a href="videoAulas.html" class="aba-text06">VÍDEO-AULA</a>
+        </div>
+    </section>
+    
+      <main class="principaisNoticias">
+<div class="avancado">
+  <img src="../img/simeavancado.jpeg" alt="avancado">
+  <h3>Simulado de nível Avançado</h3>
+  <p>
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
+  </p>
+</div>
+<div class="final">
+  <img src="../img/simufinal.jpeg" alt="final">
+  <h3>Simulado de nível Avançado</h3>
+  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+</div>
+      </main>
+
+    <footer class="footer">
+        <div class="icones">
+          <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"><img src="../img/facebook.png" alt="facebook" width=25px height=25px/></a>
+          <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="><img src="../img/instagram.png" alt="instagram" width=25px height=25px/></a>
+          <a href="https://api.whatsapp.com/send?phone=551133220050"><img src="../img/whatsapp.png" alt="whatsapp" width=25px height=25px/></a>
+          <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"><img src="../img/youtube.png" alt="youtube" width=25px height=25px/></a>
+          <a href="https://www.linkedin.com/school/senai-de-valinhos/"><img src="../img/linkedin.png" alt="linkedin" width=25px height=25px/></a>
+        </div>
+          
+        <div class="enderecos">
+          <div class="senai">
+              <h3>EDIFÍCIO REDE SENAI Valinhos</h3>
+              <p>
+                R. Artur Fernandes Querido, 55 - Vila Santo<br/>Antonio, Valinhos -
+                SP, 13270-530
+              </p>
+            </div>
+            <img src="../img/linha.png" alt="linha">
+      
+              <div class="sesi">
+                  <h3>EDIFÍCIO REDE SESI Valinhos</h3>
+                  <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br/>Paulo, Valinhos - SP, 13273-450</p>
+              </div>
+
         </div>
     </div>
 
