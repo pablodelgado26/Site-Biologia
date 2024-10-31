@@ -961,9 +961,23 @@ body {
 
 
    .container {
-    display: flex;
-    flex-direction: raw;
-   }
+    /* display: flex;
+    flex-direction: raw; */
+
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+}
+
+ 
 
    .textonot {
+   }
+
+   .noticia-card{
+    background-color:#b8b8b8;
+    width: 400px;
+    height: 400px;
    }
