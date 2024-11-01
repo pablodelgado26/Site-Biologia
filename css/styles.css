@@ -445,6 +445,10 @@ body {
       background-color: #9a1915;
       color: white;
       margin-top: 50px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+
     }
     
     .footer .icones {
@@ -547,7 +551,6 @@ body {
   .aba-text-check04 {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-left: 60px;
     text-decoration: none;
 
   }
@@ -566,14 +569,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    padding-left: 14px;
   }
 
   .aba-text04 {
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 55px ;
     text-decoration: none;
   }
 
@@ -599,7 +600,6 @@ body {
   .aba-text-check01 {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-left: 48px;
     text-decoration: none;
 
   }
@@ -618,14 +618,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    padding-left: 40px;
   }
 
   .aba-text01 {
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 68px;
     text-decoration: none;
   }
 
@@ -651,7 +649,6 @@ body {
   .aba-text-check02 {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-left: 48px;
     text-decoration: none;
 
   }
@@ -670,14 +667,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    padding-left: 28px;
   }
 
   .aba-text02 {
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 54px;
     text-decoration: none;
   }
 
@@ -703,7 +698,6 @@ body {
   .aba-text-check03 {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-left: 48px;
     text-decoration: none;
   
   }
@@ -722,14 +716,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    padding-left: 48px;
   }
   
   .aba-text03 {
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 75px;
     text-decoration: none;
   }
 
@@ -755,7 +747,6 @@ body {
   .aba-text-check05 {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-left: 48px;
     text-decoration: none;
   
   }
@@ -774,14 +765,12 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    padding-left: 32px;
   }
   
   .aba-text05 {
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 60px;
     text-decoration: none;
   }
 
@@ -807,7 +796,6 @@ body {
   .aba-text-check06 {
     color: rgb(255, 255, 255);
     text-align: center;
-    padding-left: 50px;
     text-decoration: none;
   
   }
@@ -826,20 +814,44 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    padding-left: 24px;
   }
   
   .aba-text06 {
     color: rgb(0, 0, 0);
     text-align: center;
     justify-content: space-between;
-    padding-left: 55px;
     text-decoration: none;
   }
 
+  .aba-item01:hover {
+    background-color: #308640;
+    transition: calc(0.5s);
+  }
 
-  
+  .aba-item02:hover {
+    background-color: #308640;
+    transition: calc(0.5s);
+  }
 
+  .aba-item03:hover {
+    background-color: #308640;
+    transition: calc(0.5s);
+  }
+
+  .aba-item04:hover {
+    background-color: #308640;
+    transition: calc(0.5s);
+  }
+
+  .aba-item05:hover {
+    background-color: #308640;
+    transition: calc(0.5s);
+  }
+
+  .aba-item06:hover {
+    background-color: #308640;
+    transition: calc(0.5s);
+  }
 
   /* parte simulado main */
 
