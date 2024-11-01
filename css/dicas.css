@@ -491,7 +491,7 @@ body {
 
     /* Conteúdo principal - Dicas */
 .principaisNoticias {
-    max-width: 1200px;
+    max-width: 1800px;
     margin: 40px auto;
     padding: 20px;
     text-align: center;
@@ -669,15 +669,14 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    padding-left: 40px;
+    padding-left: 50px;
   }
 
   .aba-text01 {
     color: rgb(0, 0, 0);
     text-align: center;
-    justify-content: space-between;
-    padding-left: 68px;
     text-decoration: none;
+    padding:68px;
   }
 
   .aba-item02 {
