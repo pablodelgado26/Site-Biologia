@@ -54,7 +54,7 @@ body {
     position: absolute;
     top: 82px;
     z-index: 9999;
-    left: 78.74%;
+    left: 77.5%;
     width: 405px;
     height: 0;
     visibility: hidden;
@@ -65,7 +65,7 @@ body {
   
   .menu-materias.abrir ul {
     visibility: visible;
-    height: calc(48.62vh - 7px);
+    height: calc(55.5vh - 10px);
   }
   
     .menu-materias ul li:hover{
