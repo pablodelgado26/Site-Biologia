@@ -1,127 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="../css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="../css/noticias.css">
 
 </head>
+
 <body>
-    <button onclick="animar(), animarMenu()" id="btn-menu">
-        <span class="linha"></span>
-        <span class="linha"></span>
-        <span class="linha"></span>
-    </button>
-    
-    <script>
-        function animar(){
-            const btn = document.getElementById('btn-menu');
-            btn.classList.toggle('ativo');
-        }
-    </script>
-    <script>
-        function animarMenu(){
-            const menu = document.getElementById('menu-materias');
-            menu.classList.toggle('abrir');
-            menu.addEventListener('click', animarMenu);
-        }
-    </script>
+  <button onclick="animar(), animarMenu()" id="btn-menu">
+    <span class="linha"></span>
+    <span class="linha"></span>
+    <span class="linha"></span>
+  </button>
 
-    <header>
+  <script>
+    function animar() {
+      const btn = document.getElementById('btn-menu');
+      btn.classList.toggle('ativo');
+    }
+  </script>
+  <script>
+    function animarMenu() {
+      const menu = document.getElementById('menu-materias');
+      menu.classList.toggle('abrir');
+      menu.addEventListener('click', animarMenu);
+    }
+  </script>
 
-        <nav class="menu-materias" id="menu-materias"> 
-                <ul>
-                    <li><a href="portugues.html">Português</a></li>
-                    <li><a href="matematica.html">Matemática</a></li>
-                    <li><a href="historia.html">História</a></li>
-                    <li><a href="geografia.html">Geografia</a></li>
-                    <li><a href="biologia.html">Biologia</a></li>
-                    <li><a href="fisica.html">Física</a></li>
-                    <li><a href="quimica.html">Química</a></li>
-                    <li><a href="artes.html">Artes</a></li>
-                    <li><a href="filosofia.html">Filosofia</a></li>
-                    <li><a href="sociologia.html">Sociologia</a></li>
-                    <li><a href="edFisica.html">Ed. Física</a></li>
-                    <li><a href="ingles.html">Inglês</a></li>
-                    </ul>
-            </nav>
-    </header>
-    <header class="sociologia-header">
-        <div class="logo-header">
-            <img id="sesi-logo" src="../img/sesiii.jpeg" alt="logo-header SESI">
-            <img id="senai-logo" src="../img/image.png" alt="logo-header SENAI">
-        </div>
-        
-        <div class="vertical-line"></div>
+  <header>
 
-        <nav class="header-nav">
-            <ul class="links">
-                <li><a href="../index.html" class="nav-link">Home</a></li>
-                <li><a href="../pages/sobreNos.html" class="nav-link">Sobre Nós</a></li>
-                <li><a href="../pages/cadastre-se.html" class="nav-link">Cadastre-se</a></li>
-            </ul>
-            <div id="icones-header">
-              <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
-        </nav>
-    </header>
+    <nav class="menu-materias" id="menu-materias">
+      <ul>
+        <li><a href="portugues.html">Português</a></li>
+        <li><a href="matematica.html">Matemática</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="geografia.html">Geografia</a></li>
+        <li><a href="biologia.html">Biologia</a></li>
+        <li><a href="fisica.html">Física</a></li>
+        <li><a href="quimica.html">Química</a></li>
+        <li><a href="artes.html">Artes</a></li>
+        <li><a href="filosofia.html">Filosofia</a></li>
+        <li><a href="sociologia.html">Sociologia</a></li>
+        <li><a href="edFisica.html">Ed. Física</a></li>
+        <li><a href="ingles.html">Inglês</a></li>
+      </ul>
+    </nav>
+  </header>
+  <header class="sociologia-header">
+    <div class="logo-header">
+      <img id="sesi-logo" src="../img/sesiii.jpeg" alt="logo-header SESI">
+      <img id="senai-logo" src="../img/image.png" alt="logo-header SENAI">
+    </div>
 
-    <section class="header-banner">
-      <img class="banner" src="../img/imagem home.jpg" alt= "Banner Biologia">
-      <div class="titulo">Carreiras - Biologia</div>
-    </section>
-    <section class="topics-header">
-        <div class="aba-item01">
-          <a href="sobre.html" class="aba-text01">SOBRE</a>
-        </div>
-        <div class="aba-item02">
-          <a href="carreiras.html" class="aba-text02">CARREIRAS</a>
-        </div>
-        <div class="aba-item03">
-          <a href="dicas.html" class="aba-text03">DICAS</a>
-        </div>
-        <div class="aba-item04">
-          <a href="simulados.html" class="aba-text04">SIMULADOS</a>
-        </div>
-        <div class="aba-item-check05">
-          <a href="noticias.html" class="aba-text-check05">NOTÍCIAS</a>
-        </div>
-        <div class="aba-item06">
-          <a href="videoAulas.html" class="aba-text06">VÍDEO-AULA</a>
-        </div>
-    </section>
-  
-    
-      <main class="principaisNoticias">
+    <div class="vertical-line"></div>
 
-      </main>
+    <nav class="header-nav">
+      <ul class="links">
+        <li><a href="../index.html" class="nav-link">Home</a></li>
+        <li><a href="../pages/sobreNos.html" class="nav-link">Sobre Nós</a></li>
+        <li><a href="../pages/cadastre-se.html" class="nav-link">Cadastre-se</a></li>
+      </ul>
+      <div id="icones-header">
+        <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+      </div>
+    </nav>
+  </header>
 
-    <footer class="footer">
-        <div class="icones">
-          <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"><img src="../img/facebook.png" alt="facebook" width=25px height=25px/></a>
-          <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="><img src="../img/instagram.png" alt="instagram" width=25px height=25px/></a>
-          <a href="https://api.whatsapp.com/send?phone=551133220050"><img src="../img/whatsapp.png" alt="whatsapp" width=25px height=25px/></a>
-          <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"><img src="../img/youtube.png" alt="youtube" width=25px height=25px/></a>
-          <a href="https://www.linkedin.com/school/senai-de-valinhos/"><img src="../img/linkedin.png" alt="linkedin" width=25px height=25px/></a>
+  <section class="header-banner">
+    <img class="banner" src="../img/imagem home.jpg" alt="Banner Biologia">
+    <div class="titulo">Carreiras - Biologia</div>
+  </section>
+  <section class="topics-header">
+    <div class="aba-item01">
+      <a href="sobre.html" class="aba-text01">SOBRE</a>
+    </div>
+    <div class="aba-item02">
+      <a href="carreiras.html" class="aba-text02">CARREIRAS</a>
+    </div>
+    <div class="aba-item03">
+      <a href="dicas.html" class="aba-text03">DICAS</a>
+    </div>
+    <div class="aba-item04">
+      <a href="simulados.html" class="aba-text04">SIMULADOS</a>
+    </div>
+    <div class="aba-item-check05">
+      <a href="noticias.html" class="aba-text-check05">NOTÍCIAS</a>
+    </div>
+    <div class="aba-item06">
+      <a href="videoAulas.html" class="aba-text06">VÍDEO-AULA</a>
+    </div>
+  </section>
+
+
+  <main class="principaisNoticias">
+    <h2>Noticias</h2>
+
+    <div class="container">
+      <div class="noticia-card">
+
+        <div class="textonot">
+          <img src="../img/imagem01bio.jpeg" alt="Imagem notícia 1" style="width: 400px; height: 300px;">
         </div>
-          
-        <div class="enderecos">
-          <div class="senai">
-              <h3>EDIFÍCIO REDE SENAI Valinhos</h3>
-              <p>
-                R. Artur Fernandes Querido, 55 - Vila Santo<br/>Antonio, Valinhos -
-                SP, 13270-530
-              </p>
-            </div>
-            <img src="../img/linha.png" alt="linha">
-      
-              <div class="sesi">
-                  <h3>EDIFÍCIO REDE SESI Valinhos</h3>
-                  <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br/>Paulo, Valinhos - SP, 13273-450</p>
-              </div>
-        </div>
-  
-      </footer>
+        <h3>Aracnídeos podem ser aliados na promoção da saúde humana</h3>
+
+      </div>
+
+
+      <div class="noticia-card">
+        <img src="../img/imagem02bio.jpeg" alt="Imagem notícia 2" style="width: 400px; height: 300px;">
+        <h3>UFPB promove III Encontro Paraibano de Biologia Celular e Molecularv</h3>
+
+      </div>
+
+
+      <div class="noticia-card">
+        <img src="../img/imagem03bio.jpeg" alt="Imagem notícia 3" style="width: 400px; height: 300px;">
+        <h3>Enem: Dicas para gabaritar a prova de Ciências da Natureza: Biologia, Química e Física</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio04.jpeg" alt="Imagem notícia 4" style="width: 400px; height: 300px;">
+        <h3>Os Lançamentos de Publicações da SBEM em Diabetes e Biologia Molecular</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio05.jpeg" alt="Imagem notícia 5" style="width: 400px; height: 300px;">
+        <h3>Análises filogenéticas aplicadas à epidemiologia molecular de doenças virais</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio06.jpeg" alt="Imagem notícia 6" style="width: 400px; height: 300px;">
+        <h3>Biologia molecular estuda processos genéticos</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio07.jpeg" alt="Imagem notícia 7" style="width: 400px; height: 300px;">
+        <h3>Estudo de SP desvenda via molecular importante para o controle do envelhecimento</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio08.jpeg" alt="Imagem notícia 8" style="width: 400px; height: 300px;">
+        <h3>Litoral Norte terá curso de pós-graduação em biologia marinha a partir de 13 de setembro</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio09.jpeg" alt="Imagem notícia 9" style="width: 400px; height: 300px;">
+        <h3>Estudo de SP desvenda via molecular importante para o controle do envelhecimento</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio10.jpeg" alt="Imagem notícia 10" style="width: 400px; height: 300px;">
+        <h3>A misteriosa criatura marinha descoberta por cientistas na costa britânica</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio11.jpeg" alt="Imagem notícia 11" style="width: 400px; height: 300px;">
+        <h3>A misteriosa criatura marinha descoberta por cientistas na costa britânica</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio12.jpeg" alt="Imagem notícia 12" style="width: 400px; height: 300px;">
+        <h3>Estudo revela riqueza de anfíbios e répteis na Estação Biologia Marinha Augusto Ruschi, em Aracruz/ES</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio13.jpeg" alt="Imagem notícia 13" style="width: 400px; height: 300px;">
+        <h3>Área mais rica em peixes recifais do Atlântico precisa de mais proteção</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio14.jpeg" alt="Imagem notícia 14" style="width: 400px; height: 300px;">
+        <h3>Pesquisadores avistam espécie de morcego-pescador sem registro há mais de uma década</h3>
+
+      </div>
+
+      <div class="noticia-card">
+        <img src="../img/bio15.jpeg" alt="Imagem notícia 15" style="width: 400px; height: 300px;">
+        <h3>Nova espécie de animal transparente que sobrevive até no espaço é descoberta em árvores da Unicamp</h3>
+
+      </div>
+
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="icones">
+      <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"><img src="../img/facebook.png" alt="facebook"
+          width=25px height=25px /></a>
+      <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="><img src="../img/instagram.png"
+          alt="instagram" width=25px height=25px /></a>
+      <a href="https://api.whatsapp.com/send?phone=551133220050"><img src="../img/whatsapp.png" alt="whatsapp"
+          width=25px height=25px /></a>
+      <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"><img src="../img/youtube.png"
+          alt="youtube" width=25px height=25px /></a>
+      <a href="https://www.linkedin.com/school/senai-de-valinhos/"><img src="../img/linkedin.png" alt="linkedin"
+          width=25px height=25px /></a>
+    </div>
+
+    <div class="enderecos">
+      <div class="senai">
+        <h3>EDIFÍCIO REDE SENAI Valinhos</h3>
+        <p>
+          R. Artur Fernandes Querido, 55 - Vila Santo<br />Antonio, Valinhos -
+          SP, 13270-530
+        </p>
+      </div>
+      <img src="../img/linha.png" alt="linha">
+
+      <div class="sesi">
+        <h3>EDIFÍCIO REDE SESI Valinhos</h3>
+        <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP, 13273-450</p>
+      </div>
+    </div>
+
+  </footer>
 </body>
+
 </html>
