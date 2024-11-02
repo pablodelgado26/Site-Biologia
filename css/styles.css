@@ -24,25 +24,10 @@ body {
 
 .principaisNoticias h2 {
   color: #030303; 
-  font-size: 28px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #308640;
-  display: inline-block;
+  font-size: 38px;
   padding-bottom: 10px;
-}
-
-.principaisNoticias article {
-  margin-bottom: 20px;
-  padding: 30px;
-  background-color: #cacaca;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-}
-
-.principaisNoticias article p {
-  color: #000000;
-  font-size: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -236,8 +221,8 @@ body {
       height: 50px;
       width: 3px;
       background-color: #ffff;
-      margin: 0 20px;
-      margin-right: 20px;
+      display: flex;
+      justify-content: center;
     }
     
     
@@ -935,6 +920,80 @@ body {
     margin-left: -135px;
    }
 
+   /* parte video aula */
+   .paragrafoVideo {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 30px 0px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    font-size: 20px;
+   }
+
+   .professora h2 {
+    color: #030303; 
+    font-size: 38px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 7rem;
+  }
+
+  .professora p {
+    color: #000000;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: left;
+    margin-right: 50%;
+  }
+
+  .professora img {
+    width: 250px;
+    height: 250px;;
+    border-radius: 50%;
+    margin-left: 50%;
+    margin-top: -12%;
+    transition: transform 0.5s;
+  }
+
+  .professora img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00;
+    border: 2px solid #00ff00;
+  }
+
+  .linhavideo {
+    background-color: #308640;
+    height: 2px;
+    width: 180px;
+    margin: 0 auto;
+  }
+
+  .linhaVideo2 {
+    background-color: #308640;
+    height: 2px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  
+  .linhaVideo {
+    background-color: #308640;
+    height: 3px;
+    width: 380px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .professora video {
+    margin-left: 50%;
+    margin-top: -12%;
+    transition: transform 0.5s;
+    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
+    border: 2px solid #00ff00;
+    width: 350px;
+    height: 198px;
+  }
 
    @media (min-width: 768px) and (max-width: 1590px){
     .titulo {
