@@ -937,6 +937,7 @@ body {
     display: flex;
     justify-content: flex-start;
     padding-top: 7rem;
+    margin-left: 45px;
   }
 
   .professora p {
@@ -945,6 +946,7 @@ body {
     padding-top: 20px;
     text-align: left;
     margin-right: 50%;
+    margin-left: 45px;
   }
 
   .professora img {
@@ -965,7 +967,7 @@ body {
   .linhavideo {
     background-color: #308640;
     height: 2px;
-    width: 180px;
+    width: 250px;
     margin: 0 auto;
   }
 
@@ -975,6 +977,7 @@ body {
     width: 90%;
     margin: 0 auto;
     margin-top: 5%;
+    margin-left: 45px;
   }
   
   .linhaVideo {
@@ -983,6 +986,7 @@ body {
     width: 380px;
     display: flex;
     justify-content: flex-start;
+    margin-left: 45px;
   }
 
   .professora video {
@@ -994,6 +998,58 @@ body {
     width: 350px;
     height: 198px;
   }
+
+
+  /* parte de sobre */
+  .tituloSobre h2 {
+    color: #030303; 
+    font-size: 38px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #308640;
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+
+  .topicoSobre h1{
+    color: #000000;
+    font-size: 28px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  .linhasobre {
+    background-color: #308640;
+    height: 4px;
+    width: 220px;
+    margin: 0 auto;
+  }
+
+  .topicoSobre p {
+    color: #000000;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: left;
+    margin-right: 50%;
+    margin-left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .linhaSobre2 {
+    background-color: #308640;
+    height: 2px;
+    width: 400px;
+    margin: 0 auto;
+  }
+
 
    @media (min-width: 768px) and (max-width: 1590px){
     .titulo {
