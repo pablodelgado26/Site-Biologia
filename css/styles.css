@@ -550,6 +550,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    color: #ffffff;
   }
 
   .aba-text04 {
@@ -599,6 +600,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    color: #ffffff;
   }
 
   .aba-text01 {
@@ -648,6 +650,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    color: #ffffff;
   }
 
   .aba-text02 {
@@ -697,6 +700,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    color: #ffffff;
   }
   
   .aba-text03 {
@@ -746,6 +750,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    color: #ffffff;
   }
   
   .aba-text05 {
@@ -795,6 +800,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    color: #ffffff;
   }
   
   .aba-text06 {
@@ -960,8 +966,8 @@ body {
 
   .professora img:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00;
-    border: 2px solid #00ff00;
+    box-shadow: 0 0 10px #308640, 0 0 20px #308640, 0 0 30px #308640, 0 0 40px #308640, 0 0 50px #308640;
+    border: 2px solid #308640;
   }
 
   .linhavideo {
@@ -993,9 +999,9 @@ body {
     margin-left: 50%;
     margin-top: -12%;
     transition: transform 0.5s;
-    box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00;
-    border: 2px solid #00ff00;
-    width: 350px;
+    box-shadow: 0 0 10px #308640, 0 0 20px #308640, 0 0 30px #308640;
+    border: 2px solid #308640;
+    width: 348px;
     height: 198px;
   }
 
@@ -1014,19 +1020,17 @@ body {
     color: #000000;
     font-size: 28px;
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
     margin-top: 50px;
+    margin-left: 2%;
   }
 
   .linhasobre {
     background-color: #308640;
-    height: 4px;
+    height: 2.5px;
     width: 220px;
-    margin: 0 auto;
+    text-align: left;
+    margin-right: 50%;
+    margin-left: 2%;
   }
 
   .topicoSobre p {
@@ -1035,20 +1039,28 @@ body {
     padding-top: 20px;
     text-align: left;
     margin-right: 50%;
-    margin-left: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
+    margin-left: 2%;
   }
 
   .linhaSobre2 {
     background-color: #308640;
-    height: 2px;
+    height: 4px;
     width: 400px;
     margin: 0 auto;
   }
+
+  .topicoSobre img {
+    width: 280px;
+    height: 150px;
+    margin-left: 50%;
+    margin-top: -12%;
+    transition: transform 0.5s;
+  }
+
+  .topicoSobre img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #308640, 0 0 20px #308640, 0 0 30px #308640;
+    border: 2px solid #308640;
 
 
    @media (min-width: 768px) and (max-width: 1590px){
