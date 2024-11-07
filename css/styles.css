@@ -473,11 +473,7 @@ body {
       margin-left: 25px;;
     }
     
-    .icones {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
+
     
     .footer-text {
       background-color: #9a1915;
@@ -1002,7 +998,7 @@ body {
     box-shadow: 0 0 10px #308640, 0 0 20px #308640, 0 0 30px #308640;
     border: 2px solid #308640;
     width: 348px;
-    height: 198px;
+    height: 197px;
   }
 
 
@@ -1061,16 +1057,14 @@ body {
     transform: scale(1.1);
     box-shadow: 0 0 10px #308640, 0 0 20px #308640, 0 0 30px #308640;
     border: 2px solid #308640;
-
+  }
 
    @media (min-width: 768px) and (max-width: 1590px){
     .titulo {
       padding-top: 12rem;
     }
-    .icones {
-     padding-left: 3.5rem;
-    }
-
+  
+  }
     .menu-materias ul{
       background-color: #e30613;
       backdrop-filter: blur(10px);
@@ -1090,7 +1084,98 @@ body {
       height: calc(79.43vh - 7px);
     }
 
-   }
+   
    @media (max-width: 767px){
 
    }
+
+   /* Footer */
+
+.footer-text {
+  background-color: #9a1915;
+  color: white;
+
+}
+
+.header-nav .nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  margin: 6px;
+  color: #ffffffff;
+}
+
+.footer {
+  background-color: #9a1915;
+  color: white;
+  margin-top: 50px;
+}
+
+.footer .icones {
+  background-color: #e30613;
+}
+
+.senai {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  padding: 30px 0 20px 0;
+  margin-left: 25%;
+}
+
+.senai h3 {
+  text-align: left;
+}
+
+.senai p {
+  text-align: left;
+}
+
+.sesi {
+  width: 20%;
+  display: inline-block;
+  margin-left: 3%;
+  text-align: center;
+  padding: 0 0 20px 0px;
+}
+
+.sesi h3 {
+  text-align: left;
+}
+
+.sesi p {
+  text-align: left;
+}
+
+.footer .icones img {
+  display: inline-block;
+  margin-left: 25px;;
+}
+
+.icones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  background-color: #9a1915;
+  color: white;
+}
+
+
+
+.img {
+  width: 25%;
+  margin-bottom: 300px;
+  align-items: center;
+}
+
+.team{
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 0px 50px 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
