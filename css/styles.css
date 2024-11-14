@@ -792,89 +792,6 @@ body {
     height: 197px;
   }
 
-
-  /* parte de sobre */
-  .tituloSobre h2 {
-    color: #030303; 
-    font-size: 38px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #308640;
-    display: inline-block;
-    padding-bottom: 10px;
-  }
-
-  .topicoSobre h1{
-    color: #000000;
-    font-size: 28px;
-    margin-top: 100px;
-    margin-top: 50px;
-    margin-left: 2%;
-  }
-
-  .linhasobre {
-    background-color: #308640;
-    height: 2.5px;
-    width: 220px;
-    text-align: left;
-    margin-right: 50%;
-    margin-left: 2%;
-  }
-
-  .topicoSobre p {
-    color: #000000;
-    font-size: 20px;
-    padding-top: 20px;
-    text-align: left;
-    margin-right: 50%;
-    margin-left: 2%;
-  }
-
-  .linhaSobre2 {
-    background-color: #308640;
-    height: 4px;
-    width: 400px;
-    margin: 0 auto;
-  }
-
-  .topicoSobre img {
-    width: 280px;
-    height: 150px;
-    margin-left: 50%;
-    margin-top: -12%;
-    transition: transform 0.5s;
-  }
-
-  .topicoSobre img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 10px #308640, 0 0 20px #308640, 0 0 30px #308640;
-    border: 2px solid #308640;
-  }
-
-   @media (min-width: 768px) and (max-width: 1590px){
-    .titulo {
-      padding-top: 12rem;
-    }
-  
-  }
-    .menu-materias ul{
-      background-color: #e30613;
-      backdrop-filter: blur(10px);
-      position: absolute;
-      top: 82px;
-      z-index: 9999;
-      left: 70%;
-      width: 379px;
-      visibility: hidden;
-      transition: 0.5s;
-      overflow: hidden;
-      margin-right: 0;
-    }
-    
-    .menu-materias.abrir ul {
-      visibility: visible;
-      height: calc(79.43vh - 7px);
-    }
-
    /* Footer */
 
 .footer-text {
@@ -949,19 +866,4 @@ body {
   color: white;
 }
 
-
-
-.img {
-  width: 25%;
-  margin-bottom: 300px;
-  align-items: center;
-}
-
-.team{
-  display: flex;
-  justify-content: space-around;
-  margin: 0px 0px 50px 0px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
 
