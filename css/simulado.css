@@ -409,7 +409,7 @@ body {
   transition: calc(0.5s);
 }
 
-/* Notícias */
+/* main padrão */
 .principaisNoticias {
   padding: 20px;
   background-color: #ffffff;
@@ -429,17 +429,19 @@ body {
   margin-top: 65px;
 }
 
-/* personalização do sobreNós */
-.quemSomos {
+/* parte simulado main */
+
+.simulado {
   padding: 20px;
   background-color: #ffffff;
   text-align: center;
   margin: 20px auto;
-  max-width: 1200px;
+  max-width: 1800px;
   border-radius: 8px;
+  height: 100%;
 }
 
-.quemSomos h2 {
+.simulado h2 {
   color: #030303;
   font-size: 28px;
   margin-bottom: 20px;
@@ -448,39 +450,69 @@ body {
   padding-bottom: 10px;
 }
 
-.quemSomos article {
-  margin-bottom: 20px;
-  padding: 15px;
-  background-color: #cacaca;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 0px 0px 50px 0px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.quemSomos article p {
-  color: #000000;
-  font-size: 20px;
-}
-
-.team {
+.inicio .basico {
   display: flex;
   justify-content: space-around;
-  margin: 0px 0px 50px 0px;
+  margin: 0px 0px 30px 0px;
   margin-left: 100px;
   margin-right: 100px;
+  padding-top: 20px;
 }
 
-.team-member img {
-  width: 150px;
-  height: 150px;
+.basico {
+  width: 400px;
+  height: 250px;
 }
 
-.img {
-  width: 25%;
-  margin-bottom: 300px;
+.inicio .medio {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 0px 30px 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 20px;
+}
+
+.medio {
+  width: 400px;
+  height: 250px;
+}
+
+.inicio .avancado {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 0px 30px 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 20px;
+}
+
+.avancado {
+  width: 400px;
+  height: 250px;
+}
+
+.inicio .final {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 0px 30px 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 20px;
+}
+
+.final {
+  width: 400px;
+  height: 250px;
+}
+
+.icones {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 0;
   align-items: center;
+  margin-left: -135px;
 }
 
 /* Parte padrão */
@@ -597,7 +629,6 @@ body {
   background-color: #9a1915;
 }
 
-
 #sesi-logo {
   margin-left: 10px;
   margin-right: 30px;
@@ -608,7 +639,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 
 .icones {
   background-color: #e30613;
@@ -698,4 +728,3 @@ body {
   background-color: #9a1915;
   color: white;
 }
-

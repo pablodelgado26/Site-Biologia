@@ -107,54 +107,6 @@ body {
       border: 0px solid #000000;
     }
 
-    /* personalização do sobreNós */
-
-    .quemSomos {
-      padding: 20px;
-      background-color: #ffffff;
-      text-align: center;
-      margin: 20px auto;
-      max-width: 1200px;
-      border-radius: 8px;
-    }
-    
-    .quemSomos h2 {
-      color: #030303; 
-      font-size: 28px;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #308640;
-      display: inline-block;
-      padding-bottom: 10px;
-    }
-    
-    .quemSomos article {
-      margin-bottom: 20px;
-      padding: 15px;
-      background-color: #cacaca;
-      border-radius: 8px;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      margin: 0px 0px 50px 0px;
-      margin-left: 100px;
-      margin-right: 100px;
-    }
-    
-    .quemSomos article p {
-      color: #000000;
-      font-size: 20px;
-    }
-
-    .team {
-      display: flex;
-      justify-content: space-around;
-      margin: 0px 0px 50px 0px;
-      margin-left: 100px;
-      margin-right: 100px;
-    }
-    
-    .team-member img {
-      width: 150px;
-      height: 150px;
-    }
 
  /* Parte padrão */
 
@@ -330,70 +282,9 @@ body {
       
     }
     
-    .aba-text {
-      color: rgb(0, 0, 0);
-      text-align: center;
-      justify-content: space-between;
-      padding-left: 50px ;
-      text-decoration: none;
-    }
-    .aba-text-dicas{
-      color: rgb(0, 0, 0);
-      padding-left: 65px;
-      text-decoration: none;
-    
-    }
 
-    .aba-text-noticias{
-      color: rgb(0, 0, 0);
-      padding-left: 30px;
-      text-decoration: none;
-
-    }
     
-    .aba-item {
-      background-color: #e0e0e0;
-      border: none;
-      padding: 10px 20px;
-      margin: 0 10px;
-      border-radius: 20px;
-      font-size: 16px;
-      color: #333;
-      cursor: pointer;
-      outline: none;
-      width: 250px;
-      justify-content: center;
-      align-items: center;
-      font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 700;
-      font-style: normal;
-    }
-    
-    .aba-text-check {
-      color: rgb(255, 255, 255);
-      text-align: center;
-      padding-left: 40px;
-      text-decoration: none;
-  
-    }
-    
-    .aba-item-check {
-      background-color: #308640;
-      border: none;
-      padding: 10px 20px;
-      margin: 0 10px;
-      border-radius: 20px;
-      font-size: 16px;
-      cursor: pointer;
-      outline: none;
-      width: 250px;
-      font-family: "Montserrat", sans-serif;
-      font-optical-sizing: auto;
-      font-weight: 700;
-      font-style: normal;
-      padding-left: 40px;
-    }
+   
 
     #intro-content {
       max-width: 60%;
@@ -480,21 +371,6 @@ body {
       color: white;
     }
     
-
-    
-    .img {
-      width: 25%;
-      margin-bottom: 300px;
-      align-items: center;
-    }
-
-    .team{
-      display: flex;
-      justify-content: space-around;
-      margin: 0px 0px 50px 0px;
-      margin-left: 100px;
-      margin-right: 100px;
-  }
 
   .icones {
     display: flex;
@@ -836,91 +712,7 @@ body {
     transition: calc(0.5s);
   }
 
-  /* parte simulado main */
 
-  .simulado {
-    padding: 20px;
-    background-color: #ffffff;
-    text-align: center;
-    margin: 20px auto;
-    max-width: 1800px;
-    border-radius: 8px;
-    height: 100%;
-  }
-  
-  .simulado h2 {
-    color: #030303; 
-    font-size: 28px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #308640;
-    display: inline-block;
-    padding-bottom: 10px;
-  }
-
-  .inicio .basico {
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 30px 0px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 20px;
-  }
-
-  .basico {
-    width: 400px;
-    height: 250px;
-  }
-
-  .inicio .medio {
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 30px 0px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 20px;
-  }
-
-  .medio {
-    width: 400px;
-    height: 250px;
-  }
-
-  .inicio .avancado {
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 30px 0px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 20px;
-  }
-
-  .avancado {
-    width: 400px;
-    height: 250px;
-  }
-
-  .inicio .final {
-    display: flex;
-    justify-content: space-around;
-    margin: 0px 0px 30px 0px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding-top: 20px;
-  }
-
-  .final {
-    width: 400px;
-    height: 250px;
-  }
-
-  .icones {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px 0;
-    align-items: center;
-    margin-left: -135px;
-   }
 
    /* parte video aula */
    .paragrafoVideo {
@@ -1083,11 +875,6 @@ body {
       visibility: visible;
       height: calc(79.43vh - 7px);
     }
-
-   
-   @media (max-width: 767px){
-
-   }
 
    /* Footer */
 
