@@ -410,7 +410,7 @@
   }
   
   /* main padrão */
-  .principaisNoticias {
+  .tituloSobre {
     padding: 20px;
     background-color: #ffffff;
     text-align: center;
@@ -419,7 +419,7 @@
     border-radius: 8px;
   }
   
-  .principaisNoticias h2 {
+  .tituloSobre h2 {
     color: #030303;
     font-size: 3rem;
     display: inline-block;
