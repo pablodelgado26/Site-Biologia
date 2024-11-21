@@ -427,9 +427,10 @@
         color: white;
       }
       
+      /*espaço da iamgem e o texto*/
       .img {
         width: 25%;
-        margin-bottom: 300px;
+        margin-bottom: 35px;
         align-items: center;
       }
      
