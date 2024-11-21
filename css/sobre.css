@@ -440,17 +440,27 @@
     height: 2.5px;
     width: 220px;
     text-align: left;
-    margin-right: 50%;
-    margin-left: 2%;
+    margin: 0 auto 0% auto;
   }
 
   .topicoSobre p {
     color: #000000;
     font-size: 20px;
     padding-top: 20px;
-    text-align: left;
-    margin-right: 50%;
-    margin-left: 2%;
+    text-align: justify;
+    margin: 0 auto 2% auto;
+    height: 20%;
+    width: 70%;
+  }
+
+  .topicoSobre li {
+    color: #000000;
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+    margin: 0 auto 2% auto;
+    height: 20%;
+    width: 70%;
   }
 
   .linhaSobre2 {
