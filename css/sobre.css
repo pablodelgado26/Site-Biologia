@@ -433,6 +433,18 @@
   margin-bottom: 5%;
 }
 
+.card1 {
+  height: 10rem;
+  width: 70rem;
+  margin-left: 17%;
+}
+
+.card2 {
+  height: 10rem;
+  width: 70rem;
+  margin-left: 17%;
+}
+
 .simboloSobre h1 {
   color: #000000;
   font-size: 2rem;
