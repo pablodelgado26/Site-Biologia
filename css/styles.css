@@ -686,6 +686,11 @@ h1 {
   transition: calc(0.5s);
 }
 
+
+.letras {
+  background-color: #ffffff;
+}
+
 /* Footer */
 
 .footer-text {
