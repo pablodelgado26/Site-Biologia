@@ -981,6 +981,7 @@ body {
 .career-card img {
   width: 300px;
   height: 250px;
+  margin-top: 5rem;
 }
 
 .career-card p{
