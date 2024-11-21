@@ -421,26 +421,41 @@
   
   .principaisNoticias h2 {
     color: #030303;
-    font-size: 48px;
+    font-size: 3rem;
     display: inline-block;
   }
   
 /* parte de sobre */
+.simboloSobre {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.simboloSobre h1 {
+  color: #000000;
+  font-size: 2rem;
+}
+
+.simboloSobre li {
+  color: #000000;
+  text-align: justify;
+  height: 20%;
+  font-size: 20px;
+  margin-top: 3%;
+}
+
+.textoSimbolo {
+  width: 50%;
+  margin-top: 5%;
+}
 
   .topicoSobre h1{
     color: #000000;
     font-size: 28px;
-    margin-top: 100px;
-    margin-top: 50px;
+    margin-top: 5%;
     margin-left: 2%;
-  }
-
-  .linhasobre {
-    background-color: #308640;
-    height: 2.5px;
-    width: 220px;
-    text-align: left;
-    margin: 0 auto 0% auto;
   }
 
   .topicoSobre p {
@@ -463,25 +478,48 @@
     width: 70%;
   }
 
-  .linhaSobre2 {
+  .linhaSobreTitulo {
     background-color: #308640;
     height: 4px;
-    width: 400px;
-    margin: 0 auto;
+    width: 500px;
+    margin: 0 auto 7%;
   }
 
-  .topicoSobre img {
-    width: 280px;
-    height: 150px;
-    margin-left: 50%;
-    margin-top: -12%;
+  .linhasobre1 {
+    background-color: #308640;
+    height: 2.5px;
+    width: 270px;
+    margin: 0 auto 0% auto;
+  }
+  .linhasobre2 {
+    background-color: #308640;
+    height: 3px;
+    width: 250px;
+    margin: 0 auto 0% auto;
+  }
+  .linhasobre3 {
+    background-color: #308640;
+    height: 2.5px;
+    width: 450px;
+    margin: 0 auto 0% auto;
+  }
+  .linhasobre4 {
+    background-color: #308640;
+    height: 2.5px;
+    width: 330px;
+    margin: 0 auto 0% auto;
+  }
+
+
+  .simbolo_biologo{
+    width: 30%;
+    height: 60vh;
     transition: transform 0.5s;
   }
 
-  .topicoSobre img:hover {
+
+  .simbolo_biologo:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 10px #308640, 0 0 20px #308640, 0 0 30px #308640;
-    border: 2px solid #308640;
   }
   
   /* Parte padrão */
