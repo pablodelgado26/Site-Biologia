@@ -24,9 +24,26 @@ body {
   color: #030303;
   font-size: 28px;
   margin-bottom: 20px;
-  border-bottom: 2px solid #308640;
   display: inline-block;
   padding-bottom: 10px;
+}
+
+.titulo00 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo00 h1 {
+  color: #030303;
+  font-size: 3rem;
+}
+
+.linhaTituloNoticias{
+  background-color: #308640;
+  height: 4px;
+  width: 300px;
+  margin: 0 auto 20px;
 }
 
 /* Parte noticias */
