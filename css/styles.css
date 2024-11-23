@@ -677,7 +677,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  margin-top: 30px;
 }
 
 .titulo00 h1 {
@@ -691,18 +691,18 @@ body {
   margin: 0 auto 2%;
 }
 
-.resumo p{
-  font-size: 1.2rem;
+.titulo01 h1 {
   color: #030303;
-  margin: 30px 300px;
+  margin-top: 50px;
 }
 
-.resumo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
+.linhaTituloHome{
+  background-color: #308640;
+  height: 4px;
+  width: 400px;
+  margin: 0 auto 2%;
 }
+
 
 /* bootstrap */
 .letras {
@@ -711,17 +711,12 @@ body {
 }
 
 .carrossel {
-  height: 50rem;
   width: 60rem;
   margin: 0 auto;
 }
 
-.carousel-indicators {
-  margin-bottom: 17.5rem;
-}
-
 .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
-  margin-bottom: 10rem;
+
   filter: none;
 }
 dl, ol, ul {
