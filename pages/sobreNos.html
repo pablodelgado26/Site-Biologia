@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Sobre Nós</title>
     <link rel="stylesheet" href="../css/sobreNos.css">
     <link rel="icon" type="image/x-icon" href="/img/senai.ico">
 
@@ -61,15 +61,13 @@
                 <li><a href="../index.html" class="nav-link">Home</a></li>
                 <li><a href="../pages/sobreNos.html" class="nav-link">Sobre Nós</a></li>
             </ul>
-            <div id="icones-header">
-              <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
+
         </nav>
     </header>
 
     <section class="header-banner">
-      <img class="banner" src="../img/imagem home.jpg" alt= "Banner Biologia">
-      <div class="titulo">Sobre Nós - Biologia</div>
+      <img class="banner" src="../img/equipe.jpg" alt= "Banner Biologia">
+      <div class="titulo">Sobre Nós</div>
     </section>
     <section class="topics-header">
       <a href="sobre.html" class="aba-text01">
@@ -91,7 +89,6 @@
         <button class="aba-item06">VÍDEO - AULAS</button>
       </a>
     </section>
-  
 
     <main class="principaisNoticias" style="margin-left: 40px; margin-right: 40px;">
         <div class="section">
@@ -104,32 +101,49 @@
 
           <h2>Membros</h2>
          
-            <div class="team">
-              <div class="team-member">
-                  <img src="../img/Ana.jpg" alt="Ana Clara Micheletto">
-                  <h3>Ana Clara Micheletto</h3>
-                  <p>Desenvolvedora</p>
-              </div>
-              <div class="team-member">
-                  <img src="../img/Gabriela.jpg" alt="Gabriela Moleta">
-                  <h3>Gabriela Moleta</h3>
-                  <p>Desenvolvedora</p>
-              </div>
-              <div class="team-member">
-                  <img src="../img/Nicole.jpg" alt="Nicole Cau">
-                  <h3>Nicole Cau</h3>
-                  <p>Desenvolvedora</p>
-              </div>
-              <div class="team-member">
-                  <img src="../img/Pablo.jpg" alt="Pablo Delgado">
-                  <h3>Pablo Delgado</h3>
-                  <p>Product Owner</p>
-              </div>
-              <div class="team-member">
-                  <img src="../img/Sophia.jpg" alt="Sophia Balico">
-                  <h3>Sophia Balico</h3>
-                  <p>Scrum Master</p>
-              </div>
+<!-- teste carrossel -->
+<div class="carousel">
+  <div class="carousel__item carousel__item--left">
+    <img src="../img/Ana.jpg" alt="membros">
+    <div class="carousel__text">
+      <h3>Ana Micheletto</h3>
+      <p>Desenvolvedora </p>
+    </div>
+  </div>
+  <div class="carousel__item carousel__item--main">
+    <img src="../img/Gabriela.jpg" alt="membros">
+    <div class="carousel__text">
+      <h3>Gabriela Moleta</h3>
+      <p>Desenvolvedora</p>
+    </div>
+  </div>
+  <div class="carousel__item carousel__item--right">
+    <img src="../img/Nicole.jpg" alt="membros">
+    <div class="carousel__text">
+      <h3>Nicole Cau</h3>
+      <p>Desenvolvedora</p>
+    </div>
+  </div>
+  <div class="carousel__item">
+    <img src="../img/Pablo.jpg" alt="membros">
+    <div class="carousel__text">
+      <h3>Pablo Delgado</h3>
+      <p>Product Owner</p>
+    </div>
+  </div>
+  <div class="carousel__item">
+    <img src="../img/Sophia.jpg" alt="membros">
+    <div class="carousel__text">
+      <h3>Sophia Balico</h3>
+      <p>Scrum Master</p>
+    </div>
+  </div>
+  <div class="carousel__btns">
+    <button class="carousel__btn" id="leftBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m15 4l2 2l-6 6l6 6l-2 2l-8-8z"/></svg></button>
+    <button class="carousel__btn" id="rightBtn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="m9.005 4l8 8l-8 8L7 18l6.005-6L7 6z"/></svg></button>
+  </div>
+</div>
+<script src="../main.js"></script>
 
       </main>
 
