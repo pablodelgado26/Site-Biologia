@@ -692,7 +692,7 @@ dl, ol, ul {
     display: flex;
     flex-direction: column;
     gap: 0;
-    margin-left: -6rem;
+    margin-left: -8rem;
   }
 
   #btn-menu {
@@ -700,7 +700,7 @@ dl, ol, ul {
   }
 
   .menu-materias.abrir ul {
-    height: calc(60vh - 10px);
+    height: auto;
   }
 
   .menu-materias ul {
