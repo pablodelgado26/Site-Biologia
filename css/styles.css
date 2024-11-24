@@ -706,7 +706,7 @@ dl, ol, ul {
   .menu-materias ul {
     width: 100%;
     left: 0;
-    margin-top: 37px;
+    margin-top: 8%;
   }
 
   .titulo {
@@ -759,5 +759,18 @@ dl, ol, ul {
     margin-bottom: 0;
     margin-top: 20px;
     text-align: unset;
+  }
+
+  .cardConteudo{
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .senai {
+    margin-left: 20px;
+  }
+
+  .sesi {
+    margin-right: 10px;
   }
 }
