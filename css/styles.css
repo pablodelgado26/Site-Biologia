@@ -640,6 +640,26 @@ body {
 .carrossel {
   width: 60rem;
   margin: 0 auto;
+  margin-top: 30px;
+}
+
+.cardConteudo{
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.card-text{
+  margin-top: 20px;
+}
+
+.card2{
+  transition: transform 0.5s;
+}
+
+.card2:hover{
+  transform: scale(1.1);
+  z-index: 1;
 }
 
 .carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
@@ -649,4 +669,95 @@ body {
 dl, ol, ul {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.curiosidadesMobile{
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .logo-header img {
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+  .logo-header {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-left: -6rem;
+  }
+
+  #btn-menu {
+    margin-top: 20px;
+  }
+
+  .menu-materias.abrir ul {
+    height: calc(60vh - 10px);
+  }
+
+  .menu-materias ul {
+    width: 100%;
+    left: 0;
+    margin-top: 37px;
+  }
+
+  .titulo {
+    font-size: 30px;
+    left: 150px;
+    margin-top: 10%;
+  }
+
+  .vertical-line {
+    display: none;
+  }
+
+  .topics-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .carrossel {
+    width: 100%;
+  }
+
+  .curiosidadesMobile{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+    margin-top: 40px;
+  }
+
+  .linhaTituloDicas{
+    width: 200px;
+  }
+
+  .linhaTituloHome{
+    width: 250px;
+  }
+
+  .enderecos {
+    height: 300px;
+  }
+
+  .h3, h3 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: unset;
+  }
 }
