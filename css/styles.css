@@ -651,6 +651,7 @@ body {
 
 .card-text{
   margin-top: 20px;
+  text-align: justify;
 }
 
 .card2{
@@ -700,7 +701,7 @@ dl, ol, ul {
   }
 
   .menu-materias.abrir ul {
-    height: auto;
+    height: calc(80vh - 20px);
   }
 
   .menu-materias ul {
