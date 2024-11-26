@@ -585,7 +585,11 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  height: 100px;
+  height: 150px;
+}
+
+.senai {
+  margin-left: -20px;
 }
 
 
@@ -630,11 +634,20 @@ body {
   margin: 0 auto 2%;
 }
 
+p {
+  margin-bottom: 0;
+}
 
 /* bootstrap */
 .letras {
   background-color: #ffffffc2;
   border-radius: 30px;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--bs-accordion-active-color);
+    background-color: #ffffff;
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
 
 .carrossel {
@@ -677,6 +690,8 @@ dl, ol, ul {
 }
 
 @media (max-width: 900px) {
+
+  /* header */
   .logo-header img {
     width: 90px;
     height: 40px;
@@ -726,6 +741,8 @@ dl, ol, ul {
     gap: 20px;
   }
 
+  /* conteúdo */
+
   .carrossel {
     width: 100%;
   }
@@ -746,10 +763,22 @@ dl, ol, ul {
     width: 250px;
   }
 
-  .enderecos {
-    height: 300px;
-  }
 
+  
+  .cardConteudo{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  /* footer */
+  
+  .senai {
+    margin-left: 20px;
+  }
+  
+  .sesi {
+    margin-right: 10px;
+  }
   .h3, h3 {
     font-size: 20px;
     margin-top: 20px;
@@ -760,18 +789,5 @@ dl, ol, ul {
     margin-bottom: 0;
     margin-top: 20px;
     text-align: unset;
-  }
-
-  .cardConteudo{
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .senai {
-    margin-left: 20px;
-  }
-
-  .sesi {
-    margin-right: 10px;
   }
 }
