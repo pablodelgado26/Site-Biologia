@@ -511,7 +511,7 @@ body {
   margin-left: 45px;
 }
 
-.professora video {
+.professora iframe {
   margin-left: 50%;
   margin-top: -12%;
   transition: transform 0.5s;
