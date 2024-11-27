@@ -772,22 +772,28 @@ dl, ol, ul {
   
   /* footer */
   
-  .senai {
-    margin-left: 20px;
-  }
-  
-  .sesi {
-    margin-right: 10px;
-  }
-  .h3, h3 {
-    font-size: 20px;
-    margin-top: 20px;
+  .icones {
+    gap: 50px;
   }
 
-  p {
-    font-size: 16px;
-    margin-bottom: 0;
-    margin-top: 20px;
-    text-align: unset;
+  .enderecos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10px;
+    height: 100%;
   }
+
+  .sesi {
+    margin-bottom: 20px;
+  }
+
+  .senai {
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  .enderecos img {
+    display: none;
+  }  
 }
