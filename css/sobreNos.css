@@ -558,16 +558,16 @@ body {
 
 
 .banner {
-  display: none;
-}
-
-.bannerMobile {
   padding: 0;
   width: 100%;
   height: 400px;
   filter: brightness(0.6);
   object-fit: cover;
-  object-position: 65% 20%;
+  object-position: 20% 10%;
+}
+
+.bannerMobile {
+  display: none;
 }
 
 .titulo {
@@ -817,6 +817,15 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+
+  .bannerMobile {
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    filter: brightness(0.6);
+    object-fit: cover;
+    object-position: 65% 20%;
   }
 
   /* conteúdo */
