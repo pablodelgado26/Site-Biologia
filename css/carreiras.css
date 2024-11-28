@@ -1009,3 +1009,91 @@ body {
   margin-left: -195px;
   }
   
+  @media (max-width: 900px) {
+
+    /* header */
+    .logo-header img {
+      width: 90px;
+      height: 40px;
+      margin-top: 7px;
+    }
+  
+    .logo-header {
+      display: flex;
+      flex-direction: column;
+      gap: 13px;
+    }
+  
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      margin-left: -6rem;
+    }
+  
+    #btn-menu {
+      margin-top: 15px;
+    }
+  
+    .menu-materias.abrir ul {
+      height: calc(80vh - 20px);
+    }
+  
+    .menu-materias ul {
+      width: 100%;
+      left: 0;
+      margin-top: 8%;
+    }
+  
+    .titulo {
+      font-size: 30px;
+      left: 150px;
+      margin-top: 10%;
+    }
+  
+    .vertical-line {
+      display: none;
+    }
+  
+    .topics-header {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .bannerMobile {
+      padding: 0;
+      width: 100%;
+      height: 400px;
+      filter: brightness(0.6);
+      object-fit: cover;
+      object-position: 65% 20%;
+    }
+  /* footer */
+  
+  .icones {
+    gap: 50px;
+  }
+
+  .enderecos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10px;
+    height: 100%;
+  }
+
+  .sesi {
+    margin-bottom: 20px;
+  }
+
+  .senai {
+    margin-top: 10px;
+  }
+
+  .enderecos img {
+    display: none;
+  }
+
+
+}  
