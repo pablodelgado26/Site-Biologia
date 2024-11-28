@@ -419,11 +419,6 @@ body {
   border-radius: 8px;
 }
 
-.principaisNoticias h2 {
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  margin-top: 65px;
-}
 
 .titulo00 {
   display: flex;
@@ -432,17 +427,18 @@ body {
   
 }
 
-.titulo00 h1 {
-  color: #030303;
-}
+.titulo00 h2 {
+    color: #030303;
+    font-size: 3rem;
+    display: inline-block;
+  }
 
-.linhaTituloDicas{
-  background-color: #308640;
-  height: 4px;
-  width: 300px;
-  margin: 0 auto 50px;
-}
-
+.linhaTituloVideo{
+    background-color: #308640;
+    height: 4px;
+    width: 350px;
+    margin: 0 auto 3%;
+  }
 
 /* parte video aula */
 .paragrafoVideo {
@@ -478,7 +474,7 @@ body {
   height: 290px;
   border-radius: 50%;
   margin-left: 50%;
-  margin-top: -12%;
+  margin-top: -20%;
   transition: transform 0.5s;
 }
 

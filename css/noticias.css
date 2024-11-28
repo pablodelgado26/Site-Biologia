@@ -42,8 +42,8 @@ body {
 .linhaTituloNoticias{
   background-color: #308640;
   height: 4px;
-  width: 300px;
-  margin: 0 auto 20px;
+  width: 250px;
+  margin: 0 auto 100px;
 }
 
 /* Parte noticias */
