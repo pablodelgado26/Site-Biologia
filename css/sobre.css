@@ -53,7 +53,7 @@
     border-radius: 10px;
     position: absolute;
     right: 30px;
-    top: 20px;
+    top: 25px;
     cursor: pointer;
   }
   
@@ -417,6 +417,7 @@
     margin: 20px auto;
     max-width: 1800px;
     border-radius: 8px;
+    margin-bottom: 50px;
   }
   
   .tituloSobre h2 {
@@ -539,16 +540,15 @@
   .sociologia-header {
     display: flex;
     color: #ffffffff;
-    justify-content: space-between;
     background-color: #e30613;
     padding: 1rem 0;
   }
   
-  .logo-header {
-    margin: 0 30px;
+  .logo-header img {
     display: flex;
-    justify-content: space-between;
-    background-color: #e30613;
+    justify-content: center;
+    align-items: center;
+
   }
   
   .section-img {
@@ -567,21 +567,23 @@
   
   .header-nav {
     list-style: none;
-    margin: 0 50px;
+    margin: 0 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 80px;
   }
   
   .links {
     font-family: "Montserrat", sans-serif;
+    font-size: larger;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
     list-style: none;
-    gap: 60px;
+    gap: 90px;
     margin-right: 50px;
+    margin-top: 20px;
   }
   
   .links a {
@@ -598,8 +600,8 @@
     height: 50px;
     width: 3px;
     background-color: #ffff;
-    margin: 0 20px;
-    margin-right: 20px;
+    margin: 0 20%;
+  
   }
   
   .logo-header {
@@ -610,26 +612,15 @@
     height: 50px;
   }
   
-  #icones-header {
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-    color: #ffffffff;
-    display: flex;
-    list-style: none;
-    padding: 0;
-    margin-right: 5px;
-  }
   
-  #sesi-logo {
-    margin: 0 40px;
-  }
   
   .banner {
     padding: 0;
     width: 100%;
     height: 400px;
     filter: brightness(0.6);
+    object-fit: cover;
+    object-position: 30% 20%;
   }
   
   .titulo {
@@ -649,10 +640,6 @@
     background-color: #9a1915;
   }
   
-  #sesi-logo {
-    margin-left: 10px;
-    margin-right: 30px;
-  }
   
   .header-nav .nav-list {
     list-style: none;
@@ -660,9 +647,13 @@
     justify-content: center;
   }
   
+  
   .icones {
     background-color: #e30613;
     height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .topics-header {
@@ -683,72 +674,33 @@
     color: white;
   }
   
-  .header-nav .nav-link {
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s;
-    margin: 6px;
-    color: #ffffffff;
-  }
-  
   .footer {
     background-color: #9a1915;
     color: white;
-    margin-top: 50px;
   }
   
-  .footer .icones {
-    background-color: #e30613;
-  }
-  
-  .senai {
-    width: 20%;
-    display: inline-block;
-    text-align: center;
-    padding: 30px 0 20px 0;
-    margin-left: 25%;
-  }
-  
-  .senai h3 {
-    text-align: left;
-  }
-  
-  .senai p {
-    text-align: left;
-  }
-  
-  .sesi {
-    width: 20%;
-    display: inline-block;
-    margin-left: 3%;
-    text-align: center;
-    padding: 0 0 20px 0px;
-  }
-  
-  .sesi h3 {
-    text-align: left;
-  }
-  
-  .sesi p {
-    text-align: left;
-  }
-  
-  .footer .icones img {
-    display: inline-block;
-    margin-left: 25px;
-  }
-  
-
   .icones {
+    gap: 30px;
     display: flex;
-    justify-content: center;
-    gap: 10px;
-    padding: 10px 0;
     align-items: center;
+    justify-content: center;
   }
+  
   .footer-text {
     background-color: #9a1915;
     color: white;
+  }
+  
+  .enderecos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 150px;
+  }
+  
+  .senai {
+    margin-left: -20px;
   }
   
   
