@@ -1069,6 +1069,11 @@ body {
       object-fit: cover;
       object-position: 65% 20%;
     }
+
+    /* main */
+    .career-card   {
+      flex-wrap: wrap;
+    }
   /* footer */
   
   .icones {
