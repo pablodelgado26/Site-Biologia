@@ -975,6 +975,7 @@ body {
 .careers-grid {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
