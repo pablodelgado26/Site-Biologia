@@ -615,6 +615,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 }
 
 .topics-header {
@@ -648,12 +649,6 @@ body {
   color: white;
 }
 
-.icones {
-  gap: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .icones a {
   margin-top: 7px;
@@ -839,7 +834,7 @@ body {
     height: 400px;
     filter: brightness(0.6);
     object-fit: cover;
-    object-position: top;
+    object-position: 60% 10%;
   }
 
   .banner {
@@ -887,7 +882,7 @@ body {
   }
 
   .principaisNoticias {
-    height: 67rem;
+    height: 70rem;
   }
    /* footer */
   
