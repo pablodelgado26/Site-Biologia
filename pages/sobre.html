@@ -1,391 +1,407 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sobre</title>
-    <link rel="stylesheet" href="../css/sobre.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="icon" type="image/x-icon" href="/img/senai.ico">
-  </head>
-  <body style="background-color: #f4f4f4;">
-    <button onclick="animar(), animarMenu()" id="btn-menu">
-      <span class="linha"></span>
-      <span class="linha"></span>
-      <span class="linha"></span>
-    </button>
 
-    <script>
-      function animar() {
-        const btn = document.getElementById("btn-menu");
-        btn.classList.toggle("ativo");
-      }
-    </script>
-    <script>
-      function animarMenu() {
-        const menu = document.getElementById("menu-materias");
-        menu.classList.toggle("abrir");
-        menu.addEventListener("click", animarMenu);
-      }
-    </script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre</title>
+  <link rel="stylesheet" href="../css/sobre.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="icon" type="image/x-icon" href="/img/senai.ico">
+</head>
 
-    <header>
-      <nav class="menu-materias" id="menu-materias">
-        <ul>
-          <li><a href="portugues.html">Português</a></li>
-          <li><a href="matematica.html">Matemática</a></li>
-          <li><a href="historia.html">História</a></li>
-          <li><a href="geografia.html">Geografia</a></li>
-          <li><a href="biologia.html">Biologia</a></li>
-          <li><a href="fisica.html">Física</a></li>
-          <li><a href="quimica.html">Química</a></li>
-          <li><a href="artes.html">Artes</a></li>
-          <li><a href="filosofia.html">Filosofia</a></li>
-          <li><a href="sociologia.html">Sociologia</a></li>
-          <li><a href="edFisica.html">Ed. Física</a></li>
-          <li><a href="ingles.html">Inglês</a></li>
-        </ul>
-      </nav>
-    </header>
-    <header class="sociologia-header">
-      <div class="logo-header">
-        <img class="logoImg" src="../img/Logonova.png" alt="logo-header SESI" />
-      </div>
+<body style="background-color: #f4f4f4;">
+  <button onclick="animar(), animarMenu()" id="btn-menu">
+    <span class="linha"></span>
+    <span class="linha"></span>
+    <span class="linha"></span>
+  </button>
 
-      <div class="vertical-line"></div>
+  <script>
+    function animar() {
+      const btn = document.getElementById("btn-menu");
+      btn.classList.toggle("ativo");
+    }
+  </script>
+  <script>
+    function animarMenu() {
+      const menu = document.getElementById("menu-materias");
+      menu.classList.toggle("abrir");
+      menu.addEventListener("click", animarMenu);
+    }
+  </script>
 
-      <nav class="header-nav">
-        <ul class="links">
-          <li><a href="../index.html" class="nav-link">Home</a></li>
-          <li><a href="../pages/sobreNos.html" class="nav-link">Sobre Nós</a></li>
-        </ul>
-        <div id="icones-header">
-          <i class="fa-solid fa-bars fa-xl" style="color: #ffffff"></i>
-        </div>
-      </nav>
-    </header>
-
-    <section class="header-banner">
-      <img class="banner" src="../img/imagem home.jpg" alt="Banner Biologia" />
-      <div class="titulo">Sobre - Biologia</div>
-    </section>
-    <section class="topics-header">
-      <a href="sobre.html" class="aba-text-check01">
-        <button class="aba-item-check01">SOBRE</button>
-      </a>
-      <a href="carreiras.html" class="aba-text02">
-        <button class="aba-item02">CARREIRAS</button>
-      </a>
-      <a href="dicas.html" class="aba-text03">
-        <button class="aba-item03">DICAS</button>
-      </a>
-      <a href="simulados.html" class="aba-text04">
-        <button class="aba-item04">SIMULADOS</button>
-      </a>
-      <a href="noticias.html" class="aba-text05">
-        <button class="aba-item05">NOTÍCIAS</button>
-      </a>
-      <a href="videoAulas.html" class="aba-text06">
-        <button class="aba-item06">VÍDEO - AULAS</button>
-      </a>
-    </section>
-
-    <main class="tituloSobre">
-      <h2>Mais sobre Biologia</h2>
-      <div class="linhaSobreTitulo"></div>
-
-      <div class="card mb-3 card1 animate__animated animate__bounceInLeft" style="margin-left: 20rem;">
-        <img src="../img/significado-biologia.jpg" class="card-img-top" alt="significado-biologia">
-        <div class="card-body">
-          <h5 class="card-title">O que significa a palavra biologia?</h5>
-          <p class="card-text"> A biologia é a ciência que estuda a vida em suas diversas formas e
-            processos. Seu foco é investigar os seres vivos, compreendendo sua
-            origem, evolução, estrutura, funcionamento, crescimento, reprodução e
-            interações entre si e com o ambiente. A palavra "biologia" vem do
-            grego: "bios" (vida) e "logos" (estudo), refletindo sua essência como
-            o estudo da vida.</p>
-        </div>
-      </div>
-
-      <div class="card mb-3 card2 animate__animated animate__bounceInRight" style="margin-left: 20rem;">
-        <img src="../img/estudos.jpeg" class="card-img-top" alt="estudo-biologia" style="height: 35rem;">
-        <div class="card-body">
-          <h5 class="card-title">O que a biologia estuda?</h5>
-          <p class="card-text">  A Biologia é a ciência que estuda a vida em todos os seus níveis,
-            desde organismos microscópicos até grandes seres vivos. Esse estudo
-            abrange aspectos como a estrutura, funcionamento e interação entre os
-            seres vivos e o ambiente, além de compreender a evolução e adaptação
-            das espécies. A Biologia é importante para entender a prevenção de
-            doenças e o impacto da ação humana sobre o planeta e sobre a própria
-            vida humana.</p>
-        </div>
-      </div>
-      
-      <div class="topicoSobre">
-        <h1>Quais são as áreas de estudo?</h1>
-        <div class="linhasobre3"></div>
-        <ul>
-          <p>
-            A Biologia é uma ciência complexa e que apresenta uma série de áreas
-            de estudo. A seguir, veremos algumas dessas e uma explicação
-            simplificada a respeito do objeto de estudo de cada uma delas:
-          </p>
-        </ul>
-      </div>
-      
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/anatomia.png" class="img-fluid rounded-start" alt="anatomia" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Anatomia</h5>
-                  <p class="card-text">É a ciência que estuda a estrutura dos organismos vivos, analisando a forma, a localização e a relação entre os órgãos e sistemas. Pode ser dividida em anatomia macroscópica, que examina estruturas visíveis a olho nu, como ossos e músculos, e anatomia microscópica, que foca nos tecidos e células com o uso de microscópios. É essencial em áreas como a medicina e a biologia.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/biofisica.png" class="img-fluid rounded-start" alt="biofísica" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Biofísica</h5>
-                  <p class="card-text">Utiliza os princípios da Física para compreender processos biológicos. Ela estuda fenômenos como a mecânica dos músculos, os movimentos de partículas dentro das células, os fluxos de energia no organismo e a interação entre luz e tecidos biológicos, contribuindo para entender o funcionamento molecular da vida.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/biologia-celular.png" class="img-fluid rounded-start" alt="biologia-celular" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Biologia Celular</h5>
-                  <p class="card-text">É a área que investiga as células, consideradas as unidades básicas da vida. Examina sua estrutura, organelas, ciclo celular, divisão e processos como a comunicação celular. Também explora como as células respondem a estímulos e como suas alterações podem levar a doenças.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/biologia-molecular.png" class="img-fluid rounded-start" alt="biologia-molecular" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Biologia Molecular</h5>
-                  <p class="card-text">Aprofunda-se nos processos biológicos em nível molecular, como a replicação do DNA, a transcrição do RNA e a síntese de proteínas. Ela estuda a interação entre as moléculas fundamentais da vida, ajudando a desvendar como essas interações regulam as funções celulares.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/bioquimica.png" class="img-fluid rounded-start" alt="bioquímica" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Bioquímica</h5>
-                  <p class="card-text">Estuda as reações químicas que ocorrem nos organismos, como o metabolismo de carboidratos, lipídios e proteínas. Foca nos compostos químicos que formam os seres vivos, como enzimas, vitaminas e hormônios, e no papel dessas substâncias no funcionamento celular.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/botanica.png" class="img-fluid rounded-start" alt="botânica" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Botânica</h5>
-                  <p class="card-text">É a ciência que analisa os vegetais, abrangendo seu crescimento, reprodução, metabolismo e evolução. Ela estuda desde musgos e samambaias até árvores e flores, investigando também suas interações ecológicas e importância econômica.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/ecologia.png" class="img-fluid rounded-start" alt="ecologia" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Ecologia</h5>
-                  <p class="card-text">Investiga as relações entre os organismos e o ambiente, incluindo fatores abióticos (como clima e solo) e bióticos (interações entre seres vivos). Busca entender como essas interações afetam a distribuição e abundância das espécies e como preservar os ecossistemas.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/embriologia.png" class="img-fluid rounded-start" alt="embriologia" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Embriologia</h5>
-                  <p class="card-text">Analisa o desenvolvimento dos organismos desde a fecundação até a formação completa do embrião. Estuda os processos celulares e moleculares que determinam a formação dos tecidos, órgãos e sistemas durante o desenvolvimento embrionário.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/evolucao.png" class="img-fluid rounded-start" alt="evolução" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Evolução</h5>
-                  <p class="card-text">Examina as mudanças nas populações ao longo do tempo, explorando os mecanismos que promovem variações genéticas, como mutações, seleção natural e deriva genética. É uma área que ajuda a entender a diversidade biológica e a história da vida na Terra.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/fisiologia.png" class="img-fluid rounded-start" alt="fisiologia" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Fisiologia</h5>
-                  <p class="card-text">Estuda as funções dos sistemas biológicos e como eles se interrelacionam para manter a homeostase. Inclui áreas como a fisiologia humana, que investiga sistemas como o nervoso e o cardiovascular, e a fisiologia vegetal, que foca em processos como fotossíntese e absorção de nutrientes.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/genetica.png" class="img-fluid rounded-start" alt="genética" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Genética</h5>
-                  <p class="card-text">Analisa os genes e a hereditariedade, investigando como as características são transmitidas de uma geração para outra. Estuda também mutações, recombinações genéticas e a regulação da expressão gênica, além de aplicar seus conhecimentos em áreas como biotecnologia e medicina.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/microbiologia.png" class="img-fluid rounded-start" alt="microbiologia" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Microbiologia</h5>
-                  <p class="card-text">Foca nos microrganismos, como bactérias, vírus, fungos e protozoários. Analisa sua estrutura, reprodução e papel nos ecossistemas, bem como sua importância na saúde humana, seja como causadores de doenças ou como aliados, como no caso das bactérias do trato digestivo.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/zoologia.png" class="img-fluid rounded-start" alt="zoologia" style="height: 15rem; width: 100%;">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Zoologia</h5>
-                  <p class="card-text">É a ciência que estuda os animais, analisando aspectos como sua anatomia, fisiologia, comportamento, evolução, ecologia, distribuição e classificação. Ela investiga tanto as espécies viventes quanto as extintas, abrangendo desde organismos microscópicos, como protozoários, até grandes vertebrados, como mamíferos e aves.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-      <div class="simboloSobre">
-        <div class="textoSimbolo">
-          <h1>Símbolo do biólogo:</h1>
-          <div class="linhasobre4"></div>
-          <ul>
-            <li>
-              Pedra: A pedra que representa a profissão de Biólogo é a
-              água-marinha.
-            </li>
-            <li>Cor: A cor da profissão é azul.</li>
-            <li>
-              Simbolo do biólogo: No símbolo, é possível observar a estrutura do
-              DNA, que forma um espermatozoide em sua base. Esse espermatozoide
-              está fecundando o óvulo (círculo azul) e dando origem a uma nova
-              vida. As folhas no desenho representam a natureza, e o detalhe do
-              espiral na folha representa a evolução e o progresso.
-            </li>
-          </ul>
-        </div>
-        <img
-          class="simbolo_biologo"
-          src="../img/simbolo-do-biologo.jpg"
-          alt="simbolo"/>
-      </div>
-    </main>
-
-    <footer class="footer">
-      <div class="icones">
-        <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"
-          ><img
-            src="../img/facebook.png"
-            alt="facebook"
-            width="25px"
-            height="25px"
-        /></a>
-        <a
-          href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="
-          ><img
-            src="../img/instagram.png"
-            alt="instagram"
-            width="25px"
-            height="25px"
-        /></a>
-        <a href="https://api.whatsapp.com/send?phone=551133220050"
-          ><img
-            src="../img/whatsapp.png"
-            alt="whatsapp"
-            width="25px"
-            height="25px"
-        /></a>
-        <a
-          href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"
-          ><img
-            src="../img/youtube.png"
-            alt="youtube"
-            width="25px"
-            height="25px"
-        /></a>
-        <a href="https://www.linkedin.com/school/senai-de-valinhos/"
-          ><img
-            src="../img/linkedin.png"
-            alt="linkedin"
-            width="25px"
-            height="25px"
-        /></a>
-      </div>
-
-      <div class="enderecos">
-        <div class="senai">
-          <h3>EDIFÍCIO REDE SENAI Valinhos</h3>
-          <p>R. Artur Fernandes Querido, 55 - Vila Santo</p>
-          <p>Antonio, Valinhos - SP, 13270-530</p>
-        </div>
-
-        <img src="../img/linha.png" alt="linha">
-  
-          <div class="sesi">
-              <h3>EDIFÍCIO REDE SESI Valinhos</h3>
-              <p>Rod. Flávio de Carvalho, 2787 - Jardim São</p>
-              <p>Paulo, Valinhos - SP, 13273-450</p>
-          </div>
+  <header>
+    <nav class="menu-materias" id="menu-materias">
+      <ul>
+        <li><a href="portugues.html">Português</a></li>
+        <li><a href="matematica.html">Matemática</a></li>
+        <li><a href="historia.html">História</a></li>
+        <li><a href="geografia.html">Geografia</a></li>
+        <li><a href="biologia.html">Biologia</a></li>
+        <li><a href="fisica.html">Física</a></li>
+        <li><a href="quimica.html">Química</a></li>
+        <li><a href="artes.html">Artes</a></li>
+        <li><a href="filosofia.html">Filosofia</a></li>
+        <li><a href="sociologia.html">Sociologia</a></li>
+        <li><a href="edFisica.html">Ed. Física</a></li>
+        <li><a href="ingles.html">Inglês</a></li>
+      </ul>
+    </nav>
+  </header>
+  <header class="sociologia-header">
+    <div class="logo-header">
+      <img class="logoImg" src="../img/Logonova.png" alt="logo-header SESI" />
     </div>
-    </footer>
-  </body>
+
+    <div class="vertical-line" style="margin-left: 20%;"></div>
+
+    <nav class="header-nav">
+      <ul class="links">
+        <li><a href="../index.html" class="nav-link">Home</a></li>
+        <li><a href="../pages/sobreNos.html" class="nav-link">Sobre Nós</a></li>
+      </ul>
+      <div id="icones-header">
+        <i class="fa-solid fa-bars fa-xl" style="color: #ffffff"></i>
+      </div>
+    </nav>
+  </header>
+
+  <section class="header-banner">
+    <img class="banner" src="../img/imagem home.jpg" alt="Banner Biologia" />
+    <div class="titulo">Sobre - Biologia</div>
+  </section>
+  <section class="topics-header">
+    <a href="sobre.html" class="aba-text-check01">
+      <button class="aba-item-check01">SOBRE</button>
+    </a>
+    <a href="carreiras.html" class="aba-text02">
+      <button class="aba-item02">CARREIRAS</button>
+    </a>
+    <a href="dicas.html" class="aba-text03">
+      <button class="aba-item03">DICAS</button>
+    </a>
+    <a href="simulados.html" class="aba-text04">
+      <button class="aba-item04">SIMULADOS</button>
+    </a>
+    <a href="noticias.html" class="aba-text05">
+      <button class="aba-item05">NOTÍCIAS</button>
+    </a>
+    <a href="videoAulas.html" class="aba-text06">
+      <button class="aba-item06">VÍDEO - AULAS</button>
+    </a>
+  </section>
+
+  <main class="tituloSobre">
+    <h2>Mais sobre Biologia</h2>
+    <div class="linhaSobreTitulo"></div>
+
+    <div class="card mb-3 card1 animate__animated animate__bounceInLeft" >
+    <img src="../img/significado-biologia.jpg" class="card-img-top card1" alt="significado-biologia">
+      <div class="card-body card2">
+        <h5 class="card-title">O que significa a palavra biologia?</h5>
+        <p class="card-text" style="text-align: justify;"> A biologia é a ciência que estuda a vida em suas diversas formas e
+          processos. Seu foco é investigar os seres vivos, compreendendo sua
+          origem, evolução, estrutura, funcionamento, crescimento, reprodução e
+          interações entre si e com o ambiente. A palavra "biologia" vem do
+          grego: "bios" (vida) e "logos" (estudo), refletindo sua essência como
+          o estudo da vida.</p>
+      </div>
+    </div>
+
+    <div class="card mb-3 card2 animate__animated animate__bounceInRight" >
+    <img src="../img/estudos.jpeg" class="card-img-top card3" alt="estudo-biologia" >
+      <div class="card-body card4">
+        <h5 class="card-title">O que a biologia estuda?</h5>
+        <p class="card-text" style="text-align: justify;"> A Biologia é a ciência que estuda a vida em todos os seus níveis,
+          desde organismos microscópicos até grandes seres vivos. Esse estudo
+          abrange aspectos como a estrutura, funcionamento e interação entre os
+          seres vivos e o ambiente, além de compreender a evolução e adaptação
+          das espécies. A Biologia é importante para entender a prevenção de
+          doenças e o impacto da ação humana sobre o planeta e sobre a própria
+          vida humana.</p>
+      </div>
+    </div>
+
+    <div class="topicoSobre">
+      <h1>Quais são as áreas de estudo?</h1>
+      <div class="linhasobre3"></div>
+      <ul>
+        <p>
+          A Biologia é uma ciência complexa e que apresenta uma série de áreas
+          de estudo. A seguir, veremos algumas dessas e uma explicação
+          simplificada a respeito do objeto de estudo de cada uma delas:
+        </p>
+      </ul>
+    </div>
+
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/anatomia.png" class="img-fluid rounded-start" alt="anatomia"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Anatomia</h5>
+            <p class="card-text">É a ciência que estuda a estrutura dos organismos vivos, analisando a forma, a
+              localização e a relação entre os órgãos e sistemas. Pode ser dividida em anatomia macroscópica, que
+              examina estruturas visíveis a olho nu, como ossos e músculos, e anatomia microscópica, que foca nos
+              tecidos e células com o uso de microscópios. É essencial em áreas como a medicina e a biologia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/biofisica.png" class="img-fluid rounded-start" alt="biofísica"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Biofísica</h5>
+            <p class="card-text">Utiliza os princípios da Física para compreender processos biológicos. Ela estuda
+              fenômenos como a mecânica dos músculos, os movimentos de partículas dentro das células, os fluxos de
+              energia no organismo e a interação entre luz e tecidos biológicos, contribuindo para entender o
+              funcionamento molecular da vida.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/biologia-celular.png" class="img-fluid rounded-start" alt="biologia-celular"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Biologia Celular</h5>
+            <p class="card-text">É a área que investiga as células, consideradas as unidades básicas da vida. Examina
+              sua estrutura, organelas, ciclo celular, divisão e processos como a comunicação celular. Também explora
+              como as células respondem a estímulos e como suas alterações podem levar a doenças.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/biologia-molecular.png" class="img-fluid rounded-start" alt="biologia-molecular"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Biologia Molecular</h5>
+            <p class="card-text">Aprofunda-se nos processos biológicos em nível molecular, como a replicação do DNA, a
+              transcrição do RNA e a síntese de proteínas. Ela estuda a interação entre as moléculas fundamentais da
+              vida, ajudando a desvendar como essas interações regulam as funções celulares.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/bioquimica.png" class="img-fluid rounded-start" alt="bioquímica"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Bioquímica</h5>
+            <p class="card-text">Estuda as reações químicas que ocorrem nos organismos, como o metabolismo de
+              carboidratos, lipídios e proteínas. Foca nos compostos químicos que formam os seres vivos, como enzimas,
+              vitaminas e hormônios, e no papel dessas substâncias no funcionamento celular.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/botanica.png" class="img-fluid rounded-start" alt="botânica"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Botânica</h5>
+            <p class="card-text">É a ciência que analisa os vegetais, abrangendo seu crescimento, reprodução,
+              metabolismo e evolução. Ela estuda desde musgos e samambaias até árvores e flores, investigando também
+              suas interações ecológicas e importância econômica.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/ecologia.png" class="img-fluid rounded-start" alt="ecologia"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Ecologia</h5>
+            <p class="card-text">Investiga as relações entre os organismos e o ambiente, incluindo fatores abióticos
+              (como clima e solo) e bióticos (interações entre seres vivos). Busca entender como essas interações afetam
+              a distribuição e abundância das espécies e como preservar os ecossistemas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/embriologia.png" class="img-fluid rounded-start" alt="embriologia"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Embriologia</h5>
+            <p class="card-text">Analisa o desenvolvimento dos organismos desde a fecundação até a formação completa do
+              embrião. Estuda os processos celulares e moleculares que determinam a formação dos tecidos, órgãos e
+              sistemas durante o desenvolvimento embrionário.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/evolucao.png" class="img-fluid rounded-start" alt="evolução"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Evolução</h5>
+            <p class="card-text">Examina as mudanças nas populações ao longo do tempo, explorando os mecanismos que
+              promovem variações genéticas, como mutações, seleção natural e deriva genética. É uma área que ajuda a
+              entender a diversidade biológica e a história da vida na Terra.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/fisiologia.png" class="img-fluid rounded-start" alt="fisiologia"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Fisiologia</h5>
+            <p class="card-text">Estuda as funções dos sistemas biológicos e como eles se interrelacionam para manter a
+              homeostase. Inclui áreas como a fisiologia humana, que investiga sistemas como o nervoso e o
+              cardiovascular, e a fisiologia vegetal, que foca em processos como fotossíntese e absorção de nutrientes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/genetica.png" class="img-fluid rounded-start" alt="genética"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Genética</h5>
+            <p class="card-text">Analisa os genes e a hereditariedade, investigando como as características são
+              transmitidas de uma geração para outra. Estuda também mutações, recombinações genéticas e a regulação da
+              expressão gênica, além de aplicar seus conhecimentos em áreas como biotecnologia e medicina.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/microbiologia.png" class="img-fluid rounded-start" alt="microbiologia"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Microbiologia</h5>
+            <p class="card-text">Foca nos microrganismos, como bactérias, vírus, fungos e protozoários. Analisa sua
+              estrutura, reprodução e papel nos ecossistemas, bem como sua importância na saúde humana, seja como
+              causadores de doenças ou como aliados, como no caso das bactérias do trato digestivo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; margin-left: 11rem;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../img/zoologia.png" class="img-fluid rounded-start" alt="zoologia"
+            style="height: 15rem; width: 100%;">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Zoologia</h5>
+            <p class="card-text">É a ciência que estuda os animais, analisando aspectos como sua anatomia, fisiologia,
+              comportamento, evolução, ecologia, distribuição e classificação. Ela investiga tanto as espécies viventes
+              quanto as extintas, abrangendo desde organismos microscópicos, como protozoários, até grandes vertebrados,
+              como mamíferos e aves.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="simboloSobre">
+      <div class="textoSimbolo">
+        <h1>Símbolo do biólogo:</h1>
+        <div class="linhasobre4"></div>
+        <ul>
+          <li>
+            Pedra: A pedra que representa a profissão de Biólogo é a
+            água-marinha.
+          </li>
+          <li>Cor: A cor da profissão é azul.</li>
+          <li>
+            Simbolo do biólogo: No símbolo, é possível observar a estrutura do
+            DNA, que forma um espermatozoide em sua base. Esse espermatozoide
+            está fecundando o óvulo (círculo azul) e dando origem a uma nova
+            vida. As folhas no desenho representam a natureza, e o detalhe do
+            espiral na folha representa a evolução e o progresso.
+          </li>
+        </ul>
+      </div>
+      <img class="simbolo_biologo" src="../img/simbolo-do-biologo.jpg" alt="simbolo" />
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="icones">
+      <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"><img src="../img/facebook.png" alt="facebook"
+          width="25px" height="25px" /></a>
+      <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="><img src="../img/instagram.png"
+          alt="instagram" width="25px" height="25px" /></a>
+      <a href="https://api.whatsapp.com/send?phone=551133220050"><img src="../img/whatsapp.png" alt="whatsapp"
+          width="25px" height="25px" /></a>
+      <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"><img src="../img/youtube.png"
+          alt="youtube" width="25px" height="25px" /></a>
+      <a href="https://www.linkedin.com/school/senai-de-valinhos/"><img src="../img/linkedin.png" alt="linkedin"
+          width="25px" height="25px" /></a>
+    </div>
+
+    <div class="enderecos">
+      <div class="senai">
+        <h3>EDIFÍCIO REDE SENAI Valinhos</h3>
+        <p style="margin-bottom: 0;">R. Artur Fernandes Querido, 55 - Vila Santo</p>
+        <p>Antonio, Valinhos - SP, 13270-530</p>
+      </div>
+
+      <img src="../img/linha.png" alt="linha">
+
+      <div class="sesi">
+        <h3>EDIFÍCIO REDE SESI Valinhos</h3>
+        <p style="margin-bottom: 0;">Rod. Flávio de Carvalho, 2787 - Jardim São</p>
+        <p>Paulo, Valinhos - SP, 13273-450</p>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
