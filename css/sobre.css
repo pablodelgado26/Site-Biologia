@@ -759,19 +759,6 @@
     gap: 20px;
   }
 
-  /* Conteúdo */
-
-  .card1 {
-    height: 10rem;
-    width: 15rem;
-  }
-
-  .card2 {
-    height: 10rem;
-    width: 20rem;
-    margin-left: 0;
-  }
-
 /* footer */
   
 .icones {
