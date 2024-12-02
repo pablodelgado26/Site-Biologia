@@ -802,13 +802,13 @@ body {
   }
 
   .menu-materias.abrir ul {
-    height: calc(80vh - 20px);
+    height: calc(65vh - 20px);
   }
 
   .menu-materias ul {
     width: 100%;
     left: 0;
-    margin-top: 8%;
+    margin-top: 7%;
   }
 
   .titulo {
