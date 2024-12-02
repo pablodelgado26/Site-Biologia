@@ -29,9 +29,6 @@ body {
   font-size: 3rem;
 }
 
-
-
-
 /* menu com JS */
 .menu-materias ul {
   background-color: #e30613;
@@ -89,7 +86,7 @@ body {
   margin: 10px auto;
   position: relative;
   transform-origin: center;
-  transition: .2s;
+  transition: 0.2s;
 }
 
 #btn-menu.ativo .linha:nth-child(1) {
@@ -112,61 +109,10 @@ body {
   border: 0px solid #000000;
 }
 
-
-/* personalização do sobreNós */
-.quemSomos {
-  padding: 20px;
-  background-color: #ffffff;
-  text-align: center;
-  margin: 20px auto;
-  max-width: 1200px;
-  border-radius: 8px;
-}
-
-.quemSomos h2 {
-  color: #030303;
-  font-size: 28px;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #308640;
-  display: inline-block;
-  padding-bottom: 10px;
-}
-
-.quemSomos article {
-  margin-bottom: 20px;
-  padding: 15px;
-  background-color: #cacaca;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin: 0px 0px 50px 0px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.quemSomos article p {
-  color: #000000;
-  font-size: 20px;
-}
-
-.team {
-  display: flex;
-  justify-content: space-around;
-  margin: 0px 0px 50px 0px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.team-member img {
-  width: 150px;
-  height: 150px;
-}
-
-
 /* Parte padrão */
 .sociologia-header {
   display: flex;
   color: #ffffffff;
-  justify-content: space-between;
   background-color: #e30613;
   padding: 1rem 0;
 }
@@ -174,7 +120,7 @@ body {
 .logo-header {
   margin: 0 30px;
   display: flex;
-  justify-content: space-between;
+  gap: 40px;
   background-color: #e30613;
 }
 
@@ -189,7 +135,7 @@ body {
   border-radius: 50%;
   width: 100px;
   height: 100px;
-  border: 5px solid #9A1915;
+  border: 5px solid #9a1915;
 }
 
 .header-nav {
@@ -209,7 +155,6 @@ body {
   list-style: none;
   gap: 60px;
   margin-right: 50px;
-
 }
 
 .links a {
@@ -226,8 +171,7 @@ body {
   height: 50px;
   width: 3px;
   background-color: #ffff;
-  margin: 0 20px;
-  margin-right: 20px;
+  margin: 0 20%;
 }
 
 .logo-header {
@@ -238,28 +182,17 @@ body {
   height: 50px;
 }
 
-
-#icones-header {
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
-  color: #ffffffff;
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin-right: 5px;
-}
-
-#sesi-logo {
-  margin: 0 40px;
-}
-
 .banner {
   padding: 0;
   width: 100%;
   height: 400px;
   filter: brightness(0.6);
+  object-fit: cover;
+  object-position: 20% 10%;
+}
 
+.bannerMobile {
+  display: none;
 }
 
 .titulo {
@@ -270,37 +203,13 @@ body {
   color: white;
   font-size: 50px;
   font-weight: bold;
-
-}
-
-h1 {
-  font-size: 48px;
-  font-weight: bold;
-  text-align: left;
-  color: white;
-  /* margin-right: 950px; */
 }
 
 #line {
   height: 5px;
   margin: 20px auto;
   width: 20%;
-  background-color: #9A1915;
-}
-
-.img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
-  height: 50px;
-  box-sizing: border-box;
-}
-
-#sesi-logo {
-  margin-left: 10px;
-  margin-right: 30px;
+  background-color: #9a1915;
 }
 
 .header-nav .nav-list {
@@ -309,20 +218,13 @@ h1 {
   justify-content: center;
 }
 
-.img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
-  height: 50px;
-  box-sizing: border-box;
-}
-
-
 .icones {
   background-color: #e30613;
   height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
 }
 
 .topics-header {
@@ -332,84 +234,15 @@ h1 {
   margin-bottom: 40px;
 }
 
-.aba-text {
-  color: rgb(0, 0, 0);
-  text-align: center;
-  justify-content: space-between;
-  padding-left: 50px;
-  text-decoration: none;
-}
-
-.aba-text-dicas {
-  color: rgb(0, 0, 0);
-  padding-left: 70px;
-  text-decoration: none;
-
-}
-
-.aba-item {
-  background-color: #e0e0e0;
-  border: none;
-  padding: 10px 20px;
-  margin: 0 10px;
-  border-radius: 20px;
-  font-size: 16px;
-  color: #333;
-  cursor: pointer;
-  outline: none;
-  width: 250px;
-  justify-content: center;
-  align-items: center;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.aba-text-check {
-  color: rgb(255, 255, 255);
-  text-align: center;
-  padding-left: 70px;
-  text-decoration: none;
-}
-
-.aba-item-check {
-  background-color: #308640;
-  border: none;
-  padding: 10px 20px;
-  margin: 0 10px;
-  border-radius: 20px;
-  font-size: 16px;
-  cursor: pointer;
-  outline: none;
-  width: 250px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-}
-
 #intro-content {
   max-width: 60%;
   margin-bottom: 50px;
 }
 
-.img-introducao {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.imagem-icones {
-  margin-left: 43%;
-  display: inline-block;
-}
-
+/* Footer */
 .footer-text {
   background-color: #9a1915;
   color: white;
-
 }
 
 .header-nav .nav-link {
@@ -423,55 +256,10 @@ h1 {
 .footer {
   background-color: #9a1915;
   color: white;
-  margin-top: 50px;
 }
 
-.footer .icones {
-  background-color: #e30613;
-}
-
-.senai {
-  width: 20%;
-  display: inline-block;
-  text-align: center;
-  padding: 30px 0 20px 0;
-  margin-left: 25%;
-}
-
-.senai h3 {
-  text-align: left;
-}
-
-.senai p {
-  text-align: left;
-}
-
-.sesi {
-  width: 20%;
-  display: inline-block;
-  margin-left: 3%;
-  text-align: center;
-  padding: 0 0 20px 0px;
-}
-
-.sesi h3 {
-  text-align: left;
-}
-
-.sesi p {
-  text-align: left;
-}
-
-.footer .icones img {
-  display: inline-block;
-  margin-left: 25px;
-  ;
-}
-
-.icones {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.icones a {
+  margin-top: 7px;
 }
 
 .footer-text {
@@ -479,12 +267,19 @@ h1 {
   color: white;
 }
 
+.enderecos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+}
+
 .img {
   width: 25%;
   margin-bottom: 300px;
   align-items: center;
 }
-
 
 /* Conteúdo principal - Dicas */
 .tituloDicas {
@@ -541,11 +336,9 @@ h1 {
   height: 300px;
 }
 
-
 .dica .imagem-dica03 {
   width: 400px;
   height: 300px;
-
 }
 
 .dica .imagem-dica02 {
@@ -558,13 +351,10 @@ h1 {
   height: 300px;
 }
 
-.icones {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  padding: 10px 0;
-  align-items: center;
-  margin-left: -135px;
+.ImagemDicas {
+  height: 500px;
+  width: 800px;
+  border-radius: 50px;
 }
 
 .dica .imagem-dica01 {
@@ -576,13 +366,13 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .titulo00 h1 {
-  color: #030303;}
+  color: #030303;
+}
 
-.linhaTituloDicas{
+.linhaTituloDicas {
   background-color: #308640;
   height: 4px;
   width: 200px;
@@ -614,7 +404,6 @@ h1 {
   text-align: center;
 
   text-decoration: none;
-
 }
 
 .aba-item-check04 {
@@ -631,7 +420,6 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-
 }
 
 .aba-text04 {
@@ -665,7 +453,6 @@ h1 {
   text-align: center;
 
   text-decoration: none;
-
 }
 
 .aba-item-check01 {
@@ -682,7 +469,6 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-
 }
 
 .aba-text01 {
@@ -716,7 +502,6 @@ h1 {
   text-align: center;
 
   text-decoration: none;
-
 }
 
 .aba-item-check02 {
@@ -733,7 +518,6 @@ h1 {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-
 }
 
 .aba-text02 {
@@ -766,7 +550,6 @@ h1 {
   color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
-
 }
 
 .aba-item-check03 {
@@ -815,7 +598,6 @@ h1 {
   color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
-
 }
 
 .aba-item-check05 {
@@ -864,7 +646,6 @@ h1 {
   color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
-
 }
 
 .aba-item-check06 {
@@ -889,7 +670,6 @@ h1 {
   justify-content: space-between;
   text-decoration: none;
 }
-
 
 .aba-item01:hover {
   background-color: #308640;
@@ -921,104 +701,90 @@ h1 {
   transition: calc(0.5s);
 }
 
+@media (max-width: 900px) {
+  /* header */
+  .logo-header img {
+    width: 90px;
+    height: 40px;
+    margin-top: 7px;
+  }
 
-/* Footer */
+  .logo-header {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+  }
 
-.footer-text {
-  background-color: #9a1915;
-  color: white;
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-left: -6rem;
+  }
 
-}
+  #btn-menu {
+    margin-top: 15px;
+  }
 
-.header-nav .nav-link {
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s;
-  margin: 6px;
-  color: #ffffffff;
-}
+  .menu-materias.abrir ul {
+    height: calc(80vh - 20px);
+  }
 
-.footer {
-  background-color: #9a1915;
-  color: white;
-  margin-top: 50px;
-}
+  .menu-materias ul {
+    width: 100%;
+    left: 0;
+    margin-top: 8%;
+  }
 
-.footer .icones {
-  background-color: #e30613;
-}
+  .titulo {
+    font-size: 30px;
+    left: 150px;
+    margin-top: 10%;
+  }
 
-.senai {
-  width: 20%;
-  display: inline-block;
-  text-align: center;
-  padding: 30px 0 20px 0;
-  margin-left: 25%;
-}
+  .vertical-line {
+    display: none;
+  }
 
-.senai h3 {
-  text-align: left;
-}
+  .topics-header {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 
-.senai p {
-  text-align: left;
-}
+  /* conteúdo */
 
-.sesi {
-  width: 20%;
-  display: inline-block;
-  margin-left: 3%;
-  text-align: center;
-  padding: 0 0 20px 0px;
-}
+  .ImagemDicas {
+    height: 250px;
+    width: 500px;
+    border-radius: 50px;
+  }
 
-.sesi h3 {
-  text-align: left;
-}
+  
 
-.sesi p {
-  text-align: left;
-}
+  /* footer */
 
-.footer .icones img {
-  display: inline-block;
-  margin-left: 25px;;
-}
+  .icones {
+    gap: 50px;
+  }
 
-.icones {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .enderecos {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 10px;
+    height: 100%;
+  }
 
+  .sesi {
+    margin-bottom: 20px;
+  }
 
+  .senai {
+    margin-top: 10px;
+  }
 
-.footer-text {
-  background-color: #9a1915;
-  color: white;
-}
-
-
-
-.img {
-  width: 25%;
-  margin-bottom: 300px;
-  align-items: center;
-}
-
-.team{
-  display: flex;
-  justify-content: space-around;
-  margin: 0px 0px 50px 0px;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
-.icones {
-display: flex;
-justify-content: center;
-gap: 10px;
-padding: 10px 0;
-align-items: center;
-margin-left: -195px;
+  .enderecos img {
+    display: none;
+  }
 }
