@@ -437,13 +437,18 @@
 .card1 {
   height: 10rem;
   width: 70rem;
-  margin-left: 17%;
 }
 
 .card2 {
   height: 10rem;
   width: 70rem;
-  margin-left: 17%;
+}
+
+.cards-sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .simboloSobre h1 {
@@ -759,6 +764,39 @@
     gap: 20px;
   }
 
+/* conteúdo */
+
+.card1 {
+  width: 100%;
+}
+
+.card2 {
+  width: 100%;
+}
+
+.linhaSobreTitulo {
+  width: 100%;
+}
+
+.linhasobre3 {
+  width: 100%;
+}
+
+.linhaSobre4 {
+  width: 100%;
+}
+
+.simboloSobre {
+  display: flex;
+  flex-direction: column;
+}
+
+.simboloSobre img {
+  width: 20rem;
+  height: 20rem;
+}
+
+  
 /* footer */
   
 .icones {
