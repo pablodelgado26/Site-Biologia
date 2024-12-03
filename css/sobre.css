@@ -588,6 +588,10 @@
   margin-right: 50px;
 }
 
+.container5 {
+  max-width: 1400px; 
+}
+
 .links a {
   display: flex;
   color: #ffffff;
@@ -794,7 +798,9 @@
 .simboloSobre img {
   width: 20rem;
   height: 20rem;
+  margin-top: 20px;
 }
+
 
   
 /* footer */
