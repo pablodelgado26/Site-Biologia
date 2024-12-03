@@ -25,9 +25,14 @@ body {
   margin-right: 0;
 }
 
+.menu-materias a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .menu-materias.abrir ul {
   visibility: visible;
-  height: calc(55.5vh - 10px);
+  height: calc(80% - 18%);
 }
 
 .menu-materias ul li:hover {
@@ -716,7 +721,7 @@ body {
   }
 
   .menu-materias.abrir ul {
-    height: calc(65vh - 20px);
+    height: calc(80% - 20%);
   }
 
   .menu-materias ul {

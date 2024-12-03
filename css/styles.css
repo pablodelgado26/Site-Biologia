@@ -29,7 +29,7 @@ body {
 
 .menu-materias.abrir ul {
   visibility: visible;
-  height: calc(55.5vh - 10px);
+  height: calc(80% - 18%);
 }
 
 .menu-materias ul li:hover {
@@ -46,6 +46,15 @@ body {
 .menu-materias ul li a {
   color: #ffffff;
   text-decoration: none;
+}
+
+.menu-materias a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+ol, ul {
+  padding: 0%;
 }
 #btn-menu {
   width: 45px;
@@ -716,13 +725,13 @@ dl, ol, ul {
   }
 
   .menu-materias.abrir ul {
-    height: calc(80vh - 20px);
+    height: calc(80% - 20%);
   }
 
   .menu-materias ul {
     width: 100%;
     left: 0;
-    margin-top: 8%;
+    margin-top: 6%;
   }
 
   .titulo {

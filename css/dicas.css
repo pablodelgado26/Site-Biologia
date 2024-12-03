@@ -20,6 +20,11 @@ body {
   border-radius: 8px;
 }
 
+.menu-materias a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .tituloDicas h2 {
   color: #030303;
   margin-bottom: 20px;
@@ -47,7 +52,7 @@ body {
 
 .menu-materias.abrir ul {
   visibility: visible;
-  height: calc(55.5vh - 10px);
+  height: calc(80% - 18%);
 }
 
 .menu-materias ul li:hover {
@@ -755,7 +760,7 @@ body {
   }
 
   .menu-materias.abrir ul {
-    height: calc(80vh - 20px);
+    height: calc(80% - 20%);
   }
 
   .menu-materias ul {

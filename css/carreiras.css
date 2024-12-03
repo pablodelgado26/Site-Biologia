@@ -20,6 +20,11 @@ body {
   border-radius: 8px;
 }
 
+.menu-materias a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 /* menu com JS */
 .menu-materias ul {
   background-color: #e30613;
@@ -38,9 +43,8 @@ body {
 
 .menu-materias.abrir ul {
   visibility: visible;
-  height: calc(55.5vh - 10px);
+  height: calc(80% - 18%);
 }
-
 .menu-materias ul li:hover {
   background-color: #9a1915;
 }
@@ -730,7 +734,7 @@ body {
   }
 
   .menu-materias.abrir ul {
-    height: calc(65vh - 20px);
+    height: calc(80% - 20%);
   }
 
   .menu-materias ul {
