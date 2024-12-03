@@ -362,6 +362,30 @@ body {
   height: 300px;
 }
 
+.tituloDicas p {
+  text-align: justify;
+}
+
+.dica-content h2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.dica-content-reverse h2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dica-content-reverse p {
+  margin: 30px 50px;
+  font-size: 18px;
+}
+
+.dica-content p {
+  margin: 30px 50px;
+  font-size: 18px;
+}
+
 .titulo00 {
   display: flex;
   flex-direction: column;
@@ -380,6 +404,7 @@ body {
 }
 
 /* Parte navegação */
+
 .aba-item04 {
   background-color: #e0e0e0;
   border: none;
@@ -402,7 +427,6 @@ body {
 .aba-text-check04 {
   color: rgb(255, 255, 255);
   text-align: center;
-
   text-decoration: none;
 }
 
@@ -420,6 +444,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: #ffffff;
 }
 
 .aba-text04 {
@@ -451,7 +476,6 @@ body {
 .aba-text-check01 {
   color: rgb(255, 255, 255);
   text-align: center;
-
   text-decoration: none;
 }
 
@@ -469,6 +493,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: #ffffff;
 }
 
 .aba-text01 {
@@ -500,7 +525,6 @@ body {
 .aba-text-check02 {
   color: rgb(255, 255, 255);
   text-align: center;
-
   text-decoration: none;
 }
 
@@ -518,6 +542,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: #ffffff;
 }
 
 .aba-text02 {
@@ -566,6 +591,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: #ffffff;
 }
 
 .aba-text03 {
@@ -614,6 +640,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: #ffffff;
 }
 
 .aba-text05 {
@@ -662,6 +689,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  color: #ffffff;
 }
 
 .aba-text06 {
@@ -760,7 +788,60 @@ body {
     border-radius: 50px;
   }
 
+  .dica {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .tituloDicas .dica,
+  .dica-reverse {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dica img,
+  .dica-reverse img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 20px 0;
+  }
+
+  .dica-content,
+  .dica-content-reverse {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+
+  .linhaVideo {
+    background-color: #308640;
+    height: 3px;
+    width: 100%;
+  }
+
+  .ImagemDicas {
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .dica .imagem-dica01,
+  .dica .imagem-dica02,
+  .dica .imagem-dica03,
+  .dica .imagem-dica05,
+  .dica-reverse .imagem-dica04 {
+    width: 100%;
+    height: auto;
+  }
+
+  .dica-content-reverse p {
+    margin: 0px 0px;
+  }
   
+  .dica-content p {
+    margin: 0px 0px;
+  }
 
   /* footer */
 
