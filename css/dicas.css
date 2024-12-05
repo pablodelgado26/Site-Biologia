@@ -399,13 +399,14 @@ body {
 
 .titulo00 h1 {
   color: #030303;
+  font-size: 3rem;
 }
 
-.linhaTituloDicas {
+.linhaTituloSimulados {
   background-color: #308640;
   height: 4px;
   width: 200px;
-  margin: 0 auto 3%;
+  margin: 0 auto ;
 }
 
 /* Parte navegação */
