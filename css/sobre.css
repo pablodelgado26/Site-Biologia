@@ -431,6 +431,10 @@
     display: inline-block;
   }
   
+  dl, ol, ul {
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
 /* parte de sobre */
 .simboloSobre {
   display: flex;
@@ -447,6 +451,7 @@
 .card2 {
   height: 10rem;
   width: 70rem;
+  margin-top: 25%;
 }
 
 .cards-sobre {
@@ -472,7 +477,6 @@
 
 .textoSimbolo {
   width: 50%;
-  margin-top: 5%;
 }
 
   .topicoSobre h1{
@@ -480,6 +484,10 @@
     font-size: 28px;
     margin-top: 5%;
     margin-left: 2%;
+  }
+
+  .topicoSobre {
+    margin-top: 50%;
   }
 
   .topicoSobre p {
@@ -597,6 +605,9 @@
 
 .container5 {
   max-width: 1400px; 
+}
+.container6 {
+  margin-top: 20px;
 }
 
 .links a {
@@ -785,6 +796,7 @@ ol, ul {
 
 .card2 {
   width: 100%;
+  margin-top: 60%;
 }
 
 .linhaSobreTitulo {
@@ -824,6 +836,9 @@ ol, ul {
   text-align: center;
 }
 
+.topicoSobre {
+  margin-top: 120%;
+}
 .textoSimbolo {
   width: 100%;
 }
