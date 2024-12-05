@@ -1,194 +1,245 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carreiras</title>
-    <link rel="stylesheet" href="../css/carreiras.css">
-    <link rel="icon" type="image/x-icon" href="/img/senai.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carreiras</title>
+  <link rel="stylesheet" href="../css/carreiras.css">
+  <link rel="icon" type="image/x-icon" href="/img/senai.ico">
 
 </head>
+
 <body>
-    <button onclick="animar(), animarMenu()" id="btn-menu">
-        <span class="linha"></span>
-        <span class="linha"></span>
-        <span class="linha"></span>
-    </button>
-    
-    <script>
-        function animar(){
-            const btn = document.getElementById('btn-menu');
-            btn.classList.toggle('ativo');
-        }
-    </script>
-    <script>
-        function animarMenu(){
-            const menu = document.getElementById('menu-materias');
-            menu.classList.toggle('abrir');
-            menu.addEventListener('click', animarMenu);
-        }
-    </script>
+  <button onclick="animar(), animarMenu()" id="btn-menu">
+    <span class="linha"></span>
+    <span class="linha"></span>
+    <span class="linha"></span>
+  </button>
 
-    <header>
+  <script>
+    function animar() {
+      const btn = document.getElementById('btn-menu');
+      btn.classList.toggle('ativo');
+    }
+  </script>
+  <script>
+    function animarMenu() {
+      const menu = document.getElementById('menu-materias');
+      menu.classList.toggle('abrir');
+      menu.addEventListener('click', animarMenu);
+    }
+  </script>
 
-      <nav class="menu-materias" id="menu-materias">
-        <ul>
-          <a href="https://luschettini.github.io/site-portaleducacional/"><li>Portal</li></a>
-          <a href="http://lp-projeto.vercel.app/"><li>Português</li></a>
-          <a href="https://projeto-portal-matematica.vercel.app/"><li>Matemática</li></a>
-          <a href="https://site-historia-six.vercel.app/"><li>História</li></a>
-          <a href="https://projeto-geografia.vercel.app/"><li>Geografia</li></a>
-          <a href="https://site-biologia-41g2.vercel.app/"><li>Biologia</li></a>
-          <a href="https://site-fisica.vercel.app/index.html"><li>Física</li></a>
-          <a href="https://portal-de-materias.vercel.app/"><li>Química</li></a>
-          <a href="https://portal-noticias-html.vercel.app/"><li>Ed. Física & Artes</li></a>
-          <a href="https://site-filosofia.vercel.app/"><li>Filosofia</li></a>
-          <a href="https://site-sociologia.vercel.app/"><li>Sociologia</li></a>
-          <a href="https://site-ingles-theta.vercel.app/"><li>Inglês</li></a>
-        </ul>
-      </nav>
-    </header>
-    <header class="sociologia-header">
-        <div class="logo-header">
-            <img id="sesi-logo" src="../img/sesiii.jpeg" alt="logo-header SESI">
-            <img id="senai-logo" src="../img/image.png" alt="logo-header SENAI">
+  <header>
+
+    <nav class="menu-materias" id="menu-materias">
+      <ul>
+        <a href="https://luschettini.github.io/site-portaleducacional/">
+          <li>Portal</li>
+        </a>
+        <a href="http://lp-projeto.vercel.app/">
+          <li>Português</li>
+        </a>
+        <a href="https://projeto-portal-matematica.vercel.app/">
+          <li>Matemática</li>
+        </a>
+        <a href="https://site-historia-six.vercel.app/">
+          <li>História</li>
+        </a>
+        <a href="https://projeto-geografia.vercel.app/">
+          <li>Geografia</li>
+        </a>
+        <a href="https://site-biologia-41g2.vercel.app/">
+          <li>Biologia</li>
+        </a>
+        <a href="https://site-fisica.vercel.app/index.html">
+          <li>Física</li>
+        </a>
+        <a href="https://portal-de-materias.vercel.app/">
+          <li>Química</li>
+        </a>
+        <a href="https://portal-noticias-html.vercel.app/">
+          <li>Ed. Física & Artes</li>
+        </a>
+        <a href="https://site-filosofia.vercel.app/">
+          <li>Filosofia</li>
+        </a>
+        <a href="https://site-sociologia.vercel.app/">
+          <li>Sociologia</li>
+        </a>
+        <a href="https://site-ingles-theta.vercel.app/">
+          <li>Inglês</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <header class="sociologia-header">
+    <div class="logo-header">
+      <img id="sesi-logo" src="../img/sesiii.jpeg" alt="logo-header SESI">
+      <img id="senai-logo" src="../img/image.png" alt="logo-header SENAI">
+    </div>
+
+    <div class="vertical-line"></div>
+
+    <nav class="header-nav">
+      <ul class="links">
+        <li><a href="../index.html" class="nav-link">Home</a></li>
+        <li><a href="../pages/sobreNos.html" class="nav-link">Sobre Nós</a></li>
+      </ul>
+      <div id="icones-header">
+        <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+      </div>
+    </nav>
+  </header>
+
+  <section class="header-banner">
+    <img class="banner" src="../img/imagem home.jpg" alt="Banner Biologia">
+    <div class="titulo">Carreiras - Biologia</div>
+  </section>
+  <section class="topics-header">
+    <a href="sobre.html" class="aba-text01">
+      <button class="aba-item01">SOBRE</button>
+    </a>
+    <a href="carreiras.html" class="aba-text-check02">
+      <button class="aba-item-check02">CARREIRAS</button>
+    </a>
+    <a href="dicas.html" class="aba-text03">
+      <button class="aba-item03">DICAS</button>
+    </a>
+    <a href="simulados.html" class="aba-text04">
+      <button class="aba-item04">SIMULADOS</button>
+    </a>
+    <a href="noticias.html" class="aba-text05">
+      <button class="aba-item05">NOTÍCIAS</button>
+    </a>
+    <a href="videoAulas.html" class="aba-text06">
+      <button class="aba-item06">VÍDEO - AULAS</button>
+    </a>
+  </section>
+
+
+  <main class="principaisNoticias">
+
+
+    <!-- CABEÇALHO -->
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Carreiras - SESI SENAI</title>
+      <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+
+      <!-- Seção de Carreiras -->
+      <div class="titulo00">
+        <h1>Carreiras</h1>
+        <div class="linhaTituloSimulados"></div>
+      </div>
+      <section class="careers">
+        <div class="careers-grid">
+          <div class="career-card">
+            <img class="img" src="../img/carreiras-img.01.jpeg" alt="Biólogo">
+            <h3>Biólogo</h3>
+            <p>As Ciências Biológicas fazem parte de um campo que engloba o estudo da vida em suas diferentes formas,
+              seja com seres humanos, plantas ou animais. No mercado de trabalho, os campos de atuação de quem é da área
+              são bastante diversos. Organizar coleções biológicas, manejar recursos naturais, desenvolver atividades de
+              educação ambiental.</p>
+          </div>
+          <div class="career-card">
+            <img class="img" src="../img/carreiras-img.02.jpeg" alt="Biomédico">
+            <h3>Biomédico</h3>
+            <p>O trabalho do profissional de Biomedicina é identificar, classificar e estudar a fundo os
+              micro-organismos causadores de doenças e suas relações com o organismo humano. Tudo isso para que seja
+              possível descobrir medicamentos e vacinas capazes de combatê-los.</p>
+          </div>
+          <div class="career-card">
+            <img class="img" src="../img/carreiras-img.03.jpeg" alt="Zoólogo">
+            <h3>Zoólogo</h3>
+            <p>O profissional de Zoologia estuda a biologia dos animais, abrangendo aspectos como sua estrutura, função,
+              evolução, comportamento e interações com o meio ambiente. Ele pode realizar pesquisas em diversos
+              habitats, como florestas, oceanos e savanas, para entender melhor a vida animal e seus ecossistemas.</p>
+          </div>
+          <div class="career-card">
+            <img class="img" src="../img/ecologista.png" alt="Ecologista">
+            <h3>Ecologista</h3>
+            <p>Ecologistas analisam ecossistemas e a biodiversidade, trabalhando para conservar a natureza e resolver
+              problemas ambientais. Eles podem trabalhar em ONGs, órgãos governamentais ou empresas de consultoria
+              ambiental, contribuindo para a preservação dos recursos naturais e a sustentabilidade.</p>
+          </div>
         </div>
-        
-        <div class="vertical-line"></div>
+      </section>
 
-        <nav class="header-nav">
-            <ul class="links">
-                <li><a href="../index.html" class="nav-link">Home</a></li>
-                <li><a href="../pages/sobreNos.html" class="nav-link">Sobre Nós</a></li>
-            </ul>
-            <div id="icones-header">
-              <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
-            </div>
-        </nav>
-    </header>
-
-    <section class="header-banner">
-      <img class="banner" src="../img/imagem home.jpg" alt= "Banner Biologia">
-      <div class="titulo">Carreiras - Biologia</div>
-    </section>
-    <section class="topics-header">
-      <a href="sobre.html" class="aba-text01">
-        <button class="aba-item01">SOBRE</button>
-      </a>
-      <a href="carreiras.html" class="aba-text-check02">
-        <button class="aba-item-check02">CARREIRAS</button>
-      </a>
-      <a href="dicas.html" class="aba-text03">
-        <button class="aba-item03">DICAS</button>
-      </a>
-      <a href="simulados.html" class="aba-text04">
-        <button class="aba-item04">SIMULADOS</button>
-      </a>
-      <a href="noticias.html" class="aba-text05">
-        <button class="aba-item05">NOTÍCIAS</button>
-      </a>
-      <a href="videoAulas.html" class="aba-text06">
-        <button class="aba-item06">VÍDEO - AULAS</button>
-      </a>
-    </section>
-  
-    
-      <main class="principaisNoticias">
-
-
-<!-- CABEÇALHO -->
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carreiras - SESI SENAI</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-
-  <!-- Seção de Carreiras -->
-  <div class="titulo00">
-    <h1>Carreiras</h1>
-    <div class="linhaTituloSimulados"></div>
-  </div>
-    <section class="careers">
-      <div class="careers-grid">
-            <div class="career-card">
-              <img class="img" src="../img/carreiras-img.01.jpeg" alt="Biólogo">
-              <h3>Biólogo</h3>
-                <p>As Ciências Biológicas fazem parte de um campo que engloba o estudo da vida em suas diferentes formas, seja com seres humanos, plantas ou animais. No mercado de trabalho, os campos de atuação de quem é da área são bastante diversos. Organizar coleções biológicas, manejar recursos naturais, desenvolver atividades de educação ambiental.</p>
-            </div>
-            <div class="career-card">
-              <img class="img" src="../img/carreiras-img.02.jpeg" alt="Biomédico">
-              <h3>Biomédico</h3>
-              <p>O trabalho do profissional de Biomedicina é identificar, classificar e estudar a fundo os micro-organismos causadores de doenças e suas relações com o organismo humano. Tudo isso para que seja possível descobrir medicamentos e vacinas capazes de combatê-los.</p>
-            </div>
-            <div class="career-card">
-              <img class="img" src="../img/carreiras-img.03.jpeg" alt="Zoólogo">
-              <h3>Zoólogo</h3>
-              <p>O profissional de Zoologia estuda a biologia dos animais, abrangendo aspectos como sua estrutura, função, evolução, comportamento e interações com o meio ambiente. Ele pode realizar pesquisas em diversos habitats, como florestas, oceanos e savanas, para entender melhor a vida animal e seus ecossistemas.</p>
-            </div>
-            <div class="career-card">
-              <img class="img" src="../img/ecologista.png" alt="Ecologista">
-              <h3>Ecologista</h3>
-              <p>Ecologistas analisam ecossistemas e a biodiversidade, trabalhando para conservar a natureza e resolver problemas ambientais. Eles podem trabalhar em ONGs, órgãos governamentais ou empresas de consultoria ambiental, contribuindo para a preservação dos recursos naturais e a sustentabilidade.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="careers">
-      <div class="careers-grid">
+      <section class="careers">
+        <div class="careers-grid">
           <div class="career-card">
             <img class="img" src="../img/geneticista.png" alt="Geneticista">
             <h3>Geneticista</h3>
-            <p>Geneticistas estudam os genes e a hereditariedade para entender doenças genéticas, desenvolver terapias e melhorar a agricultura. Eles utilizam técnicas avançadas de biotecnologia para manipular e analisar DNA, com aplicações que vão desde a saúde humana até a produção de alimentos.</p>
+            <p>Geneticistas estudam os genes e a hereditariedade para entender doenças genéticas, desenvolver terapias e
+              melhorar a agricultura. Eles utilizam técnicas avançadas de biotecnologia para manipular e analisar DNA,
+              com aplicações que vão desde a saúde humana até a produção de alimentos.</p>
           </div>
           <div class="career-card">
             <img class="img" src="../img/professor-bio.png" alt="Professor Biologia">
             <h3>Professor de Biologia</h3>
-            <p>Professores de biologia ensinam estudantes sobre conceitos biológicos e realizam pesquisas acadêmicas. Podem trabalhar em escolas, faculdades e universidades, inspirando a próxima geração de cientistas e profissionais de saúde.</p>
+            <p>Professores de biologia ensinam estudantes sobre conceitos biológicos e realizam pesquisas acadêmicas.
+              Podem trabalhar em escolas, faculdades e universidades, inspirando a próxima geração de cientistas e
+              profissionais de saúde.</p>
           </div>
           <div class="career-card">
             <img class="img" src="../img/microbiologista.png" alt="Microbiologista">
             <h3>Microbiologista</h3>
-            <p>Microbiologistas estudam micro-organismos, como bactérias e vírus, e seu impacto em seres humanos, animais e o meio ambiente. Eles desempenham um papel vital na saúde pública, agricultura e indústria alimentícia, desenvolvendo métodos para controlar doenças e melhorar a segurança alimentar.</p>
+            <p>Microbiologistas estudam micro-organismos, como bactérias e vírus, e seu impacto em seres humanos,
+              animais e o meio ambiente. Eles desempenham um papel vital na saúde pública, agricultura e indústria
+              alimentícia, desenvolvendo métodos para controlar doenças e melhorar a segurança alimentar.</p>
           </div>
           <div class="career-card">
             <img class="img" src="../img/biotecnologos.png" alt="Biotecnólogo">
             <h3>Biotecnólogo</h3>
-            <p>Biotecnólogos pode realizar atividades voltadas para diversos setores. Geralmente, atuam na produção de materiais como medicamentos, produtos industriais e até alimentos, mas sabendo controlar os níveis de fungos, bactérias ou demais micro-organismos presentes no produto.</p>
+            <p>Biotecnólogos pode realizar atividades voltadas para diversos setores. Geralmente, atuam na produção de
+              materiais como medicamentos, produtos industriais e até alimentos, mas sabendo controlar os níveis de
+              fungos, bactérias ou demais micro-organismos presentes no produto.</p>
           </div>
+        </div>
+      </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="icones">
+      <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"><img src="../img/facebook.png" alt="facebook"
+          width=25px height=25px /></a>
+      <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="><img src="../img/instagram.png"
+          alt="instagram" width=25px height=25px /></a>
+      <a href="https://api.whatsapp.com/send?phone=551133220050"><img src="../img/whatsapp.png" alt="whatsapp"
+          width=25px height=25px /></a>
+      <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"><img src="../img/youtube.png"
+          alt="youtube" width=25px height=25px /></a>
+      <a href="https://www.linkedin.com/school/senai-de-valinhos/"><img src="../img/linkedin.png" alt="linkedin"
+          width=25px height=25px /></a>
+    </div>
+
+    <div class="enderecos">
+      <div class="senai">
+        <h3>EDIFÍCIO REDE SENAI Valinhos</h3>
+        <p>
+          R. Artur Fernandes Querido, 55 - Vila Santo<br />Antonio, Valinhos -
+          SP, 13270-530
+        </p>
       </div>
-  </section>
+      <img src="../img/linha.png" alt="linha">
 
-      </main>
+      <div class="sesi">
+        <h3>EDIFÍCIO REDE SESI Valinhos</h3>
+        <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br />Paulo, Valinhos - SP, 13273-450</p>
+      </div>
+    </div>
 
-    <footer class="footer">
-        <div class="icones">
-          <a href="https://www.facebook.com/senaisp.valinhos?mibextid=ZbWKwL"><img src="../img/facebook.png" alt="facebook" width=25px height=25px/></a>
-          <a href="https://www.instagram.com/senaivalinhos?igsh=MXRjcnppaTk3ZXFpaA=="><img src="../img/instagram.png" alt="instagram" width=25px height=25px/></a>
-          <a href="https://api.whatsapp.com/send?phone=551133220050"><img src="../img/whatsapp.png" alt="whatsapp" width=25px height=25px/></a>
-          <a href="https://youtube.com/@senaisaopaulo-escolasenaiv6966?si=uI1RtvEwX4h1qaFv"><img src="../img/youtube.png" alt="youtube" width=25px height=25px/></a>
-          <a href="https://www.linkedin.com/school/senai-de-valinhos/"><img src="../img/linkedin.png" alt="linkedin" width=25px height=25px/></a>
-        </div>
-          
-        <div class="enderecos">
-          <div class="senai">
-              <h3>EDIFÍCIO REDE SENAI Valinhos</h3>
-              <p>
-                R. Artur Fernandes Querido, 55 - Vila Santo<br/>Antonio, Valinhos -
-                SP, 13270-530
-              </p>
-            </div>
-            <img src="../img/linha.png" alt="linha">
-      
-              <div class="sesi">
-                  <h3>EDIFÍCIO REDE SESI Valinhos</h3>
-                  <p>Rod. Flávio de Carvalho, 2787 - Jardim São<br/>Paulo, Valinhos - SP, 13273-450</p>
-              </div>
-        </div>
-  
-      </footer>
+  </footer>
 </body>
+
 </html>
