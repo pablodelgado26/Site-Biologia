@@ -429,7 +429,7 @@ body {
   margin: 20px auto;
   max-width: 1800px;
   border-radius: 8px;
-  height: 65rem;
+  height: 100rem;
 }
 
 .paragrafo {
@@ -780,6 +780,65 @@ body {
   transition: calc(0.5s);
 }
 
+.contato {
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.219);
+}
+
+.caixa {
+  margin: 0  auto;
+  width: 50%;
+}
+
+
+.tituloContato h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  margin-top: 10rem;
+}
+
+.linhaContato {
+  width: 20%;
+  height: 4px;
+  background-color: #308640;
+  margin: 0 auto 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #308640;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button[type="submit"]:hover {
+  background-color: #256b30;
+}
+
 @media (max-width: 900px) {
 
   /* header */
@@ -845,6 +904,8 @@ body {
   .banner {
     display: none;
   }
+
+  
 
 
   /* conteúdo */
