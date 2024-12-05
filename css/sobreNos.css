@@ -905,9 +905,6 @@ button[type="submit"]:hover {
     display: none;
   }
 
-  
-
-
   /* conteúdo */
 
   .carousel__item {
@@ -948,8 +945,24 @@ button[type="submit"]:hover {
   }
 
   .principaisNoticias {
-    height: 70rem;
+    height: 105rem;
   }
+
+  .form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.caixa {
+  width: 100%;
+}
+
+.linhaContato { 
+  width: 100%;
+}
    /* footer */
   
   .icones {
