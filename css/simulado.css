@@ -720,10 +720,6 @@ body {
     margin-top: 15px;
   }
 
-  .menu-materias.abrir ul {
-    height: calc(80% - 20%);
-  }
-
   .menu-materias ul {
     width: 100%;
     left: 0;

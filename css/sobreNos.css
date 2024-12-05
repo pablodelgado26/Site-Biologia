@@ -433,21 +433,21 @@ body {
 }
 
 .paragrafo {
-  font-size: 20px; 
-  text-align: justify center; 
-  margin-left: 150px; 
+  font-size: 20px;
+  text-align: justify center;
+  margin-left: 150px;
   margin-right: 150px;
 }
 
 .principaisNoticias h2 {
-    color: #030303;
-    font-size: 3rem;
-    display: inline-block;
+  color: #030303;
+  font-size: 3rem;
+  display: inline-block;
 }
 .principaisNoticias h1 {
-    color: #030303;
-    display: inline-block;
-    margin-top: 7rem;
+  color: #030303;
+  display: inline-block;
+  margin-top: 7rem;
 }
 
 .linhaSobreTitulo {
@@ -497,7 +497,6 @@ body {
   color: #000000;
   font-size: 20px;
 }
-
 
 /* Parte padrão */
 .sociologia-header {
@@ -562,7 +561,6 @@ body {
   width: 3px;
   background-color: #ffff;
   margin: 0 20%;
-
 }
 
 .logo-header {
@@ -572,8 +570,6 @@ body {
   background-color: #e30613;
   height: 50px;
 }
-
-
 
 .banner {
   padding: 0;
@@ -605,14 +601,11 @@ body {
   background-color: #9a1915;
 }
 
-
-
 .header-nav .nav-list {
   list-style: none;
   display: flex;
   justify-content: center;
 }
-
 
 .icones {
   background-color: #e30613;
@@ -654,11 +647,9 @@ body {
   color: white;
 }
 
-
 .icones a {
   margin-top: 7px;
 }
-
 
 .footer-text {
   background-color: #9a1915;
@@ -789,10 +780,9 @@ body {
 }
 
 .caixa {
-  margin: 0  auto;
+  margin: 0 auto;
   width: 50%;
 }
-
 
 .tituloContato h2 {
   font-size: 2em;
@@ -840,7 +830,6 @@ button[type="submit"]:hover {
 }
 
 @media (max-width: 900px) {
-
   /* header */
   .logo-header img {
     width: 90px;
@@ -865,10 +854,6 @@ button[type="submit"]:hover {
     margin-top: 15px;
   }
 
-  .menu-materias.abrir ul {
-    height: calc(80% - 20%);
-  }
-  
   .menu-materias ul {
     width: 100%;
     left: 0;
@@ -921,7 +906,7 @@ button[type="submit"]:hover {
   .carousel__item--main {
     transform: translate(-50%, -50%) scale(0.9);
   }
-  
+
   .carousel__item--left {
     transform: translate(-110%, -50%) scale(0.8);
   }
@@ -949,22 +934,22 @@ button[type="submit"]:hover {
   }
 
   .form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
 
-.caixa {
-  width: 100%;
-}
+  .caixa {
+    width: 100%;
+  }
 
-.linhaContato { 
-  width: 100%;
-}
-   /* footer */
-  
+  .linhaContato {
+    width: 100%;
+  }
+  /* footer */
+
   .icones {
     gap: 50px;
   }
@@ -988,6 +973,4 @@ button[type="submit"]:hover {
   .enderecos img {
     display: none;
   }
-
-
 }

@@ -248,7 +248,6 @@ body {
   color: white;
 }
 
-
 .icones a {
   margin-top: 7px;
 }
@@ -339,7 +338,7 @@ body {
 
 .menu-materias.abrir ul {
   visibility: visible;
-  height: calc(72vh - 7px);
+  height: calc(80% - 18%);
 }
 
 .menu-materias ul li:hover {
@@ -716,9 +715,8 @@ body {
   background-color: #308640;
   height: 4px;
   width: 300px;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
-
 
 /* para arrumar a linha de separação */
 .divisor {
@@ -750,10 +748,6 @@ body {
 
   #btn-menu {
     margin-top: 15px;
-  }
-
-  .menu-materias.abrir ul {
-    height: calc(80% - 20%);
   }
 
   .menu-materias ul {

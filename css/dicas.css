@@ -406,7 +406,7 @@ body {
   background-color: #308640;
   height: 4px;
   width: 200px;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 
 /* Parte navegação */
@@ -760,10 +760,6 @@ body {
     margin-top: 15px;
   }
 
-  .menu-materias.abrir ul {
-    height: calc(80% - 20%);
-  }
-
   .menu-materias ul {
     width: 100%;
     left: 0;
@@ -844,7 +840,7 @@ body {
   .dica-content-reverse p {
     margin: 0px 0px;
   }
-  
+
   .dica-content p {
     margin: 0px 0px;
   }
